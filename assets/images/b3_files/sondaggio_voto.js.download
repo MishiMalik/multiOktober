@@ -1,0 +1,49 @@
+jQuery(document).ready(function(){
+	jQuery('.hiddeninput').hide(); 
+	jQuery('#apriSondaggio').click(function(){
+		if($(".hiddeninput:first").is(":hidden")){
+			jQuery('.hiddeninput').slideDown("fast");
+			jQuery('.open_sond').addClass('hidden');
+			jQuery('.close_sond').removeClass('hidden');
+		}else{
+			jQuery('.hiddeninput').slideUp("fast");
+			jQuery('.close_sond').addClass('hidden');
+			jQuery('.open_sond').removeClass('hidden');
+		}
+	});
+
+	jQuery('.radiosondaggio').click(function(){
+		var args = {
+				action: 'set_voto_cookie',
+				id: jQuery(this).val()
+			};
+		jQuery.post(MyAjax.ajaxurl, args, function(response) {
+			if(response != 0){
+				jQuery( "#voto_dialog" ).dialog( "open" );
+			}
+		});
+	});
+	jQuery('#voto_dialog').dialog({
+		height: 200,
+		width: 350,
+		autoOpen: false,
+		show: {
+			effect: "blind",
+			duration: 1000
+		},
+		hide: {
+			effect: "explode",
+			duration: 1000
+		},
+		buttons: {
+			"Chiudi": function() {
+				jQuery(this).dialog( "close" );
+				},
+			'Iscriviti': function(){
+				/*jQuery('#box').html("Ciao mondo"); Qui dentro andrà tutto il codice*/
+				jQuery( this ).dialog( "close" );
+				}
+			}
+	});
+
+});
