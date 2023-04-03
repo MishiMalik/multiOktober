@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Oktoberfest</title>
+
+</head>
+
+<body class="">
+
+    <header>
+        <div class="languages-row">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/oktoberfest.it"><i class="bi bi-facebook"></i></a>
+                            <a href="https://twitter.com/ClubMagellano"><i class="bi bi-twitter"></i></a>
+                            <a href="https://plus.google.com/108318635374956390983"><i class="bi bi-google"></i></a>
+                            <a href="feed.html"><i class="bi bi-rss-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-auto d-flex justify-content-end flag-row">
+                            <div id="google_translate_element2"></div>
+
+                            <div class="me-2">
+                                <a href="../eng/index.html" title="English" class="gflag nturl  "
+                                    style="background-position:-0px -0px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="English-us" alt="English" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ger/index.html" title="German" class="gflag nturl "
+                                    style="background-position:-300px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="german-lang" alt="German" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../it/index.html" title="Italian" class="gflag nturl "
+                                    style="background-position:-600px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="italian-lang" alt="Italian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../sp/index.html" title="Spanish" class="gflag nturl spanish-lang black-white"
+                                    style="background-position:-600px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="spanish-lang" alt="Spanish" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../pt/index.html" title="Portuguese" class="gflag nturl portuguese-lang"
+                                    style="background-position:-300px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="portuguese-lang"
+                                        alt="Portuguese" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ru/index.html" class="gflag nturl russian-lang"
+                                    style="background-position:0 -400px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="russian-lang" alt="Russian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../fr/index.html" class="gflag nturl french-lang"
+                                    style="background-position:-200px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="french-lang" alt="French" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <a href="index.html">
+                            <img src="/assets/images/logo2.png" alt="" class="logo">
+                        </a>
+                        <p class="f-12 w-700 text-dark ms-lg-5 ps-lg-4 ms-3 mb-1">
+                            La guía Internacional del Oktoberfest
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h1 class="f-20 w-600 text-brown mt-4 font-oxygen desktop-weather">Meteo Monaco di Baviera </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-row">
+                <nav class="navbar navbar-expand-xl navbar-dark ">
+                    <div class="container-fluid">
+                        <h1 class="f-18 w-500 text-white font-oxygen me-auto small-weather mb-0 pb-0">Meteo Monaco di
+                            Baviera
+                        </h1>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav justify-content-around mb-2 mb-lg-0 w-100 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="oktoberfest-munich-sp.html" class="nav-link">Oktoberfest »</a>
+                                    <ul class="child">
+
+                                        <li><a href="oktoberfest-2013-program-sp.html">Oktoberfest 2023 – Programma</a>
+                                        </li>
+                                        <li><a href="history-oktoberfest-sp.html">La Historia</a></li>
+                                        <li><a href="oktoberfest-statistics-sp.html">Los números del Oktoberfest</a></li>
+                                        <li><a href="o-zapft-is-sp.html">O’ Zapft is</a></li>
+                                        <li><a href="oktoberfest-beer-sp.html">La Cerveza</a></li>
+                                        <li><a href="oktoberfest-cuisine-sp.html">La Cocina</a></li>
+                                        <li><a href="security-oktoberfest-sp.html">La Seguridad</a></li>
+
+
+                                        <li class="parent"><a href="#">Sfilate »</a>
+                                            <ul class="child">
+                                                <li><a href="wiesn-einzug-der-festwirte-und-brauereien-parade-sp.html">Wiesn-Einzug
+                                                        der Festwirte und Brauereien</a></li>
+                                                <li><a href="oktoberfest-parade-trachten-und-schutzenzug-sp.html">Trachten
+                                                        und Schützenzug</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent"><a href="#">Eventos  durante el Oktoberfest<span
+                                            class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="oktoberfest-mass-sp.html">La misa del Oktoberfest</a></li>
+                                        <li><a href="choir-concert-sp.html">Concierto de las Capillas de música</a></li>
+                                        <li><a href="former-carnies-club-sp.html">La antigua reunión de los feriantes de las atracciones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="songs-oktoberfest.html">Canciones del Oktoberfest</a>
+                                </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="large-tents-oktoberfest-sp.html">Grandes carpas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="small-oktoberfest-tents-sp.html">Pequeñas carpas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-luna-park.html">Parque de diversões</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="map-oktoberfest-sp.html">Mapa</a>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#" class="nav-link">Info Utili »</a>
+                                    <ul class="child">
+                                        <li><a href="faq-oktoberfest-sp.html">FAQ</a>
+                                        </li>
+                                        <li><a href="oktoberfest-advice-sp.html">Consejos Oktoberfest</a></li>
+
+
+
+                                        <li class="parent"><a href="come-arrivare-oktoberfest-sp.html">Como chegar na
+                                                Oktoberfest<span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <ul class="child">
+                                                <li><a href=oktoberfest-by-air-sp.html>Oktoberfest en avión</a></li>
+                                                <li><a href=oktoberfest-by-car-sp.html>Oktoberfest en automóvil</a></li>
+                                                <li><a href=oktoberfest-by-camper-sp.html>Oktoberfest en autocaravana</a></li>
+                                                <li><a href=oktoberfest-by-coach-sp.html>Oktoberfest en bus</a></li>
+                                                <li><a href=oktoberfest-by-train-sp.html>Oktoberfest en tren</a></li>
+                                            </ul>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-costumes-sp.html">Trajes Típicos</a>
+                                </li>
+
+
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="viaggi-oktoberfest-sp.html">Viaggi</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link " href="hotel-oktoberfest-sp.html">Hotel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="guided-tour-munich-sp.html">Visita Guidata</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="d-flex highlighted-row">
+                <div class="highlight-heading">DESTACADO</div>
+                <div class="vwrap w-100">
+                    <div class="vmove">
+                        <div class="vitem"> Estadísticas Oktoberfest 2013</a>
+                        </div>
+                        <div class="vitem">El lado caliente del Oktoberfest</a>
+                        </div>
+                        <div class="vitem">¿Sabía Usted que Einstein trabajó en la Fiesta de la Cerveza?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h1 class="main-heading">
+                        Oktoberfest 2022 - Programa
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="mb-0 pb-0 text text-justify ">
+
+                        El Oktoberfest 2022 iniciará a las 12:00 horas del 19 de Septiembre, con la habitual ceremonia de apertura “O’ zapft is” y cerrará sus puertas el 4 de Octubre 2022, a las 23:30 horas.
+
+                        Durante los días de semana las carpas abren desde las 10:00 hasta las 23:00 (la cerveza se sirve hasta las 22:30) mientras que en los fines de semana la apertura se anticipa de una hora, o sea a las 9:00. Se distinguen las carpas “Wiesnschänke Käfer” y la “Weinzelt” que se quedan abiertas hasta la una de la madrugada..... <a
+                            href="oktoberfest-2013-program-sp.html">Leer más</a>
+                    </p>
+                </div>
+                <div class="col-lg-8 border-right ">
+                    <div class="row p-0 ">
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Oktoberfest
+                            </h2>
+                            <div class="content-card">
+                                <img src="/assets/images/timthumb (1).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        ¿Cómo explicar a los pocos que nunca han ido, qué cosa es el
+                                        <strong>Oktoberfest</strong>?<br>
+                                        Viene a la mente de inmediato la respuesta que el Oktoberfest es la fiesta de la
+                                        cerveza más importante del
+                                        mundo…<br>
+                                        Es cierto, en realidad…muy cierto! Pero la definición de “fiesta de la cerveza
+                                        más importante del mundo” no expresa
+                                        por
+                                        completo la <strong>indiscutible fama del Oktoberfest</strong>, ni ayuda lo
+                                        suficiente a entender lo que hoy
+                                        representa
+                                        el <strong>Oktoberfest</strong>.
+                                    </p>
+
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="oktoberfest-munich-sp.html" class="brown-btn ">Leer más</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                O’ Zapft is
+                            </h2>
+                            <div class="content-card">
+                                <img src="/assets/images/timthumb (2).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        <strong>
+                                            O’ Zapft is</strong>! Es con esta frase en dialecto bávaro con que todos los
+                                        años, desde 1950 en adelante, después de la segunda guerra mundial (que bloqueó
+                                        la fiesta por algunos años), el Primer Ciudadano de Múnich hace la apertura
+                                        oficial de la fiesta, abriendo o mejor dicho rompiendo el primer barril de
+                                        cerveza en la <a title="schottenhamel"
+                                            href="https://web.archive.org/web/20140328052655/http://www.oktoberfest.net/grandes-carpas-oktoberfest/schottenhamel-festzelt-es/"
+                                            target="_blank">carpa Schottenhamel</a>. Traducido al alemán sería:
+                                        “Angezapft ist es” o, mejor aún: “Es ist angezapft”. El verbo “anzapfen” indica
+                                        el golpe con un martillo de madera para abrir el barril de cerveza. Esta frase
+                                        en Múnich es una especie de palabra mágica que significa, ya está abierto, que
+                                        comience la fiesta!
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="o-zapft-is-sp.html" class="brown-btn ">Leer más</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Visita guidata
+                            </h2>
+                            <div class="content-card">
+                                <img src="/assets/images/timthumb (3).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        El punto de encuentro es en la Plaza Isartorplatz (parada S-Bahn “Isartor”) a las 16.00, donde estará el bus con el logo CLUB MAGELLANO (lugar donde se recoge a los visitantes), encuentro con el Guía turístico en idioma español; para luego partir hacia Stachus-Königsplatz, (sugestiva Plaza de Múnich, en estilo neoclásico, reminiscencia de la Magna Grecia), después Nymphenburg (castillo de verano de la casa Bávara, donde nació Ludovico II, rey de los castillos de cuentos Neuschwanstein, etc.) breve parada,
+                                        </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="guided-tour-munich-sp.html" class="brown-btn ">Leer más</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 order-1">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                                Plano del Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Descubra a continuación cómo orientarse al interno del Theresienwiese, y haga un paseo
+                                virtual del Wiesn.; desplazándose por el plano descubra, dónde están las pequeñas y las
+                                grandes carpas, dónde se ubican los servicios higiénicos públicos, los puntos de
+                                emergencia, la estación de policía, las entradas al parque, el depósito del equipaje, el
+                                parque de atracciones, la estatua de Baviera y todos los otros puntos de interés del
+                                Oktoberfest.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="map-oktoberfest-sp.html" class="primary-btn ">Leer más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="/assets/images/map.jpeg" alt="" class=" w-100 border-primary mt-3">
+                        </div>
+                    </div>
+                    <!-- <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 order-1">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                                Stand e Tavoli
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                98.022. Questi sono i posti a sedere nei tavoli totali dei 14 stand dell’Oktoberfest. Anche se sembrerebbero molto numerosi, la possibilità di trovare un tavolo libero sono abbastanza basse, soprattutto se la giornata è soleggiata o durante il week-end; si ricorda inoltre che se non si è seduti non è possibile bere birra. Ma una soluzione a questo problema c’è, infatti è possibile prenotare il proprio posto a sedere all’interno del capannone. I posti prenotabili all’interno dei capannoni e degli stand non sono tanti, però puoi richiederli compilando il form sottostante.                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="stand-oktoberfest-sp.html" class="primary-btn ">Leer más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                           <img src="/assets/images/standsand tables.png" alt="" class=" w-100 border-primary mt-3">
+                        </div>
+                    </div>
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 order-1">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                                Maglietta Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Vuoi dimostrare ai tuoi amici che sei un vero amante della birra? Vuoi un ricordo di una giornata incredibile all’Oktoberfest? O vuoi semplicemente qualcosa di originale? Non preoccuparti, per questo puoi ordinare la tua Maglietta dell’Oktoberfest! Ricordiamo anche che la maglia è compresa nel prezzo col nostro pacchetto di viaggio Weekend long + gadget!                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="maglietta-oktoberfest-sp.html" class="primary-btn ">Leer más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                           <img src="/assets/images/t-shirt.png" alt="" class=" w-100 border-primary mt-3">
+                        </div>
+                    </div> -->
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 ">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                El desfile del Oktoberfest Trachten und Schützenzug
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-4 mt-3">
+                                Todos los años desde 1950 hasta ahora se lleva a cabo la <strong>Trachten und
+                                    Schützenzug</strong> el primer domingo del Oktoberfest. Es el <strong>desfile
+                                    tradicional conmemorativo</strong>
+                                que antes de 1950 se había realizado solamente en 1835 para festejar las bodas de plata
+                                del Rey Ludwig y Teresa.
+                                Este evento que dura más o menos 2 horas, que parte desde la calle Maximilianstraße a
+                                las 10.00 horas, es un momento
+                                fundamental de toda la fiesta, con sus aprox. 9000 participantes, con sus carruajes,
+                                trajes típicos, la música, ha
+                                cruzado todas las fronteras y se transmite en directo televisivo. Son más o menos 7 km
+                                de desfile con más de 40
+                                carros alegóricos, tradicionalmente guiados por Münchner Kindl, el símbolo de la ciudad
+                                de Múnich, representado por
+                                la figura de un niño. Se pueden apreciar no solamente los magníficos carruajes de las
+                                cervecerías sino también
+                                grupos provenientes de toda Alemania y del resto de Europa, cada uno en representación y
+                                con sus magníficos trajes y
+                                sus respectivas bandas musicales.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-parade-trachten-und-schutzenzug-sp.html" class="primary-btn ">Leer
+                                    más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="/assets/images/Trachten-Schützenzug1-300x162.png" alt=""
+                                class="w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                El desfile Wiesn-Einzug der Festwirte und Brauereien
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                El tradicional desfile <strong>Wiesn-Einzug der Festwirte und
+                                    Brauereien</strong> que se realiza desde 1887 es el preludio del Oktoberfest,
+                                representa la fiesta de
+                                inauguración que culmina con el célebre ritual de apertura del primer barril de cerveza
+                                por parte del Alcalde de
+                                Múnich en la carpa “Schottenhamel”, el legendario “ O´zapft is! </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="wiesn-einzug-der-festwirte-und-brauereien-parade-sp.html"
+                                    class="primary-btn ">Leer más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="/assets/images/Wiesn-Einzug-der-Festwirte-und-Brauereien-300x300.png" alt=""
+                                class="mt-3  w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-purple  mb-0 pb-0 border-purple-top">
+                                El Parque de diversiones del Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Oktoberfest no es famoso solo por la cerveza, su cocina, por sus trajes tradicionales,
+                                por sus excesos y por la música, sino también es famoso por su <strong>Luna
+                                    Park</strong>, con un mundo de atracciones, algunas con siglos de antiguedad, otras
+                                en cambio ultra modernas, con una particular atención para los que aman la sensación de
+                                la velocidad, sea para niños o para familias. El parque de diversiones está abierto
+                                todos los días desde las 10:00 am hasta la medianoche. Son muchos los visitantes del
+                                Wiesn que vienen al Oktoberfest para disfrutar de las <strong>atracciones del Luna
+                                    Park</strong>, independientemente del consumo de cerveza. Solo una recomendación,
+                                dedicada a vuestro estomago…dense las vueltas que deseen…pero antes de beber! </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-luna-park.html" class="purple-btn ">Leer más</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="/assets/images/ebxbr7.jpg" alt="" class="img-fluid border-purple mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                                Las grandes carpas del Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                He aquí una descripción de las <strong>míticas 14 carpas grandes (Festhalle) del
+                                    Oktoberfest</strong>.
+                                Los Orígenes,&nbsp; las características que las distinguen, sus particularidades, la
+                                ambientación, la música, el
+                                entretenimiento, las especialidades culinarias, la capacidad y la cerveza que se sirve.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ARMBRUSTSCHÜTZENZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            La <strong>Armbrustschützenzelt</strong> tiene una capacidad de cerca 7,500 asientos y es una de las carpas
+                                        preferidas por los bávaros y está presente en el Oktoberfest desde 1895.</p>
+
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="armbrustschutzenzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AUGUSTINER-BRÄU</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+ Los 8,500 asientos de la <strong>Augustiner</strong>.
+                                      Para muchísimos es la mejor carpa donde pasar el Oktoberfest, ciertamente se distingue de las otras por más de un factor; en realidad es famoso por la cordialidad de sus camareras, que como podrán imaginar es una don bastante raro al interno de las carpas, vista la cantidad de clientes que tienen que servir, y es además la única cervecería que sirve la cerveza solo en los tradicionales barriles de madera!
+</p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="augustiner-brau-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BRÄUROSL / PSCHORRBRÄU-FESTHALLE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                 Esta carpa cuenta con 8,400 asientos después de su última ampliación del 2010.
+                        <br>
+                       Desde el  1963, esta carpa ha sido dirigida por la familia Heide, por lo tanto hace siete generaciones, y toma el nombre de la hija del propietario, Herr Pschorr.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="braurosl-pschorrbrau-festhalle-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FISCHER-VRONI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                   La <strong>Fischer-Vroni</strong> es una de las carpas más pequeñas entre las 14 del Oktoberfest, con aprox. 3,800 asientos.
+</p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="fischer-vroni-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HACKER FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                                                   La carpa  cuenta con 9,300 asientos. Desde el 2004 el cielo está decorado con nubes y estrellas recordando una historia popular dedicada a Aloisio, un ciudadano de Múnich que muere y se va al paraíso.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hacker-festzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HIPPODROM</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                                                                         La carpa <strong>Hippodrom</strong> cuenta con aprox. 4,200 asientos, así que es una carpa relativamente pequeña pero famosa por su particular atmósfera. Su fama nace del hecho que se dice que sea la carpa donde nacen el mayor número de “amoríos” de todo el Wiesn, especialmente en el bellísimo “champagne bar”.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hippodrom-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOFBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                                                   La carpa Hofbräu es la segunda más grande en su género en el Oktoberfest. Cuenta con un total de 9,902 asientos. Es además la única carpa donde se puede estar de pie, justo delante del palco. Está presente en el Oktoberfest desde el 1955 y la actual carpa fue construida en 1972.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hofbrau-festzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KÄFER’S WIESN-SCHÄNKE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                                      Es una de las carpas más pequeñas con sus aprox. 3,000 asientos, frecuentada por la alta sociedad deseosa de mantenerse lejos del bullicio de la gente.
+<br>
+Hace su ingreso en el Wiesn en 1971, y se distingue de las otras carpas por ser construida con el estilo de una cabaña bávara usando grandes troncos. Ya que los asientos son pocos, la cocina es cuidada en sus detalles, se sirve también vino y champaña y no deje de probar el pato!
+                               
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kafers-wiesn-schanke-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l9.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>LÖWENBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             Con aprox. 9,500 asientos es una de las carpas más grandes del Oktoberfest.<br>
+                        Visible desde cualquier lado del Wiesn por su torre alta 37 metros, su característica es un león de cuatro metros y
+                        medio que ruge cada minuto justo arriba del ingreso de la carpa.<br>
+                        El rugido del gigantesco león se puede oír por todo el Oktoberfest, una verdadera atracción para muchos visitantes.
+                   
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="lowenbrau-festzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>OCHSENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                         La carpa tiene una superficie de 4,200 mq y disponde de aprox. 7,600 asientos.<br>
+                    La especialidad culinaria es el buey, cocinado en mil maneras diferentes y como testimonio de ello hay un enorme buey asado justo sobre el ingreso principal.
+                    <br>La <strong>Ochsenbraterei</strong> ha sido fundada en el mes de Septiembre del año 1881 por el carnicero Johann Rössler., quien proyectó una máquina para asar un buey delante de los ojos de todos.
+                    <br>
+                    En 1901 ha sido festejado el 200° buey asado.
+                    <br>
+                    En 1980 ha sido comprada por Späten-Franziskaner-Bräu Ochsenbraterei.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ochsenbraterei-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHOTTENHAMEL FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                           La <strong>Schottenhamel</strong> tiene 9,000 asientos, siempre considerando los sitios al cubierto en el Biergarten. Es aquí que se celebra la consueta tradición “O’zapft is!”, y que cada año da inicio oficialmente al Oktoberfest.
+                                     Una característica particular es el traje de femenino de las camareras; la clásica Servierschürzen (en lugar del dirnl). La <strong>Schottenhamel</strong> viene llamada también la carpa de la juventud (Das Zelt der Jugend genannt).
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schottenhamel-festzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHÜTZEN FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                              La carpa consta de aprox. 5,400 asientos gracias también al Biergarten añadido en 2006. Es una de las primeras carpas que aparecen en el Wiesn, pero la carpa actual ha sido reconstruida en 2004, manteniendo la tradicional ambientación que dan las jardineras de geranios. Se encuentra a los pies de la estatua de Baviera y dispone de una sala para tiro con la ballesta y por esto solo la mitad del espacio está  designado como asientos.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schutzen-festzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WEINZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                               Con sus 2,500 asientos es considerada por muchos visitantes como la carpa más linda del Oktoberfest.
+                        <br>
+                        A diferencia de las otras carpas aquí se bebe vino gracias a una selección de más de 15 vinos distintos, además de champaña. Para quien no puede renunciar a la cerveza, aquí se sirve solo una cerveza blanca de trigo Paulaner, pero solamente hasta las 9 de la noche!
+                    
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="weinzelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/l17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WINZERER FÄHNDL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Es la carpa más grande del Oktoberfest con 10,900 asientos (8,450 al cubierto!), y es la preferida por los jugadores y los hinchas de Bayern de Múnich. El nombre se origina en la época en que era sitio de reunión de los tiradores al arco (actualmente Armbrustschützen).
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="winzerer-fahndl-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="large-tents-oktoberfest-sp.html" class="orange2-btn mt-2 py-3 px-5">Leer
+                                    más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-0">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                               Las pequeñas carpas del Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+		                          	El Oktoberfest no está formado solamente por 14 grandes carpas, también está compuesto por 21 carpas de dimensiones más pequeñas. Estas carpas no solamente aumentan la variedad sino que además ofrecen una atmósfera ideal donde poder vivir la verdadera y típica atmósfera del Oktoberfest. Algunas de estas carpas pequeñas están presentes en el Wiesn desde hace siglos y representan una parte de la historia de la fiesta, algunas ofrecen un ambiente familiar y reservado, otras en cambio, un ambiente joven y "alternativo". En las "pequeñas" carpas, los asientos van desde un mínimo de 60 a un máximo de casi 900, la cerveza es la misma que se sirve en las carpas grandes, y... 
+                            </p>
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AMMER HÜHNER & ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Esta carpa cuenta con 900 asientos y está presente en el Wiesn desde 1885.
+                                        Ofrece un ambiente tranquilo y se distingue de las otras carpas por su cocina,
+                                        pues presenta un menú biológico!<br>
+                                        La cerveza que se sirve es Augustiner.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ammer-huhner-entenbraterei-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BODO’S CAFEZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                          Esta carpa tiene 450 asientos y es muy diferente a las otras.<br>
+                                        Infatti questa tenda è famosa per la sua arte dolciaria, eccezionale!
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="bodos-cafezelt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BURTSCHERS BRATWURSTHÜTT’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                          Es una de las carpas más pequeñas del Oktoberfest, con solo 80 asientos!<br>
+                                        Sirve una carne óptima, especialmente las bratwurst (salchicha), a precios
+                                        económicos y ofreciendo una atmósfera única, familiar y relajante. </p>
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="burtschers-bratwursthuttn-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ KAISERSCHMARRN</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                               Esta carpa cuenta con 400 asientos y está realizada por una de las más famosas
+                                        pastelerías de Múnich, la Rischart, con un estilo de castillo de cuentos.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-kaiserschmarrn-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ MOHRENKOPF</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                          Esta carpa está presente en el Oktoberfest desde 1950 y aquí no se bebe cerveza.
+                                        Es famosa por sus pasteles, entre los cuales merece una mención el strudel de
+                                        manzanas hecho en casa, la torta de queso, la crostata y el “marshmallow”, con
+                                        crema fresca. Es posible tomar vino, prosecco, espumante, champaña, cóctel y una
+                                        amplia selección de café.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-mohrenkopf-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FEISINGER’S KAS UND WEINSTUB’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                          Esta pequeña carpa tiene 400 asientos y es muy popular entre los ciudadanos de
+                                        Múnich, ofrece una atmósfera tradicional y auténtica.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="feisingers-kas-und-weinstubn-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>GLÖCKLE WIRT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             La carpa cuenta con 140 asientos, todos al interno.
+                                        <br>
+                                        Propone una amplia gama de platos de cocina bávara de primera clase en un
+                                        ambiente único, acogedor. La decoración ha sido realizada con cuadros al olio,
+                                        instrumentos antiguos y utensilios de cocina. Permite gozar el Wiesn en
+                                        intimidad.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="glockle-wirt-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEIMER HENDL-UND ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Esta pequeña carpa tiene 400 asientos y es muy popular entre los ciudadanos de
+                                        Múnich, ofrece una atmósfera tradicional y auténtica.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heimer-hendl-und-entenbraterei-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/ss.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEINZ WURST-UND HÜHNERBRATEREI</h1>
+
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                           Esta carpa consta de 360 asientos y está presente en el Oktoberfest desde 1906.
+                                        La administración es familiar y ofrece una amplia variedad de especialidades
+                                        bávaras entre las que se distinguen las bratwurst (salchicha) y el pollo a la
+                                        parrilla, y también pavo, sopas, cerdo, ensalada, pato
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heinz-wurst-und-huhnerbraterei-sp.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOCHREITERS HAXNBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             Los asientos aquí son 250. Hay que destaca la calidad en esta carpa, dicen que
+                                        preparan el mejor haxenbraterei de todo el Oktoberfest.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hochreiters-haxnbraterei-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KALBS-KUCHL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Esta pequeña carpa empezó en el Wiesn en el 2008 y tiene 300
+                                        asientos.<br>
+                                        Parece una gran cabaña bávara y en su interior está decorada con atención a los
+                                        detalles brindando una atmósfera vivaz muy apreciada por los visitantes del
+                                        Oktoberfest.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kalbs-kuchl-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s12.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>MÜNCHNER KNÖDELEI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                           Esta carpa ofrece a sus visitantes 390 asientos de los cuales 300 están en el
+                                        área cubierta.<br>
+                                        Los ñoquis son un verdadera ícono de la cocina bávara y el lema de esta carpa es
+                                        “preservar y difundir la cultura de los ñoquis”. Hay 50 variedades de deliciosos
+                                        ñoquis disponibles en el menú de la Münchner Knödelei, entre los cuales los
+                                        ñoquis picantes acompañados con hongos, los ñoquis con espinacas, los ñoquis
+                                        dulces con plátano.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="munchner-knodelei-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s13.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>POSCHNERS HÜHNER-UND ENTENBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             Esta carpa tiene asientos solo en el área cubierta y son 350.<br>
+                                        La originalidad de la receta de familia para la preparación de pato asado y
+                                        pollo, es uno de los motivos para visitar esta carpa.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="poschners-huhner-und-entenbraterei-sp.html"
+                                                class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s14.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHIEBL’S KAFFEEHAFERL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                          Es una de las carpas más pequeñas con sus 100 asientos, conviertiéndola en el
+                                        lugar ideal para las familias.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schiebls-kaffeehaferl-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>VINZENZMURR METZGER STUBN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            La carpa Vinzenzmurr ha festejado en el 2012 sus 110 años de presencia en el
+                                        oktoberfest y es una de las más antiguas presentes en el Theresienwiese.<br>
+                                        Tiene un total de 130 asientos.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="vinzenmurr-metzger-stubn-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIESN GUGLHUPF CAFÉ
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             Con sus 60 asientos es la carpa más pequeña del Wiesn.<br>
+                                        Imposible no verla, visto que la carpa es en forma de un Guglhupf, o sea una
+                                        torta alemana.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wiesn-guglhupf-cafe-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s18.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDMOSER HÜHNERBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Esta carpa tiene 320 asientos, todos al interno, Es de propiedad de la familia
+                                        Wildmoser y está presente en el Oktoberfest desde 1981.<br>
+                                        Es muy popular entre los ciudadanos de Múnich. Es de destacar el ambiente pues
+                                        gracias a unas parrillas especiales la cocina cuenta con una combustión muy
+                                        eficiente. Cuenta con un amplio menú, sobretodo a base de pollo con un gusto
+                                        realmente exquisito.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildmoser-huhnerbraterei-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s19.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDSTUBEN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             La <strong>Wildstuben</strong> tiene 271 asientos.<br>
+                                        En su interior encontrará una ambientación inspirada en la naturaleza y la caza,
+                                        debido a una serie de elementos decorativos de madera.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildstuben-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIRTSHAUS IM SCHICHTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                             Esta carpa está presente en el Oktoberfest desde 1869 y representa una parte de
+                                        la historia del Oktoberfest y forma parte de la tradición de siglos del
+                                        Wiesn.<br>
+                                        La característica de esta carpa son las “decapitaciones”!<br>
+                                        Todos los días se pone en escena 25 espectáculos de decapitaciones simuladas,
+                                        por un total de casi 400 en los 16 días de fiesta.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wirtshaus-im-schichtl-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s21.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUM STIFTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                           La <strong>Zum Stiftl</strong> tiene en su interior 360 asientos y es reconocida
+                                        por su pato cocinado a la manera tradicional y por su pollo asado.<br>
+                                        Esta carpa tiene una clientela cosmopolita, con gente de todas partes del mundo
+                                        que se dan encuentro aquí gracias a la atmósfera acogedora particularmente
+                                        indicada para las familias, debido a su menú para niños y algunos platos
+                                        vegetarianos.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zum-stiftl-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="/assets/images/s22.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUR BRATWURST
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                           Esta carpa ha debutado recién en el 2007 con sus 160 asientos, retomando,
+                                        gracias a la familia Hochreiter, la tradición de la “Bratwurstglöckl”, dando
+                                        vida a un lugar que los amantes Oktoberfest aprecian por su rústica intimidad.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zur-bratwurst-sp.html" class="orange-btn ">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="small-oktoberfest-tents-sp.html" class="orange2-btn mt-2 py-3 px-5">Leer
+                                    más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 mx-auto">
+
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="mb-0 pb-0 w-100 text-center ">HOTEL <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Hotel Ocktoberfest</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-IN</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-OUT</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label f-14 w-500"
+                                                            for="flexCheckDefault">
+                                                            Estoy indeciso sobre las fechas
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Elegir el hotel</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        MEJOR PRECIO GARANTIZADO
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                   <img src="/assets/images/hotel-munich.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                    <p class="mb-0 pb-0 w-100 text-center ">VUELOS <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Vuelos a Munich</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Origen</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Destino</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Salida</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Regreso</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label for="exampleFormControlInput1"
+                                                        class="form-label mb-0 pb-0">Adultos</label>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="">4</option>
+                                                        <option value="">5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Buscar vuelo</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        MEJOR PRECIO GARANTIZADO
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                   <img src="/assets/images/munich-flights.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                    <p class="mb-0 pb-0 w-100 text-center ">AUTOBÚS <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Oktoberfest travel</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                              
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Salida</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Regreso</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label f-14 w-500"
+                                                            for="flexCheckDefault">
+                                                            Estoy indeciso sobre las fechas
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Buscar autobuses</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        MEJOR PRECIO GARANTIZADO
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                   <img src="/assets/images/bus3.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box mt-3">
+                        <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                            Social
+                        </h2>
+                        <div class="social-icon2 mt-3">
+                            <div class="me-3">
+                                <a href="https://www.facebook.com/oktoberfest.it "><i class="bi bi-facebook"></i></a>
+                            </div>
+                            <div class="me-3">
+                                <a href="https://twitter.com/ClubMagellano"><i class="bi bi-twitter"></i></a>
+                            </div>
+                            <div class="me-3">
+                                <a href="feed.html"><i class="bi bi-rss-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Encuesta
+                    </h2>
+                    <p class="text">
+                       ¿Cuál es tu gran carpa favorita del Oktoberfest? ¡Para votar simplemente selecciona el que prefieras!
+                    </p>
+                    <ul class="vote-list">
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HOFBRAÜ-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    40%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    AUGUSTINER-BRÄU
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:21%">
+                                    21%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PAULANER / WINZERER FÄHNDL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:16%">
+                                    16%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    LÖWENBRÄU-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:11%">
+                                    11%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHOTTENHAMEL FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    4%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PSCHORRBRÄU-FESTHALLE / BRÄUROSL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    FISCHER-VRONI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHÜTZEN FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    ARMBRUSTSCHÜTZENZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HIPPODROM
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    OCHSENBRATEREI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HACKER FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    WEINZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    KÄFER‘S WIESN-SCHÄNKE
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                                    1%
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="f-18 w-600">Votos totales: 335</p>
+                    </div>
+
+                   <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Información
+                    </h2>
+                    <div class="info-card">
+                        <div id="columnchart_material" style="width: 100%; height: 370px;"></div>
+
+                        <p class="text text-justify">
+                           ¿Quieres ir al Oktoberfest pero no tienes idea de qué días habrá una mayor participación o cuáles serán los días en los que será más fácil encontrar un lugar para sentarse dentro de los pasillos? Aquí encontrarás la participación esperada durante cada uno de los días del Oktoberfest.</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-2 mb-2">
+                        Oktobers News
+                    </h2>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/Visitors-at-the-176th-Okt-001-205x120 (1).jpg" alt="img-missing"
+                            class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">Algunas curiosidades que quizás no sepa…</h2>
+                            <i>23/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Hasta el 7 de Octubre los amantes de la cerveza se dan cita en Munich para...
+			
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="algumas-curiosidades-que-talvez-voces-nao-saibam.html" class="red-btn ">Leggi
+                                    tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/after-oktoberfest-party-ballo-300x199.jpg" alt="img-missing"
+                            class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">La “Wiesnzelt” en la plaza Stiglmaierplatz – ¡La fiesta exclusiva para celebrar su visita a la Oktoberfest en Múnich!</h2>
+                            <i>19/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Para todos aquellos que no han conseguido sitio o sencillamente quieren seguir con la fiesta sin...
+			
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="das-wiesnzelt-am-stiglmaierplatz-a-party-na-oktoberfest-em-munique.html"
+                                    class="red-btn ">Leggi tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/oktoberfest-nel-mondo-300x225.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">
+                                ¿Sabe cuántos países del mundo celebran un evento similar al Oktoberfest?
+                            </h2>
+                            <i>15/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+
+                                El Oktoberfest es la fiesta más célebre del mundo, y es por esto que tiene tantos...
+			
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="sabem-quantas-nacoes-do-mundo-realizam-um-evento-semelhante-a-oktoberfest.html"
+                                    class="red-btn ">Leggi tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-2 mb-2">
+                        Oktobers News
+                    </h2>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="/assets/images/spnews1.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">Estadísticas Oktoberfest 2013</h2>
+                            <i>07/02/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+			                  Visitantes, Comidas y Bebidas Número de visitantes: 6.4 millones Litros de cerveza: 6.7 millones Consumidos: 114...
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="estadisticas-oktoberfest-2013.html" class="red-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="/assets/images/spnews2.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">El lado caliente del Oktoberfest</h2>
+                            <i>22/10/2013</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+			Ríos de cerveza y espléndidas mujeres. Así se podría resumir el Oktoberfest. Lo saben bien los...
+			
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="el-lado-caliente-del-oktoberfest.html" class="red-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="/assets/images/spnews3.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1"> ¿Sabía Usted que Einstein trabajó en la Fiesta de la Cerveza?</h2>
+                            <i>24/09/2013</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+                               			¡Es cierto!, Incluso el genial físico premio Nobel, cuando todavía tenía 17 años en 1908 trabajó...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="sabia-usted-que-einstein-trabajo-en-la-fiesta-de-la-cerveza.html" class="red-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+             
+            </div> -->
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                       Cerveza del Oktoberfest
+                    </h2>
+                    <div class="details-card">
+                        <img src="/assets/images/beer.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-beer-sp.html" class="primary-btn">
+                                Leer más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Preguntas frecuentes sobre el Oktoberfest
+                    </h2>
+                    <div class="details-card">
+                        <img src="/assets/images/faq.png" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="faq-oktoberfest-sp.html" class="primary-btn">
+                                Leer más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Historia del Oktoberfest
+                    </h2>
+                    <div class="details-card">
+                        <img src="/assets/images/history.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="history-oktoberfest-sp.html" class="primary-btn">
+                                Leer más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Consejos Oktoberfest
+                    </h2>
+                    <div class="details-card">
+                        <img src="/assets/images/ad.jpeg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-advice-sp.html" class="primary-btn">
+                                Leer más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry ellipsis-1 heading-purple border-purple-top">
+                        Hotel Oktoberfest
+                    </h2>
+                    <div class="content-card">
+                        <img src="/assets/images/download.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Si se está pensando de quedarse en Múnich durante el Oktoberfest y es necesario un hotel, aquí puede encontrar una selección de los mejores hoteles y hospedajes cerca del Theresienwiese.<br>
+                                    El Theresienwiese se encuentra en el centro histórico de la ciudad, y por consiguiente nos es muy fácil encontrar <strong>hoteles a precios convenientes cerca del Oktoberfest</strong>, sobretodo en los fines de semana donde la afluencia es muy elevada.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="hotel-oktoberfest-sp.html" class="purple-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry ellipsis-1 heading-purple border-purple-top">
+                        Cómo llegar al Oktoberfest </h2>
+                    <div class="content-card">
+                        <img src="/assets/images/get.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                              El&nbsp;
+                                Oktoberfest se lleva a cabo en Theresienwiese, en la zona centro de Múnich, que goza de un excelente servicio de Metro.<br>
+                                    A la estación “Theresienwiese” y a la estación “Schwanthalerhöhe”, que está muy cerca, llegan las líneas U4 y U5, mientras que las líneas U3 y U6 paran en las estaciones Poccistrasse y Goetheplatz.<br>
+                                    Utilizar el S-Bahn, el transporte ferroviario suburbano, es igualmente cómodo, pues con sus líneas S1 y S8 llega a la estación “Hackerbrücke”. Durante los fines de semana del Oktoberfest, las líneas del U-Bhan ofrecen su servicio hasta las 2:00 am, aunque si con una menor frecuencia en comparación con el horario diurno; mientras que el último viaje de la línea S1 es a las 2:10am y el último de la S8 a las 2:40 am.<br>
+                                    Decidir <strong>la manera de llegar al Oktoberfest</strong> es determinante para disfrutar al máximo las vacaciones, y depende de factores, tales como, la comodidad, el presupuesto y el tiempo que se tiene a disposición. A continuación presentamos una descripción de todas las diferentes alternativas para llegar al Oktoberfest, desde el viaje en bus, en avión, en tren, e inclusive en automóvil o autocaravana.<br>
+                                 Bajar el plano del transporte público de Múnich&gt;&gt;</span>
+                              
+                                    
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="come-arrivare-oktoberfest-sp.html" class="purple-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry ellipsis-1 heading-purple border-purple-top">
+                        Trajes del Oktoberfest
+                    </h2>
+                    <div class="content-card">
+                        <img src="/assets/images/costumi-okt.jpg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                              Es el tradicional traje bávaro que ha dado inspiración a un verdadero y propio estilo, una especie de línea de ropa llamada <strong>Landhausmode</strong>, que se inspira en el vestuario de los campesinos, agricultores y de la población rural. La calidad de las telas y de la decoración solía identificar el estado civil de quien lo vestía. Aún hoy algunos se ponen este tipo de vestimenta para los matrimonios. A continuación encontrará una descripción de las dos versiones, masculina, con la infaltable camisa y los <strong>Lederhosen</strong>, los pantalones de cuero, y la femenina con el siempre presente <strong>Dirndl</strong>.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-costumes-sp.html" class="purple-btn ">Leer más</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer mt-4">
+        <p class="text text-white mb-0 pb-0">@ Copy Right 2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/lang.js"></script>
+
+</body>
+
+</html>
