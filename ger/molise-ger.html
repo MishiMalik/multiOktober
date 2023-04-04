@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Oktoberfest</title>
+
+
+
+
+</head>
+
+<body class="">
+
+    <header>
+        <div class="languages-row">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/oktoberfest.it"><i class="bi bi-facebook"></i></a>
+                            <a href="https://twitter.com/ClubMagellano"><i class="bi bi-twitter"></i></a>
+                            <a href="https://plus.google.com/108318635374956390983"><i class="bi bi-google"></i></a>
+                            <a href="feed.html"><i class="bi bi-rss-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-auto d-flex justify-content-end flag-row">
+                            <div id="google_translate_element2"></div>
+
+                            <div class="me-2">
+                                <a href="../eng/molise.html"  title="English"
+                                     class="gflag nturl  " style="background-position:-0px -0px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="English-us" alt="English" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ger/molise-ger.html"  title="German"
+                                    class="gflag nturl black-white" style="background-position:-300px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="german-lang" alt="German" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../it/molise-it.html"   title="Italian"
+                                     class="gflag nturl"  style="background-position:-600px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="italian-lang" alt="Italian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../sp/molise-sp.html" title="Spanish"
+                                    class="gflag nturl spanish-lang" style="background-position:-600px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="spanish-lang" alt="Spanish" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../pt/molise-pt.html" 
+                                    title="Portuguese" class="gflag nturl portuguese-lang"
+                                    style="background-position:-300px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="portuguese-lang"
+                                        alt="Portuguese" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ru/molise-ru.html" 
+                                    class="gflag nturl russian-lang" style="background-position:0 -400px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="russian-lang" alt="Russian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../fr/molise-fr.html" 
+                                    class="gflag nturl french-lang" style="background-position:-200px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="french-lang" alt="French" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <a href="index.html">
+                           <img src="../assets/images/logo2.png" alt="" class="logo">
+                        </a>
+                        <p class="f-12 w-700 text-dark ms-lg-5 ps-lg-4 ms-3 mb-1">
+                            Der internationale Reiseführer des Oktoberfestes
+                        </p>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h1 class="f-20 w-600 text-brown mt-4 font-oxygen desktop-weather">Das Wetter in München </h1>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navbar-row">
+                <nav class="navbar navbar-expand-xl navbar-dark ">
+                    <div class="container-fluid">
+                        <h1 class="f-18 w-500 text-white font-oxygen me-auto small-weather mb-0 pb-0">Das Wetter in München 
+                        </h1>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav justify-content-around mb-2 mb-lg-0 w-100 ">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="parent">
+                                                                        <a href="oktoberfest-munich-ger.html" class="nav-link">Oktoberfest »</a>
+
+                                  <ul class="child">
+
+                                        <li><a href="oktoberfest-2013-program-ger.html">Oktoberfest 2022 – Programm</a></li>
+                                        <li><a href="history-oktoberfest-ger.html">Die Oktoberfestgeschichte</a></li>
+                                        <li><a href="oktoberfest-statistics-ger.html">Die Oktoberfestzahlen</a></li>
+                                        <li><a href="o-zapft-is-ger.html">O’ Zapft is</a></li>
+                                        <li><a href="oktoberfest-beer-ger.html">Das Oktoberfestbier</a></li>
+                                        <li><a href="oktoberfest-cuisine-ger.html">Die Oktoberfestküche</a></li>
+                                        <li><a href="security-oktoberfest-ger.html">Sicherheit auf dem Oktoberfest</a></li>
+
+
+                                        <li class="parent"><a href="#">Paraden »</a>
+                                            <ul class="child">
+                                                <li><a href="wiesn-einzug-der-festwirte-und-brauereien-parade-ger.html">Wiesn-Einzug der Festwirte und Brauereien</a></li>
+                                                <li><a href="oktoberfest-parade-trachten-und-schutzenzug-ger.html">Trachten
+                                                        und Schützenzug</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent"><a href="#">Weitere Oktoberfest Termine<span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href="oktoberfest-mass-ger.html">Der Oktoberfest Gottesdienst</a></li>
+                                                <li><a href="choir-concert-ger.html">Standkonzert der Kapellen</a></li>
+                                                <li><a href="former-carnies-club-ger.html">Der Alt-Schausteller-Stammtisch</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="songs-oktoberfest.html">Oktoberfest Lieder</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="large-tents-oktoberfest-ger.html">Große Zelte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="small-oktoberfest-tents-ger.html">Kleine Zelte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-luna-park.html">Jahrmarkt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="map-oktoberfest-ger.html">Zeltplan</a>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#" class="nav-link">Nützliche Infos »</a>
+                                    <ul class="child">
+                                        <li><a href="faq-oktoberfest-ger.html">FAQ</a>
+                                        </li>
+                                        <li><a href="oktoberfest-advice-ger.html">Tipps für das Oktoberfest</a></li>
+
+
+
+                                        <li class="parent"><a href="come-arrivare-oktoberfest-ger.html">Wie kommt man zum Oktoberfest<span
+                                                    class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href=oktoberfest-by-air-ger.html>Mit dem Flugzeug zum Oktoberfest</a></li>
+                                                <li><a href=oktoberfest-by-car-ger.html>Mit dem Auto zum Oktoberfest</a></li>
+                                                <li><a href=oktoberfest-by-camper-ger.html>Im Campingwagen zum Oktoberfest</a></li>
+                                                <li><a href=oktoberfest-by-coach-ger.html>Mit dem Bus zum Oktoberfest </a></li>
+                                                <li><a href=oktoberfest-by-train-ger.html>Mit dem Zug zum Oktoberfest</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-costumes-ger.html">Kostüme</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active-link" href="viaggi-oktoberfest-ger.html">Trips</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="guided-tour-munich-ger.html">Stadtführung</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="offers mt-3">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <h1 class="offers-heading f-24 w-600 text-center">
+                                    Discover all the festivals
+                                </h1>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Oktoberfest
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    From €65
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-oktoberfest-ger.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Cannstatter
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    From €55
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-cannstatter.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Herbstfest
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    From €40
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-herbstfest.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <h1 class="main-heading">
+                        Travels from Molise
+                    </h1>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="row p-0 ">
+                        <div class="col-lg-12">
+                                
+                                <h1 class="f-20 w-600 text-primary border-primary-top mt-3">   
+                                    Why travel with us
+                                </h1>
+                                <ul class="ms-3 mt-3">
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Best Price Guaranteed. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                               Sector Professionals. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Assistance all year round. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                               Flexibility. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Departure from all over Italy. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Physical presence on site. </p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Lots of Travel Solutions. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Photos and Multimedia. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Direct Relations with structures. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <p class="f-16 w-400"><i
+                                                    class="bi bi-check2-all me-2 text-green"></i>
+                                                Guided tours. </p>
+                                        </div>
+                                    </li>
+                                  
+
+                                </ul>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <a href="viaggiare-con-club-magellano-ger.html"
+                                        class="primary-btn px-5 py-3"><i class="bi bi-calendar3 me-3"></i><i>Why with us?</i></a>
+                                </div>
+                           
+                          
+
+                            <h1 class="f-20 text-primary w-600 mt-4 border-primary-top mt-5">
+                                Trips to the Molise Oktoberfest
+                            </h1>
+
+                        </div>
+<div class="col-lg-12">
+        <div class="table-responsive offers-table mt-3">
+            <table class="table align-middle border">
+                <thead >
+                    <tr>
+                        <th>Departure city</th>
+                        <th>Paket nur Reise</th>
+                        <th>Oktoberfest Roulette</th>
+                        <th>Disco Bus</th>
+                        <th>Oktoberfest + Camping</th>
+                        <th>Reisepaket + Hotel</th>
+                        <th>Reisepaket + Hotel + Typical Village</th>
+                        <th>Weekend Long</th>
+                        <th>Oktoberfest + Innsbruck</th>
+                        <th>Trip + Hotel + BMW Museum</th>
+                        <th>Oktoberfest + Cannstatter Volksfest</th>
+                        <th>Oktoberfest + Neuschwanstein Castle</th>
+                        <th>Oktoberfest + Lunch</th>
+                        <th>Deluxe</th>
+                        <th>Reisepaket + 2 Nächte</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider border">
+                        <tr>
+                            <td class="text-brown text-center w-500">Molise</td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">120</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                   Paket nur Reise
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">139</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Oktoberfest Roulette
+                                </div>
+                            </td>
+
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">140</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Disco Bus
+                                </div>
+                            </td>
+
+
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">209</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Oktoberfest + Camping
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">209</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Reisepaket + Hotel
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">209</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Reisepaket + Hotel + Typicall Village
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <span class="text-red f-12 w-500">
+                                    <strike>€199</strike>
+                                </span>
+                                <p class="f-16 w-400 mb-0 pb-0">209</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                   Weekend Long
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">---</p>
+                               
+                               
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">224</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Trip + Hotel + BMW Museum
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">---</p>
+                                
+                               
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">----</p>
+                               
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">224</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Oktoberfest + Lunch
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">---</p>
+                               
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <p class="f-16 w-400 mb-0 pb-0">204</p>
+                                <p class="f-14 text-green w-400 mb-0 pb-0">EUR</p>
+                                <div class="hover-display"> 
+                                    Reisepaket + 2 Nächte
+                                </div>
+                            </td>
+                            <td class="text-center hover-display-text">
+                                <a href="molise-ger.html" class="primary-btn">See&nbsp;City</a>
+                            </td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+</div>
+<div class="d-flex justify-content-center mt-5">
+    <a href="viaggiare-con-club-magellano-ger.html"
+        class="primary-btn px-5 py-3"><i class="bi bi-calendar3 me-3"></i><i>Book Now</i></a>
+</div>
+
+                   </div>
+                 </div>
+            </div>
+            </div>
+    </main>
+
+    <footer class="footer mt-4">
+        <p class="text text-white mb-0 pb-0">@ Copy Right 2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/lang.js"></script>
+
+</body>
+
+</html>

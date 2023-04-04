@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Oktoberfest</title>
+
+</head>
+
+<body class="">
+
+    <header>
+        <div class="languages-row">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/oktoberfest.it"><i class="bi bi-facebook"></i></a>
+                            <a href="https://twitter.com/ClubMagellano"><i class="bi bi-twitter"></i></a>
+                            <a href="https://plus.google.com/108318635374956390983"><i class="bi bi-google"></i></a>
+                            <a href="feed.html"><i class="bi bi-rss-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-auto d-flex justify-content-end flag-row">
+                            <div id="google_translate_element2"></div>
+
+                            <div class="me-2">
+                                <a href="../eng/index.html" title="English" class="gflag nturl  "
+                                    style="background-position:-0px -0px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="English-us" alt="English" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ger/index.html" title="German" class="gflag nturl black-white"
+                                    style="background-position:-300px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="german-lang" alt="German" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../it/index.html" title="Italian" class="gflag nturl"
+                                    style="background-position:-600px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="italian-lang" alt="Italian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../sp/index.html" title="Spanish" class="gflag nturl spanish-lang"
+                                    style="background-position:-600px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="spanish-lang" alt="Spanish" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../pt/index.html" title="Portuguese" class="gflag nturl portuguese-lang"
+                                    style="background-position:-300px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="portuguese-lang"
+                                        alt="Portuguese" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ru/index.html" class="gflag nturl russian-lang"
+                                    style="background-position:0 -400px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="russian-lang" alt="Russian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../fr/index.html" class="gflag nturl french-lang"
+                                    style="background-position:-200px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="french-lang" alt="French" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <a href="index.html">
+                            <img src="../assets/images/logo2.png" alt="" class="logo">
+                        </a>
+                        <p class="f-12 w-700 text-dark ms-lg-5 ps-lg-4 ms-3 mb-1">
+                            Der internationale Reiseführer des Oktoberfestes
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h1 class="f-20 w-600 text-brown mt-4 font-oxygen desktop-weather">Das Wetter in München </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-row">
+                <nav class="navbar navbar-expand-xl navbar-dark ">
+                    <div class="container-fluid">
+                        <h1 class="f-18 w-500 text-white font-oxygen me-auto small-weather mb-0 pb-0">Das Wetter in
+                            München
+                        </h1>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav justify-content-around mb-2 mb-lg-0 w-100 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="oktoberfest-munich-ger.html" class="nav-link ">Oktoberfest »</a>
+                                    <ul class="child">
+
+                                        <li><a href="oktoberfest-2013-program-ger.html">Oktoberfest 2022 – Programm</a>
+                                        </li>
+                                        <li><a href="history-oktoberfest-ger.html">Die Oktoberfestgeschichte</a></li>
+                                        <li><a href="oktoberfest-statistics-ger.html">Die Oktoberfestzahlen</a></li>
+                                        <li><a href="o-zapft-is-ger.html">O’ Zapft is</a></li>
+                                        <li><a href="oktoberfest-beer-ger.html">Das Oktoberfestbier</a></li>
+                                        <li><a href="oktoberfest-cuisine-ger.html">Die Oktoberfestküche</a></li>
+                                        <li><a href="security-oktoberfest-ger.html">Sicherheit auf dem Oktoberfest</a>
+                                        </li>
+
+
+                                        <li class="parent"><a href="#">Paraden »</a>
+                                            <ul class="child">
+                                                <li><a href="wiesn-einzug-der-festwirte-und-brauereien-parade-ger.html">Wiesn-Einzug
+                                                        der Festwirte und Brauereien</a></li>
+                                                <li><a href="oktoberfest-parade-trachten-und-schutzenzug-ger.html">Trachten
+                                                        und Schützenzug</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent"><a href="#">Weitere Oktoberfest Termine<span
+                                                    class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href="oktoberfest-mass-ger.html">Der Oktoberfest Gottesdienst</a>
+                                                </li>
+                                                <li><a href="choir-concert-ger.html">Standkonzert der Kapellen</a></li>
+                                                <li><a href="former-carnies-club-ger.html">Der
+                                                        Alt-Schausteller-Stammtisch</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="songs-oktoberfest.html">Oktoberfest Lieder</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="large-tents-oktoberfest-ger.html">Große Zelte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="small-oktoberfest-tents-ger.html">Kleine Zelte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-luna-park.html">Jahrmarkt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="map-oktoberfest-ger.html">Zeltplan</a>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#" class="nav-link">Nützliche Infos »</a>
+                                    <ul class="child">
+                                        <li><a href="faq-oktoberfest-ger.html">FAQ</a>
+                                        </li>
+                                        <li><a href="oktoberfest-advice-ger.html">Tipps für das Oktoberfest</a></li>
+
+
+
+                                        <li class="parent"><a href="come-arrivare-oktoberfest-ger.html">Wie kommt man
+                                                zum Oktoberfest<span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href=oktoberfest-by-air-ger.html>Mit dem Flugzeug zum
+                                                        Oktoberfest</a></li>
+                                                <li><a href=oktoberfest-by-car-ger.html>Mit dem Auto zum Oktoberfest</a>
+                                                </li>
+                                                <li><a href=oktoberfest-by-camper-ger.html>Im Campingwagen zum
+                                                        Oktoberfest</a></li>
+                                                <li><a href=oktoberfest-by-coach-ger.html>Mit dem Bus zum Oktoberfest
+                                                    </a></li>
+                                                <li><a href=oktoberfest-by-train-ger.html>Mit dem Zug zum
+                                                        Oktoberfest</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-costumes-ger.html">Kostüme</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="hotel-oktoberfest-ger.html">Hotel</a>
+                                </li>
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../it/viaggi-oktoberfest-it.html">Reisen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="guided-tour-munich-ger.html">Stadtführung</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="d-flex highlighted-row">
+                <div class="highlight-heading">IM&nbsp;VORDERGRUND</div>
+                <div class="vwrap w-100">
+                    <div class="vmove">
+                        <div class="vitem">'Das „Wiesnzelt“ am Stiglmaierplatz' - Die Party zum Oktoberfest in
+                            München!</a>
+                        </div>
+                        <div class="vitem">Ein Paar neugierige Sachen, die man vielleicht nicht kennt…</a>
+                        </div>
+                        <div class="vitem">Wissen Sie wie viele andere Nationen ein ähnliches Fest wie das Oktoberfest
+                            feiern?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-12">
+                    <div class="offers mt-3">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <h1 class="offers-heading f-24 w-600 text-center">
+                                    Scopri tutti i festival
+                                </h1>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Oktoberfest
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    A partire da  €65
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-oktoberfest-ger.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Cannstatter
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    A partire da  €55
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-cannstatter.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <h1 class="offers-heading f-20 w-600 text-center">
+                                    Herbstfest
+                                </h1>
+                                <p class="offers-description f-18 w-500 text-center">
+                                    A partire da  €40
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="viaggi-herbstfest.html" class="primary-btn">Watch departures</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-12">
+                    <h1 class="main-heading">
+                        Oktoberfest 2022 - Programm
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-8 border-right ">
+                    <div class="row p-0 ">
+                        <div class="col-lg-12 ">
+                            <img src="../assets/images/timthumb (4).jpeg" alt="" class="imgr img-fluid">
+                            <p class="mb-0 pb-0 text text-justify ">
+
+                                Das Oktoberfest 2020 beginnt wie üblich am Schluss des ”Wiesn-Einzug der Festwirte und
+                                Brauereien” und mit der symbolischen Fasseröffnung - “O’ zapft is” - des Bürgermeisters.
+                                Dies ist die Eröffnungsfeier die am 21. September um 12.00 Uhr stattfindet. Das Fest
+                                endet schliesslich am 6. Oktober um 23.30. Unter der Woche machen die Zelte um 10.00 Uhr
+                                auf (an Wochenenden bereits schon um 9.00 Uhr) und schließen um 23.00 Uhr (außer ein
+                                paar Zelte, welche erst um 1 Uhr nachts schließen). Während der 16 Oktoberfesttagen gibt
+                                es verschiedenen Momente, die schon zur Tradition geworden sind, wie der...
+
+                                <a href="oktoberfest-2013-program.html">Lese alles</a>
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Oktoberfest
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (1).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        Wie erklärt man den wenigen, die noch nie am <strong>Oktoberfest</strong> waren,
+                                        um was es geht?<br>
+                                        Man würde ganz einfach antworten, dass es das wichtigste und berühmteste
+                                        Bierfest der Welt ist.<br>
+                                        Richtig, ja das stimmt! Aber die Bezeichnung „wichtigste Bierfest der Welt“
+                                        rechtfertigt nicht den zweifellosen Ruhm des <strong>Oktoberfestes</strong> und
+                                        es reicht auch nicht aus, um wirklich zu verstehen was heute dieses Fest
+                                        darstellt. </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="oktoberfest-munich-ger.html" class="brown-btn ">Lese alles >></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                O’ Zapft is
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (2).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        <strong>O’ Zapft is</strong>! Mit diesem bayerischen Satz wird jedes
+                                        Jahr seit 1950 das Fest offiziell eröffnet. Der zweite Weltkrieg ließ das Fest
+                                        für einige Jahren stillstehen. Im Schottenhamel-Zelt wird vom Münchner
+                                        Bürgermeister das erste Bierfass aufgemacht oder besser
+                                        gesagt <strong>aufgeschlagen</strong>. Die richtige Bezeichnung ist das Verb
+                                        „anzapfen“, was sich klar auf den
+                                        Schlag mit dem Holzhammer auf das Fass bezieht und der vollständige Satz auf
+                                        Deutsch lautet: „Es ist angezapft“. In
+                                        München ist dieser Satz eine Art magische Aussage und bedeutet, dass das Fest
+                                        beginnt, dass man Tanzen soll!
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="o-zapft-is-ger.html" class="brown-btn ">Lese alles >></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Visita guidata
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (3).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        Trova l'autobus per Isartor (terminal) e parti per Stachus-Königsplatz (una
+                                        piazza simbolica di Monaco, in stile neoclassico, che ricorda la Magna Grecia)
+                                        poi per il castello di Nymphenburg (il castello estivo della Casa di Baviera
+                                        dove nacque Ludovico II, re dei caste </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="guided-tour-munich-ger.html" class="brown-btn ">Lese alles >></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 order-1">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                                Mappa dell'Oktoberfest
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Scopri qui sotto come orientarsi all’interno del Theresienwiese, e fai un giro virtuale
+                                della Wiesn; scopri scorrendo la mappa dove sono le piccole e le grandi tende, dove sono
+                                i servizi pubblici, i punti di soccorso, la stazione di polizia, gli ingressi al parco,
+                                il deposito bagagli, il luna park, la statua della Baviera e tutti gli altri punti di
+                                interesse dell’Oktoberfest.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="map-oktoberfest-ger.html" class="primary-btn ">Lese alles >></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/map.jpeg" alt="" class=" w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 ">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                Der Oktoberfest Trachten- und Schützenzug
+
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-4 mt-3">
+                                Seit dem Jahre 1950 bis hin zu unseren heutigen Tagen, findet
+                                jedes Jahr am ersten Oktoberfestsonntag der <strong>Trachten- und Schützenzug</strong>
+                                statt. Es ist der
+                                <strong>traditionelle Gedenkumzug</strong>, der 1835 zum ersten Mal als Feier zur
+                                Silberhochzeit von König Ludwig
+                                und Therese abgehalten wurde. Diese Veranstaltung dauert ungefähr zwei Stunden und
+                                beginnt um 10 Uhr in der
+                                Maximilianstraße, sie ist heute ein Höhepunkt des ganzen Festes und mit seinen zirka
+                                9.000 Teilnehmern, Wägen,
+                                Kostüme, Musik hat dieser Umzug jede nationale Grenze überschritten und wird live im
+                                Fernsehen übertragen. Im 7 km
+                                langen Umzug gibt es über 40 Festwagen, die nach Tradition von dem Münchner Kindl, das
+                                Wahrzeichen der Stadt,
+                                angeführt werden. Man kann nicht nur wunderschöne Kutschen der Brauereien sehen, sondern
+                                auch Gruppen aus ganz
+                                Deutschland und Europa, jede als Vertretung seiner Nation mit einzigartigen Kostümen und
+                                die dazugehörenden
+                                Musikkapellen.
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-parade-trachten-und-schutzenzug-ger.html" class="primary-btn ">Lese
+                                    alles >></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/Trachten-Schützenzug1-300x162.png" alt=""
+                                class="w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                Der Wiesn-Einzug der Festwirte und Brauereien
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Der traditionelle <strong>Wiesn-Einzug der Festwirte und
+                                    Brauereien</strong> ist seit 1887 der Auftakt zum Oktoberfestbeginn und endet im
+                                „Schottenhammel“ Zelt, wo bei der Eröffnungsfeier der Münchner Oberbürgermeister das
+                                erste
+                                Bierfass&nbsp;anschlägt und zwar mit dem berühmten Ritual: “<strong>O’
+                                    zapft is!</strong></a>“<br>
+                                Um 10.45 Uhr beginnen die Wirtsfamilien auf geschmückten und von Pferden gezogen
+                                Kutschen ihren Weg von der
+                                Josephspitalstraße bis zur Theresienwiese. Gefolgt werden sie von den Ochsen, die
+                                Bierfässer der traditionellen
+                                Münchener Brauereien ziehen, zusammen mit den Kellnerinnen und schließlich folgen die
+                                Musikkapellen. Der Einzug wird
+                                von dem „Münchner Kindl“ angeführt, das Münchner Stadtsymbol. Nach etwa einer Stunde
+                                kommt der Festzug am
+                                Schottenhammel Zelt an, nachdem er an die Sonnenstraße, Schwanthaler Straße, Bavariaring
+                                e Wirtsbudenstraße
+                                vorbeigegangen ist.<br>
+                                Mehr als 1.000 Mitarbeiter machen aus dem <strong>Wiesn-Einzug der Festwirte und
+                                    Brauereien eine Veranstaltung, die
+                                    live im Fernsehen und im Internet übertragen wird</strong>. Verschiedene Promis, die
+                                Medien und tausende
+                                Zuschauer sind in den Münchener Straßen anwesend.
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="wiesn-einzug-der-festwirte-und-brauereien-parade-ger.html"
+                                    class="primary-btn ">Lese alles >></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/Wiesn-Einzug-der-Festwirte-und-Brauereien-300x300.png" alt=""
+                                class="mt-3  w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-purple  mb-0 pb-0 border-purple-top">
+                                Der Oktoberfest-Vergnügungspark
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Das Oktoberfest ist nicht nur für das Bier, die Küche, die traditionelle Kleidung, für
+                                die Exzesse oder die Musik bekannt, sondern auch für den
+                                <strong>Vergnügungspark</strong>, der reich an Attraktionen und “fliegenden Bauten” ist.
+                                Einige davon sind jahrhundertalt, andere super modern mit einer besonderen
+                                Aufmerksamkeit für Liebhaber der Geschwindigkeit und dem Nervenkitzel, aber auch für
+                                Kinder und Familien. Der Vergnügungspark ist jeden Tag von 10.00 Uhr bis Mitternacht
+                                geöffnet. Viele Wiesn-Besucher kommen für die <strong>Attraktionen des
+                                    Vergnügungsparks</strong> zum Oktoberfest, unabhängig vom Biergenuss. Ein einziger
+                                Tipp für Ihren Magen… drehen Sie alle Karussell-Runden die Sie möchten, aber bevor Sie
+                                Bier trinken!
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-luna-park.html" class="purple-btn ">Lese alles >></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/ebxbr7.jpg" alt="" class="img-fluid border-purple mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                                Die Großen Zelte des Oktoberfestes
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+
+                                Das kennzeichnende Merkmal des Oktoberfestes sind die großen Zelte der 6 historischen
+                                Brauereien von München! Die großen Zelte sind insgesamt 14 und unterscheiden sich alle
+                                durch die Atmosphäre, die Koch-Spezialitäten und natürlich das ausgeschenkte Bier
+                                voneinander. Es ist nicht einfach die Entscheidung zu treffen, wo man den Tag verbringen
+                                sollte! Jedes hat seine Geschichte, seinen Stil, jedes Zelt hat seine Zielgruppe; sie
+                                sind seit Jahrhunderte die tragenden Säulen des Festes und so miteinander verbunden,
+                                dass es zum größten Volksfest der Welt geworden ist. Die Sitzplätze der großen Zelte
+                                gehen von 2.500 bis fast zu 11.000 und trotz all dieser Plätze, ist es eine anstrengende
+                                Arbeit einen freien Platz zu ergattern, da die...
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ARMBRUSTSCHÜTZENZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Armbrustschützenzelt</strong> hat 7.500 Sitzplätze. Es ist eines
+                                            der beliebtesten Zelte der Bayern und seit 1895 im Oktoberfest anwesend.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="armbrustschutzenzelt-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AUGUSTINER-BRÄU</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Nicht weniger als 8.500 Sitzplätze gibt es im <strong>Augustiner</strong>.
+                                            Für sehr viele ist es das<strong> beste Zelt</strong>, wo man sich am
+                                            Oktoberfest aufhalten kann.&nbsp; Sicher unterscheidet es sich von den
+                                            anderen vor allem in zwei Dingen: Es ist für die Freundlichkeit seiner
+                                            Kellnerinnen bekannt und wie man sich vorstellen kann, ist das eine eher
+                                            seltene Tatsache in den Festzelten, da die zu bedienenden Kunden sehr viele
+                                            sind. Außerdem ist es die einzige Brauerei, die das Bier nur aus Holzfässern
+                                            ausschenkt!
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="augustiner-brau-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BRÄUROSL / PSCHORRBRÄU-FESTHALLE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Diese Festhalle beherbergt seit der letzten Vergrößerung 2010 8.400
+                                            Sitzplätze.
+                                            <br>
+                                            Seit 1936 wird das Zelt von der Familie Heide verwaltet, also seit sieben
+                                            Generationen und es trägt den Namen der Tochter des Besitzers.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="braurosl-pschorrbrau-festhalle-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FISCHER-VRONI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Fischer-Vroni-</strong>Zelt ist mit seinen zirka 3.800
+                                            Sitzplätzen eines der kleinsten unter den 14 grossen Oktoberfestzelten.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="fischer-vroni-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HACKER FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Hacker Festzelt</strong> hat 9.300 Sitzplätze. Seit 2004 ist die
+                                            Decke mit Wolken und Sternen geschmückt, zur Erinnerung an eine
+                                            Volksgeschichte &nbsp;zu Ehren von Alois: Ein Münchener, der stirbt und in
+                                            den Himmel kommt.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hacker-festzelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel-image-div">
+                                   <img src="../assets/images/l6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HIPPODROM</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das &nbsp;<strong>Hofbräu Zelt</strong> ist das zweitgrößte der großen Oktoberfestzelte. Es zählt 9.992 Sitzplätze und ist auch das einzige Zelt mit einer Stehplatzzone, direkt vor der Bühne. Das Zelt ist seit dem Jahre 1955 im Oktoberfest anwesend und das derzeitige Zelt wurde 1972 konstruiert.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hippodrom-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOFBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das &nbsp;<strong>Hofbräu Zelt</strong> ist das zweitgrößte der großen
+                                            Oktoberfestzelte. Es zählt 9.992 Sitzplätze und ist auch das einzige Zelt
+                                            mit einer Stehplatzzone, direkt vor der Bühne. Das Zelt ist seit dem Jahre
+                                            1955 im Oktoberfest anwesend und das derzeitige Zelt wurde 1972 konstruiert.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hofbrau-festzelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KÄFER’S WIESN-SCHÄNKE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Es ist mit seinen zirka 3.000 Sitzplätzen eines der kleinsten Zelte. Hier
+                                            treffen sich die Promis mit der Hoffnung weit von der lebhaften Masse
+                                            entfernt zu sein.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kafers-wiesn-schanke-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l9.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>LÖWENBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Es ist mit seinen 9.500 Sitzplätzen eins der größten Oktoberfestzelte. Mit
+                                            seinem 37 m hohen Turm, ist es aus jedem Winkel der Wiesn sichtbar, seine
+                                            Besonderheit ist aber ein 4,5 m hoher Löwe, der jede Minute über dem
+                                            Zelteingang brüllt.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="lowenbrau-festzelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>OCHSENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Schottenhamel Zelt</strong> hat mit Innen und Außen insgesamt
+                                            9.000 Sitzplätze. Hier findet nach Tradition die “O’zapft is!”
+                                            Eröffnungsfeier statt und von hier geht dann das ganze Fest los.<br>
+                                            Eine Besonderheit ist hier die Kleidung der Kellnerinnen: Die klassischen
+                                            Servierschürzen anstatt den Dirndl.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ochsenbraterei-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHOTTENHAMEL FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Schottenhamel Zelt</strong> hat mit Innen und Außen insgesamt
+                                            9.000 Sitzplätze. Hier findet nach Tradition die “O’zapft is!”
+                                            Eröffnungsfeier statt und von hier geht dann das ganze Fest los.<br>
+                                            Eine Besonderheit ist hier die Kleidung der Kellnerinnen: Die klassischen
+                                            Servierschürzen anstatt den Dirndl.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schottenhamel-festzelt-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHÜTZEN FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das <strong>Schützen Festzelt</strong> zählt, dank auch dem im 2006
+                                            eingeführten Biergarten, 5.400 Sitzplätze. Es ist eins der ersten
+                                            Wiesnzelte, auch wenn das derzeitige Zelt erst 2004 wieder aufgebaut wurde,
+                                            die traditionelle Ausstattung mit Geranien-Blumentöpfe wurde erhalten.<br>
+                                            Es befindet sich bei der Bavaria Statue und hat einen Schießraum, deshalb
+                                            steht nur die Hälfte des Platzes als Sitzplätze zur Verfügung.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schutzen-festzelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WEINZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Mit seinen 2.500 Sitzplätzen ist es für viele Besucher das schönste
+                                            Oktoberfestzelt. Im Unterschied zu den anderen Zelten wird hier Wein
+                                            getrunken, hier stehen mehr als 15 Weinsorten zur Auswahl und es gibt auch
+                                            verschiedene Sekt- und Champagnersorten. Wer auf Bier nicht verzichten will,
+                                            kann hier auch Paulaner Weißbier bestellen, aber nur bis 21.00 Uhr!
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="weinzelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WINZERER FÄHNDL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Es ist das größte Oktoberfestzelt und hat insgesamt 10.000 Sitzplätze (
+                                            8.450 innen!). Außerdem ist es das beliebteste Zelt der Bayern-München-Fans
+                                            und -Spieler. Der Name stammt aus der Zeit als es Treffpunkt der Schützen
+                                            war (derzeit der Armbrustschützen).
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="winzerer-fahndl-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="large-tents-oktoberfest-ger.html" class="orange2-btn mt-2 py-3 px-5">Lese alles
+                                    >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                                Die kleinen Zelte des Oktoberfestes
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Nicht nur die legendären großen&nbsp; <strong>Zelte des Oktoberfestes</strong> zeichnen
+                                die Wiesn aus. <strong>Die 21 „kleinen“ Zelten</strong> sind heute nicht mehr vom Fest
+                                wegzudenken und wie die „großen“ steuern sie genauso viel dazu bei, die Atmosphäre des
+                                16-tägigen Festes unvergesslich und einzigartig zu machen.
+                                Einige stellen ein wahres Stück <a title="oktoberfestgeschichte"
+                                    target="_blank">Oktoberfestgeschichte</a> dar. Sie achten besonders auf die
+                                Essensqualität, dies ist auch dank des geringeren Verbrauchs, diese Zelte gehen von 60
+                                Sitzplätzen im WIESN GUGLHUPF CAFÉ bis zu 900 in der AMMER HÜHNER &amp; ENTENBRATEREI,
+                                gut möglich. <strong>In den kleinen Zelten</strong> findet man im Allgemeinen ein
+                                ruhigeres und besonders familienfreundliches Klima und sie eignen sich besonders gut
+                                auch für diejenigen, <strong>die einen Platz zum Entspannen suchen,</strong> wo man
+                                ausgelassen mit einem Freund plaudern kann. <strong>Das Bier ist das gleiche der großen
+                                    Zelte</strong>, aber in einigen trinkt man nicht nur Bier, sondern auch Kaffee, Tee
+                                und andere warme Getränke, während man wiederum in andere die Möglichkeit hat, einen
+                                exotischen Cocktail zu trinken, wie z.B. im BODO CAFEZELT.
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AMMER HÜHNER & ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat zirka 900 Sitzplätze und ist seit 1885 auf der Wiesn
+                                            vertreten.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ammer-huhner-entenbraterei-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BODO’S CAFEZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat 450 Sitzplätze und ist total anders als die anderen. Es ist
+                                            nämlich sehr bekannt für die ausgezeichneten Konditoreispezialitäten!
+                                            Tagsüber kann man einen guten Kaffe oder Cappuccino zusammen mit z.B. einem
+                                            Stück Strudel, der in verschiedener Weise zubereitet wird, geniessen.
+                                            Krapfen, Desserts und Eis gibt’s auch noch dazu. Ab 17.00 Uhr gibtes hier
+                                            auch Musik und man kann auch exotische Cocktails genießen.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="bodos-cafezelt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BURTSCHERS BRATWURSTHÜTT’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dies ist eines der kleinsten Oktoberfestzelte, es hat nur 80 Sitzplätze!
+                                            Hier wird köstliches Fleisch serviert, vor allem Bratwürste, zu günstigen
+                                            Preisen und die Bratwursthütt’n beitet ein einzigartiges, freundliches und
+                                            entspannendes Klima an.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="burtschers-bratwursthuttn-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ KAISERSCHMARRN</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat 400 Sitzplätze und wurde von einer der bekanntesten
+                                            Konditoreien Münchens, Rischart, eröffnet. Es hat einen märchenhaften Stil.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-kaiserschmarrn-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ MOHRENKOPF</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt gibt es seit 1950 und auch hier wird kein Bier getrunken.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-mohrenkopf-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FEISINGER’S KAS UND WEINSTUB’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat mit Innen und Außen insgesamt zirka 180 Sitzplätzte und ist
+                                            seit 1978 auf der Wiesn vertreten.<br>
+                                            Bekannt ist es für die bayerischen Käsegerichte, die hier eine lange
+                                            Tradition haben.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="feisingers-kas-und-weinstubn-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>GLÖCKLE WIRT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat 140 Sitzplätzte, die sich alle im Inneren befinden.
+                                            <br>
+                                            Es bietet eine breite Auswahl an erstklassischen bayerischen Gerichten in
+                                            einer einzigartigen, warmen und gemütlichen Atmosphäre an. Es ist mit
+                                            Ölbildern, Küchenutensilien und antiken Instrumenten dekoriert. Hier wird es
+                                            etwas persönlicher und man kann ein bisschen Ruhe auf der Wiesn genießen.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="glockle-wirt-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEIMER HENDL-UND ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses kleine Zelt hat 400 Sitzplätzte und ist unter den Münchener sehr
+                                            beliebt, es bietet eine traditionelle und authentische Atmosphäre an.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heimer-hendl-und-entenbraterei-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/ss.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEINZ WURST-UND HÜHNERBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt zählt 360 Sitzplätzte und ist bereits seit dem Jahre 1906 auf
+                                            dem Oktoberfest anwesend.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heinz-wurst-und-huhnerbraterei-ger.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOCHREITERS HAXNBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Die Sitzplätzte hier sind 250. Hier sagt man, gäbe es den besten Hax’n vom
+                                            ganzen Oktoberfest.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hochreiters-haxnbraterei-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KALBS-KUCHL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses kleine Zelt wurde 2008 auf der Wiesn eingeführt und hat 300
+                                            Sitzplätzte. Es ähnelt sehr einer bayerischen Hütte und ist im Inneren in
+                                            Einzelheiten dekoriert, es schenkt dem Oktoberfestbesucher ein geschätztes
+                                            lebhaftes Ambiente.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kalbs-kuchl-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s12.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>MÜNCHNER KNÖDELEI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt bietet den Besuchern 390 Sitzplätzte, 300 davon sind im Inneren.
+                                            Knödel sind ein wahrhaftes Symbol der bayerischen Küche und das Motto dieses
+                                            Zeltes ist, welches es sich zur Aufgabe gemacht hat, diese Kultur zu
+                                            schützten und zu verbreiten. Mehr als 50 köstliche Varianten stehen in der
+                                            Speisekarte in der Münchener Knödelei zur Auswahl, darunter scharfe Knödel
+                                            mit Pilzen, Spinat-Knödel, süße Knödel mit Banane etc.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="munchner-knodelei-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s13.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>POSCHNERS HÜHNER-UND ENTENBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat nur im Inneren Sitzplätze und es finden hier maximal 300
+                                            Leute Platz.<br>
+                                            Das original Familienrezept der gebratenen Ente und des gegrillten Hähnchen
+                                            sind mindestens zwei gute Gründe um dieses Zelt zu besuchen.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="poschners-huhner-und-entenbraterei-ger.html"
+                                                class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s14.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHIEBL’S KAFFEEHAFERL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das Schiebl’s Kaffeehaferl ist mit seinen 100 Sitzplätze eins der kleinsten
+                                            Zelte und aus diesem Grund ist es besonders gut für Familien geeignet.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schiebls-kaffeehaferl-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>VINZENZMURR METZGER STUBN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt feierte 2012 110 Jahre Anwesenheit auf dem Oktoberfest und zählt
+                                            somit zu den ältesten auf der Theresienwiese. Es hat insgesamt 130
+                                            Sitzplätze.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="vinzenmurr-metzger-stubn-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIESN GUGLHUPF CAFÉ
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Mit seinen 60 Sitzplätze ist es das kleinste Wiesn-Zelt. Es ist unmöglich
+                                            dieses Zelt nicht zu sehen, da es wirklich eine Guglhupfkuchen-Form hat.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wiesn-guglhupf-cafe-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s18.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDMOSER HÜHNERBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt hat 320 Sitzplätze, die sich alle im Inneren befinden. Es gehört
+                                            der Familie Wildmoser und ist seit dem Jahre 1981 auf dem Oktoberfest
+                                            anwesend. Die Wildmoser Hühnerbraterei ist sehr beliebt unter den Münchener.
+                                            Dieses Zelt bietet ein besonderes Ambiente und dank einem speziellen Grill
+                                            für die Zubereitung von gegrilltem Hühnchen, verleit es den diversen
+                                            Geflügelspezialitäten einen speziellen und unverkennbaren Geschmack.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildmoser-huhnerbraterei-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s19.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDSTUBEN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Die Wildstuben hat 271 Sitzplätze. <br>
+                                            Das Zelt das Innere des Zeltes ist ausgestattet mit Natur- und Jagdelementen
+                                            mit einer reichen Holzdekorierung.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildstuben-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIRTSHAUS IM SCHICHTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt ist seit 1869 auf dem Oktoberfest vertreten und stellt ein Stück
+                                            Oktoberfestgeschichte und Wiesn-Tradition dar.<br>
+                                            Die Besonderheit hier ist die „Enthauptung“!<br>
+                                            Jeden Tag werden hier 25 Vorstellungen von Schein-Enthauptungen vorgeführt,
+                                            während des gesamten Festes sind es insgesamt 400.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wirtshaus-im-schichtl-ger.html" class="orange-btn ">Lese alles
+                                                >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s21.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUM STIFTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Dieses Zelt machte seinen Wiesn-Debüt erst im Jahre 2007 und hat 160
+                                            Sitzplätze. Dank der Familie Hochreiter, übernahm es die Tradition der
+                                            „Bratwurstglöckl” und hauchte diesem Platz neues Leben ein, was von den
+                                            Oktoberfestliebhaber wegen der Gemütlichkeit sehr geschätzt wird.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zum-stiftl-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s22.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUR BRATWURST
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Das Zelt Zum Stiftl hat drinnen 360 Sitzplätze und ist sehr bekannt für
+                                            seine Hendl und Enten vom Grill.
+                                            Hier treffen sich Gäste aus aller Welt, da es ein besonderes gemütliches
+                                            Ambiente anbietet und zudem auch sehr familienfreundlich ist.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zur-bratwurst-ger.html" class="orange-btn ">Lese alles >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="small-oktoberfest-tents-ger.html" class="orange2-btn mt-2 py-3 px-5">Lese alles
+                                    >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 mx-auto">
+
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="mb-0 pb-0 w-100 text-center ">HOTEL <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Hotel Ocktoberfest</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-IN</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-OUT</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label f-14 w-500"
+                                                            for="flexCheckDefault">
+                                                            Ich bin mir über das Datum unentschlossen
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Finde
+                                                            das Hotel</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        DIE BESTE PREISGARANTIE
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/hotel-munich.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                    <p class="mb-0 pb-0 w-100 text-center ">FLÜGE <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Flüge nach München</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Von</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Bis</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Hinflug</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Rückflug</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label for="exampleFormControlInput1"
+                                                        class="form-label mb-0 pb-0">Erwachsene</label>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="">4</option>
+                                                        <option value="">5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Suche
+                                                            Flüge</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        DIE BESTE PREISGARANTIE
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/munich-flights.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                    <p class="mb-0 pb-0 w-100 text-center ">BUS <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Suche Flüge</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+
+
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+
+                                                        <p class="text-center f-14 w-400">
+                                                            Kommen Sie doch mit uns zum Oktoberfest! Wir fahren in ganz
+                                                            Deutschland, ab € 55!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Wählen
+                                                            Sie Ihre Reise »</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        DIE BESTE PREISGARANTIE
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/bus3.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div style="margin: 3px 0px;" class="mt-3"><iframe class="video"
+                            src="https://www.youtube.com/embed/MyHeqpzNZlI" frameborder="0" allowfullscreen=""
+                            title="Oktoberfest Video"></iframe></div>
+
+
+                    <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Umfrage
+                    </h2>
+                    <p class="text">
+                        Was ist dein liebstes großes Zelt auf dem Oktoberfest? Um abzustimmen, wählen Sie einfach
+                        diejenige aus, die Sie bevorzugen!
+                    </p>
+                    <ul class="vote-list">
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HOFBRAÜ-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    40%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    AUGUSTINER-BRÄU
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:21%">
+                                    21%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PAULANER / WINZERER FÄHNDL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:16%">
+                                    16%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    LÖWENBRÄU-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:11%">
+                                    11%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHOTTENHAMEL FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    4%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PSCHORRBRÄU-FESTHALLE / BRÄUROSL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    FISCHER-VRONI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHÜTZEN FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    ARMBRUSTSCHÜTZENZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HIPPODROM
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    OCHSENBRATEREI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HACKER FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    WEINZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    KÄFER‘S WIESN-SCHÄNKE
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                                    1%
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="f-18 w-600">Total Votes: 335</p>
+                    </div>
+
+                    <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Die Info
+                    </h2>
+                    <div class="info-card">
+                        <div id="columnchart_material" style="width: 100%; height: 370px;"></div>
+
+                        <p class="text text-justify">
+                            Sie möchten aufs Oktoberfest gehen, haben aber keine Ahnung, an welchen Tagen die
+                            Besucherzahlen größer sind oder an welchen Tagen es einfacher ist, einen Platz in den Hallen
+                            zu finden? Hier finden Sie die zu erwartende Beteiligung an den einzelnen Wiesn-Tagen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-12 mb-3">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-3 mb-2">
+                        Viaggi all'Oktoberfest
+                    </h2>
+                    <p class="text">
+                        Parti con Club Magellano alla volta della festa della birra più grande e famosa al mondo,
+                        l'Oktoberfest di Monaco! Vivi l'esperienza più intrigante e divertente di tutta la tua vita e se
+                        ci sono oltre... ...
+                        <a href="../it/viaggi-oktoberfest-it.html" class="no-decoration">Lese alles</a>
+                    </p>
+                    <div class="owl-carousel owl-carousel-trips">
+
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr2.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Reisepaket + Hotel</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€114</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-VHtl-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr12.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Reisepaket + 2 Nächte</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€243</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-O2N-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr13.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Paket nur Reise</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€44</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-SVia-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+                        
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr2.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Reisepaket + Hotel</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€114</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-VHtl-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr12.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Reisepaket + 2 Nächte</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€243</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-O2N-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-card trip-card">
+                                <img src="../assets/images/tr13.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Paket nur Reise</h2>
+                                    <p class="text-center text-green w-500 ">
+                                        Im Paket sind inbegriffen
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Informationsmaterial
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Hin-und Rückreise mit
+                                                    Bus</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Betreuung 24h
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p class="f-12 w-400"><i
+                                                        class="bi bi-check2-all me-2 text-red"></i>Transfer gemäss
+                                                    Programm
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-3 d-flex justify-content-between align-items-center">
+                                        <h1 class="f-36 w-700 text-red">€44</h1>
+                                        <div>
+                                            <a href="viaggio-oktoberfest-SVia-ger.html" class="red-btn ">Lese alles »</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-12">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-2 mb-2">
+                        Oktobers News
+                    </h2>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/Visitors-at-the-176th-Okt-001-205x120 (1).jpg" alt="img-missing"
+                            class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">Ein Paar neugierige Sachen, die man vielleicht nicht kennt…</h2>
+                            <i>25/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+                                Bis zum 7. Oktober sind die Bierliebhaber in München für das Oktoberfest verabredet. Es
+                                handelt sich...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="algumas-curiosidades-que-talvez-voces-nao-saibam.html" class="red-btn ">Leggi
+                                    tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/after-oktoberfest-party-ballo-300x199.jpg" alt="img-missing"
+                            class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">‘Das „Wiesnzelt“ am Stiglmaierplatz’ – Die Party zum Oktoberfest in
+                                München!</h2>
+                            <i>19/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+                                Für alle, die keine Plätze mehr ergattern konnten oder einfach ohne Sperrstunde feiern
+                                möchten, ist ‚Das...
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="das-wiesnzelt-am-stiglmaierplatz-a-party-na-oktoberfest-em-munique.html"
+                                    class="red-btn ">Leggi tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/oktoberfest-nel-mondo-300x225.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">Wissen Sie wie viele andere Nationen ein ähnliches Fest wie das
+                                Oktoberfest feiern?</h2>
+                            <i>14/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Das Oktoberfest ist das berühmteste Fest der Welt und aus diesem Grund hat es in den...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="sabem-quantas-nacoes-do-mundo-realizam-um-evento-semelhante-a-oktoberfest.html"
+                                    class="red-btn ">Leggi tutto</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry ellipsis-1 heading-purple border-purple-top">
+                        Hotel Oktoberfest
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/download.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Solltest Du während des Oktoberfestes in München eine, oder mehrere Übernachtungen
+                                planen, kannst Du hier eine Auswahl der besten Hotels und Jugendherbergen in der Nähe
+                                der Theresienwiese finden.
+                                Die Theresienwiese befindet sich in der Innenstadt und aus diesem Grund ist es nicht
+                                einfach preiswerte Hotels in der Nähe des Oktoberfestes zu finden, dies vor allem an den
+                                Wochenenden, wo der Zufluss sehr hoch ist.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="hotel-oktoberfest-ger.html" class="purple-btn ">Lese alles >></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry heading-purple ellipsis-1 border-purple-top">
+                        Wie kommt man zum Oktoberfest
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/get.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Das
+                                Oktoberfest findet in der Nähe der Stadtmitte von München auf der Theresienwiese statt
+                                und man kann es bequem mit der U-Bahn erreichen.<br>
+                                Die Haltestellen „Theresienwiese“ und die naheliegende „Schwanthalerhöhe”, werden von
+                                den U4 und U5 Linien befahren, während die Linien U3 und U6 an den Haltestellen „
+                                Poccistrasse“ und „Goetheplatz“ halten.<br>
+                                Praktisch ist auch die S-Bahn, mit den Linien S1 und S8 erreicht man die „Hackerbrücke“
+                                Haltestelle. An den Wochenenden des Oktoberfestes, auch wenn in begrenzter Maße als am
+                                Tag, sind die U-Bahnlinien bis um 2.00 Uhr im Dienst und die letzte Fahrt der S1 ist um
+                                2.10 Uhr und die der S8 ist um 2.40 Uhr.<br>
+                                <strong>Die Entscheidung wie man das Oktoberfest</strong> erreichen möchte, ist
+                                ausschlaggebend um den Urlaub am besten genießen zu können und hängt von verschiedenen
+                                Faktoren wie Bequemlichkeit, verfügbares Budget und vorhandene Zeit ab. Hier unten sind
+                                die verschiedene Angaben aller Möglichkeiten um zum Oktoberfeste zu gelangen, vom Bus
+                                bis zum Flugzeug oder Zug und letztendlich mit dem Auto oder mit dem Campingwagen.<br>
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="come-arrivare-oktoberfest-ger.html" class="purple-btn ">Lese alles >></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry heading-purple border-purple-top">
+                        Oktoberfestkostüme
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/costumi-okt.jpg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Das ist die traditionelle bayerische Kleidung, die einen wahrhaften Stil erweckt hat. Es
+                                ist eine Art Kleidung,
+                                <strong>Landhausmode</strong> genannt, und wurde von der Kleidung der Bauern und der
+                                Landwirte inspiriert. Die
+                                Stoffqualität und die Dekoration identifizierte den sozialen Rang der Person, die diese
+                                Kleidung trug. Heute noch
+                                gibt es Menschen, die diese Kleidung an Hochzeiten tragen. Hier unten finden Sie eine
+                                Beschreibung der männlichen
+                                und weiblichen Kleidung. Bei den Herren dürfen das klassische Hemd und die
+                                <strong>Lederhosen</strong> nicht fehlen
+                                und bei den Damen das <strong>Dirndl</strong>.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-costumes-ger.html" class="purple-btn ">Lese alles >></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Das Oktoberfestbier
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/beer.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-beer-ger.html" class="primary-btn">
+                                Lese alles >>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Häufig gestellte Oktoberfest-Fragen
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/faq.png" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="faq-oktoberfest-ger.html" class="primary-btn">
+                                Lese alles >>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Die Oktoberfestgeschichte
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/history.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="history-oktoberfest-ger.html" class="primary-btn">
+                                Lese alles >>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Tipps für das Oktoberfest
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/ad.jpeg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-advice-ger.html" class="primary-btn">
+                                Lese alles >>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-4">
+        <p class="text text-white mb-0 pb-0">@ Copy Right 2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/lang.js"></script>
+
+</body>
+
+</html>
