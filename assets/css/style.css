@@ -987,10 +987,9 @@ a.gflag {
   height: 250px !important;
   width: 100% !important; }
 
-.jqvmap-zoomin, .jqvmap-zoomout {
-  height: 15px !important;
-  width: 30px !important;
-  margin-bottom: 10px !important; }
+@media only screen and (max-width: 991px) {
+  .news-card {
+    margin-bottom: 20px; } }
 
 .program-card {
   background-color: #f1f1f1 !important;
