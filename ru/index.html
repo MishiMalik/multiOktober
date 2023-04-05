@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Oktoberfest</title>
+
+</head>
+
+<body class="">
+
+    <header>
+        <div class="languages-row">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/oktoberfest.it"><i class="bi bi-facebook"></i></a>
+                            <a href="https://twitter.com/ClubMagellano"><i class="bi bi-twitter"></i></a>
+                            <a href="https://plus.google.com/108318635374956390983"><i class="bi bi-google"></i></a>
+                            <a href="feed.html"><i class="bi bi-rss-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-auto d-flex justify-content-end flag-row">
+                            <div id="google_translate_element2"></div>
+
+                            <div class="me-2">
+                                <a href="../eng/index.html" title="English" class="gflag nturl  "
+                                    style="background-position:-0px -0px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="English-us" alt="English" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ger/index.html" title="German" class="gflag nturl "
+                                    style="background-position:-300px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="german-lang" alt="German" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../it/index.html" title="Italian" class="gflag nturl"
+                                    style="background-position:-600px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="italian-lang" alt="Italian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../sp/index.html" title="Spanish" class="gflag nturl spanish-lang"
+                                    style="background-position:-600px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="spanish-lang" alt="Spanish" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../pt/index.html" title="Portuguese" class="gflag nturl portuguese-lang"
+                                    style="background-position:-300px -200px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="portuguese-lang"
+                                        alt="Portuguese" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../ru/index.html" class="gflag nturl russian-lang black-white"
+                                    style="background-position:0 -400px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="russian-lang" alt="Russian" />
+                                </a>
+                            </div>
+                            <div class="me-2">
+                                <a href="../fr/index.html" class="gflag nturl french-lang"
+                                    style="background-position:-200px -100px;">
+                                    <img src="//gtranslate.net/flags/blank.png" class="french-lang" alt="French" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <a href="index.html">
+                            <img src="../assets/images/logo2.png" alt="" class="logo">
+                        </a>
+                        <p class="f-12 w-700 text-dark ms-lg-5 ps-lg-4 ms-3 mb-1">
+                           Путеводитель по Октоберфесту
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h1 class="f-20 w-600 text-brown mt-4 font-oxygen desktop-weather">Погода в Мюнхене  </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-row">
+                <nav class="navbar navbar-expand-xl navbar-dark ">
+                    <div class="container-fluid">
+                        <h1 class="f-18 w-500 text-white font-oxygen me-auto small-weather mb-0 pb-0">Погода в Мюнхене 
+                        </h1>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav justify-content-around mb-2 mb-lg-0 w-100 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active-link" aria-current="page" href="index.html">Главная</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="oktoberfest-munich-ru.html" class="nav-link">Октоберфест»</a>
+                                    <ul class="child">
+
+                                        <li><a href="oktoberfest-2013-program-ru.html">Октоберфест 2022 – Программа</a></li>
+                                        <li><a href="history-oktoberfest-ru.html">История Октоберфеста</a></li>
+                                        <li><a href="oktoberfest-statistics-ru.html">Октоберфест в числах</a></li>
+                                        <li><a href="o-zapft-is-ru.html">O’ Zapft is</a></li>
+                                        <li><a href="oktoberfest-beer-ru.html">Пиво Октоберфеста</a></li>
+                                        <li><a href="oktoberfest-cuisine-ru.html">блюда Октоберфеста</a></li>
+                                        <li><a href="security-oktoberfest-ru.html">безопасность на Октоберфесте</a></li>
+
+
+                                        <li class="parent"><a href="#">Костюмированные шествия »</a>
+                                            <ul class="child">
+                                                <li><a href="wiesn-einzug-der-festwirte-und-brauereien-parade-ru.html">Wiesn-Einzug
+                                                        der Festwirte und Brauereien</a></li>
+                                                <li><a href="oktoberfest-parade-trachten-und-schutzenzug-ru.html">Trachten
+                                                        und Schützenzug</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent"><a href="#">Другие мероприятия Октоберфеста
+                                                   <span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href="oktoberfest-mass-ru.html">Праздничная месса Октоберфеста</a></li>
+                                                <li><a href="choir-concert-ru.html">Праздничный концерт ансамблей Октоберфеста</a></li>
+                                                <li><a href="former-carnies-club-ru.html">Традиционная встреча владельцев аттракционов</a>
+                                            </ul>
+                                        </li>
+                                        <li><a href="songs-oktoberfest.html">Песни Октоберфеста</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="large-tents-oktoberfest-ru.html">Большие павильоны</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="small-oktoberfest-tents-ru.html">Малые павильоны</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  " href="oktoberfest-luna-park.html">Луна-Парк</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="map-oktoberfest-ru.html">Карта</a>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#" class="nav-link">информация »</a>
+                                    <ul class="child">
+                                        <li><a href="faq-oktoberfest-ru.html">FAQ</a>
+                                        </li>
+                                        <li><a href="oktoberfest-advice-ru.html">Наши советы</a></li>
+
+
+
+                                        <li class="parent"><a href="come-arrivare-oktoberfest-ru.html">Как добраться до Октоберфеста » <span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href=oktoberfest-by-air-ru.html>Самолетом на Октоберфест</a></li>
+                                                <li><a href=oktoberfest-by-car-ru.html>автомобилем на Октоберфест</a></li>
+                                                <li><a href=oktoberfest-by-camper-ru.html>кемпером на Октоберфест</a></li>
+                                                <li><a href=oktoberfest-by-coach-ru.html>Автобусом на Октоберфест</a></li>
+                                                <li><a href=oktoberfest-by-train-ru.html>Поездом до Октоберфеста</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="oktoberfest-costumes-ru.html">Костюмы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="hotel-oktoberfest-ru.html">Отели </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="guided-tour-munich-ru.html">Обзорная экскурсия</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="d-flex highlighted-row">
+                <div class="highlight-heading">НОВОСТИ</div>
+                <div class="vwrap w-100">
+                    <div class="vmove">
+                        <div class="vitem"> Почему же Октоберфест, а не СЕПТЕМБЕРфест?</a>
+                        </div>
+                        <div class="vitem"> Любопытные факты, которые вам возможно неизвестны…</a>
+                        </div>
+                        <div class="vitem">Любопытные факты, которые вам возможно неизвестны…</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h1 class="main-heading">
+                        Октоберфест 2022 - Программаa
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-8 border-right ">
+                    <div class="col-lg-12 ">
+                        <img src="../assets/images/timthumb (4).jpeg" alt="" class="imgr img-fluid">
+                        <p class="mb-0 pb-0 text text-justify ">
+    
+                            Октоберфест 2022 начнется с традиционного шествия хозяев пивных палаток ”Wiesn-Einzug der
+                            Festwirte und Brauereien”, кульминацией которого станет церемония “O’ zapft is”(«Откупорено!»),
+                            представляющая собой символическое открытие Мером Мюнхена первой пивной бочки, которая свершится
+                            в 12.00, 21 сентября. Окончание праздника предусмотрено 6 октября в 23.30. Пивные павильоны в
+                            рабочие дни открыты для посетителей с 10.00, в выходные с 9.00 и закрываются в 23.00 (за
+                            исключением нескольких шатров, которые работают до часу ночи). В течение 16 дней проведения
+                            Октоберфеста программой предусмотрены, уже ставшие доброй традицией, такие мероприятия, как
+                            костюмированное шествие "Trachten und Schützenzug", праздничный концерт ансамблей Октоберфеста у
+                            подножия...
+    
+                            <a href="oktoberfest-2013-program-ru.html">Далее>></a>
+    
+                        </p>
+    
+                    </div>
+                    <div class="row p-0 ">
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Октоберфест
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (1).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        Как же объяснить тем, кто еще ни разу здесь не был, а только собирается приехать
+                                        на праздник, что же такое на самом
+                                        деле – <strong>Октоберфест</strong>?<br>
+                                        Сразу напрашивается ответ, что это самый большой пивной праздник-фестиваль в
+                                        мире… </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="oktoberfest-munich-ru.html" class="brown-btn ">Далее>></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                O’ Zapft is
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (2).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        <strong>O’ Zapft is</strong>! «Откупорено!» Этой фразой на баварском
+                                        диалекте, каждый год, начиная с 1950 (перерыв на несколько лет в проведении
+                                        праздника произошел из-за второй мировой
+                                        войны), обер-бургомистр (мэр) Мюнхена дает официальный старт пивному празднику.
+                                        Мэр открывает, а точнее, разбивает
+                                        первую пивную бочку в павильоне Schottenhamel. На немецком языке данная фраза
+                                        звучит как: «Angezapft ist es» или же: «Es ist
+                                        angezapft». Глагол «anzapfen» означает удар деревянного молотка, с помощью
+                                        которого открывают первую бочку пива. Фраза
+                                        «O’ Zapft is!» в Мюнхене является «волшебным словом», знаменующим открытие
+                                        фестиваля и начало всеобщего празднования!
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="o-zapft-is-ru.html" class="brown-btn ">Далее>></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-3">
+                            <h2 class="heading-secondry heading-brown border-brown-top">
+                                Обзорная экскурсия
+                            </h2>
+                            <div class="content-card">
+                                <img src="../assets/images/timthumb (3).jpeg" alt="img-missing" class="">
+                                <div class="content-card-text">
+
+                                    <p class="mb-0 pb-0 allipsis-multiple-6">
+                                        Каждую субботу мы предлагаем вам <strong>совершить обзорную
+                                            экскурсию по Мюнхену</strong>. Стоимость такой экскурсии 15 евро.
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="guided-tour-munich-ru.html" class="brown-btn ">Далее>></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 order-1">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top ">
+                                Карта Октоберфеста
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Ниже вы узнаете, как ориентироваться внутри Theresienwiese(на Лугу Терезы), а так же
+                                сможете совершить виртуальный тур по Wiesn. Узнайте, перемещая мышку по карте, как
+                                расположены большие павильоны и маленькие палатки, где находятся места общественного
+                                пользования, пункты скорой помощи, полицейский участок, входы в парк, камеры хранения,
+                                аттракционы, статуя Баварии и другие объекты Октоберфеста.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="map-oktoberfest-ru.html" class="primary-btn ">Далее>></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/map.jpeg" alt="" class=" w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5 ">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                Костюмированное шествие Октоберфеста Trachten und Schützenzug
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-4 mt-3">
+                                Каждый год, начиная с 1950 года и до наших дней, в первое
+                                воскресенье Октоберфеста проводится <strong>традиционное костюмированное шествие
+                                    Trachten und Schützenzug</strong>,
+                                которое является одним из наиболее зрелищных событий праздника. До 1950 года шествие
+                                впервые организовывалось только
+                                единожды, в 1835 году, в честь серебряной свадьбы короля Баварии Людвига и Терезы.
+                                Длится это яркое и впечатляющее
+                                зрелище около двух часов. Начало шествия в 10.00, на Maximilianstraße. Насчитывает около
+                                9000 участников, в своих
+                                особенных национальных костюмах, со своей музыкой, оркестрами, праздничными упряжками.
+                                Шествие транслируется в
+                                прямом эфире. Всю процессию традиционно возглавляет Münchner Kindl , Мюнхенский Ребенок,
+                                символ города Мюнхена. 7
+                                километров шествия, более 40 упряжек и карет, праздничные повозки пивных палаток,
+                                стрелковые сообщества, официальные
+                                лица Баварии, участники, приехавшие не только со всех уголков Германии, но и гости из
+                                разных европейских стран. Все
+                                наряжены в свои неповторимые исторические костюмы и сопровождаются своими оркестрами.
+                                Это поистине незабываемое
+                                зрелище!
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-parade-trachten-und-schutzenzug-ru.html"
+                                    class="primary-btn ">Далее>></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/Trachten-Schützenzug1-300x162.png" alt=""
+                                class="w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top">
+                                Шествие хозяев пивных павильонов Wiesn-Einzug der Festwirte und Brauereien
+
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Традиционное шествие хозяев пивных палаток <strong>Wiesn-Einzug
+                                    der Festwirte und Brauereien</strong> с 1887 года является началом празднования
+                                Октоберфеста, неотъемлимой
+                                частью церемонии открытия, кульминацией которой, является ритуал открытия первой бочки
+                                пива Мэром Мюнхена в
+                                павильоне “Schottenhamel”, легендарного “ O´zapft is!” («Откупорено!»).<br>
+                                В 10.45 хозяева пивных павильонов начинают свое парадное шествие с Josephspitalstraße.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="wiesn-einzug-der-festwirte-und-brauereien-parade-ru.html"
+                                    class="primary-btn ">Далее>></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/Wiesn-Einzug-der-Festwirte-und-Brauereien-300x300.png" alt=""
+                                class="mt-3  w-100 border-primary mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-purple  mb-0 pb-0 border-purple-top">
+                                Парк аттракционов Октоберфеста
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 order-2">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Октоберфест знаменит не только мюнхенским пивом, вкуснейшей кухней, национальными
+                                костюмами и традиционной музыкой, но и своим <strong>Луна-парком</strong>, в котором
+                                собраны аттракционы на любой вкус. Некоторым из них уже более сотни лет, другие были
+                                монтированы совсем недавно. Здесь все найдут себе развлечения по вкусу, и любители
+                                высоты, и любители скорости, и семьи, и даже самые маленькие посетители.&nbsp; Парк
+                                аттракционов работает ежедневно с 10-ти утра и до 12-ти ночи. &nbsp;Многие посетители
+                                Луна-парка совсем не являются любителями пива и приходят сюда только ради
+                                <strong>удивительных и разнообразных аттракционов</strong>. Единственный совет, который
+                                хотелось бы дать: катайтесь, сколько хотите и на чем хотите, но до того, как выпьете
+                                хотя бы один бокал пива!
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-luna-park.html" class="purple-btn ">Далее>></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-10 mx-auto order-3">
+                            <img src="../assets/images/ebxbr7.jpg" alt="" class="img-fluid border-purple mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row p-0 ">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                                Большие павильоны Октоберфеста
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                                Отличительной чертой и основной характеристикой Октоберфеста являются большие пивные павильоны 6-ти исторических пивоварен Мюнхена!  Все 14 павильонов отличаются друг от друга своей особенной атмосферой, вкуснейшими кулинарными изысками и, конечно же, разливаемым пивом, благодаря чему, выбор павильона, в котором вы соберетесь провести день, может быть весьма затруднительным! Каждый из них имеет свою историю, свой неповторимый стиль и направлен на своего посетителя. Являясь на протяжении веков основой этого праздника, именно... 
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ARMBRUSTSCHÜTZENZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Павильон Armbrustschützenzelt насчитывает около 7.500 сидячих мест и является
+                                            одним из излюбленных павильонов баварцев. Впервые павильон открылся для
+                                            посетителей Октоберфеста в 1895 году.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="armbrustschutzenzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AUGUSTINER-BRÄU</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            8.500 сидячих мест.
+
+                                        Многие считают эту палатку лучшей из всех, что представлены на Октоберфесте.
+                                        Отличительными чертами этого павильона являются приветливые и доброжелательные
+                                        официантки, согласитесь, что такое явление встречается не часто на...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="augustiner-brau-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BRÄUROSL / PSCHORRBRÄU-FESTHALLE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Этот павильон насчитывает около 8.400 сидячих мест, после последнего расширения
+                                            палатки в 2010году.
+    
+                                            С 1963 года, уже 7 поколений подряд, этим павильоном управляет семья Heide.
+                                            Название павильона происходит от имени дочери...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="braurosl-pschorrbrau-festhalle-ru.html" class="orange-btn ">Далее>>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FISCHER-VRONI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Fischer-Vroni – одна из самых маленьких палаток из 14 больших павильонов
+                                            Октоберфеста. Сидячих мест насчитывается около 3.800.
+    
+                                            В названии данной палатки зашифрована ее особенность. Именно здесь подаются
+                                            вкуснейшие рыбные блюда, местные...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="fischer-vroni-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HACKER FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Павильон Hacker насчитывает 9.300 сидячих мест. С 2004 года потолок палатки
+                                        расписан облаками и звездами, в память об известной истории про Алоизио, жителя
+                                        Мюнхена, который умерев, попадает в Рай, на...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hacker-festzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel-image-div">
+                                    <img src="../assets/images/l6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HIPPODROM</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            The Hippodrom accounts for around 4,200 seats, and so is a relatively small
+                                            tent but is famous for its special atmosphere. Its fame is due to the fact
+                                            that it is said to be the tent where the greatest number of “flirts” occur
+                                            in the whole of the Wiesn, especially in the beautiful “champagne bar”.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hippodrom-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOFBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Hofbräu является второй по величине палаткой на Октоберфесте. Насчитывает в
+                                            общем 9.992 сидячих места. Ежегодно, для установки этой палатки требуется около
+                                            трех месяцев. Это единственный павильон, где есть специально отведенная зона,...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hofbrau-festzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KÄFER’S WIESN-SCHÄNKE</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Одна из самых маленьких палаток, насчитывает всего 3.000 сидячих мест.
+                                        Излюбленное место для тех, кто не любит многолюдные и шумные места.
+
+                                        На Лугу Терезы появилась в 1971году. Палатка выполнена в стиле...
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kafers-wiesn-schanke-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l9.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>LÖWENBRÄU-FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Насчитывая около 9.500 сидячих мест, он является одним из самых больших
+                                            павильонов Октоберфеста.
+    
+                                            Эта палатка видна со всех сторон Wiesn, благодаря своей башне, высотой 37
+                                            метров. Но основной отличительной чертой является...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="lowenbrau-festzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>OCHSENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                       Павильон площадью 4.200 метров квадратных и насчитывает 7.600 сидячих мест.
+
+                                        Отличительной чертой павильона является, приготовленное множеством разных
+                                        способов, мясо быка. Как подтверждение тому, прямо над главным входом , вы
+                                        увидите муляж...
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ochsenbraterei-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHOTTENHAMEL FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Schottenhamel насчитывает 9.000 сидячих мест, учитывая так же места в
+                                        Biergarten. Именно здесь проводится традиционная церемония открытия “O’zapft
+                                        is!”, и здесь каждый год официально стартует Октоберфест.
+
+                                        Отличительная черта: наряды официанток. Одеты...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schottenhamel-festzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHÜTZEN FESTZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Павильон насчитывает около 5.400 сидячих мест, благодаря Biergarten,
+                                            пристроенного в 2006 году. Одна из самых первых палаток, появившихся на лугу
+                                            Wiesn, но современная палатка была построена в 2004 году, сохранив...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schutzen-festzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WEINZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            несмотря на относительно небольшое количество сидячих мест – 2.500, многие
+                                            считают ее самой красивой палаткой Октоберфеста.
+    
+                                            В отличии от других павильонов, здесь подается вино (более 15 различных сортов)
+                                            и шампанское. Для...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="weinzelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/l17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WINZERER FÄHNDL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Это самый большой павильон Октоберфеста с 10.900 сидячими местами (8.450 –
+                                            внутри павильона!), к тому же это место встречи болельщиков и фанатов
+                                            мюнхенского футбольного клуба Bayern. Название павильона появилось во...
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="winzerer-fahndl-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="large-tents-oktoberfest-ru.html" class="orange2-btn mt-2 py-3 px-5">Далее>></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0">
+                        <div class="col-lg-12  mt-5">
+                            <h2 class="heading-secondry heading-orange  mb-0 pb-0 border-orange-top">
+                                Маленькие павильоны Октоберфеста
+                            </h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="text text-justify allipsis-multiple-6 mt-3">
+                               
+			На Октоберфесте помимо 14 больших павильонов, представлен так же 21 малый павильон, меньших размеров. Внося еще большее разнообразие в богатство выбора, малые павильоны, благодаря неповторимой атмосфере, царящей внутри, позволят вам так же прочувствовать настоящую самобытную атмосферу Октоберфеста. Некоторые из них, присутствуя на Лугу Терезы на протяжении веков, представляют собой целый отрезок истории праздника. В других малых павильонах вы сможете провести день в спокойной и по-домашнему уютной обстановке, в третьих же, напротив, вы окунетесь в водоворот «альтернативной» молодежной среды. В «маленьких» павильонах число сидячих мест колеблется от 60 до 900, разливается то же пиво, что и в больших павильонах, но в отдельных малых палатках вы так же сможете отведать экзотические коктейли, или заказать чай,... 
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-12 mt-3">
+                            <div class="owl-carousel owl-carousel-tent">
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s1.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>AMMER HÜHNER & ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта палатка насчитывает около 900 сидячих мест и участвует на празднике Wiesn с
+                                            1885года.
+    
+    
+    
+                                            Отличительной чертой данной палатки является...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="ammer-huhner-entenbraterei-ru.html" class="orange-btn ">Далее>>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s2.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BODO’S CAFEZELT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Палатка насчитывает 450 сидячих мест и очень отличается от всех других.
+                                            Это павильон знаменит своими искусно приготовленными сладостями, вкус которых
+                                            просто бесподобен!
+    
+                                            ...
+    
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="bodos-cafezelt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s3.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>BURTSCHERS BRATWURSTHÜTT’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта палатка насчитывает около 900 сидячих мест и участвует на празднике Wiesn с
+                                            1885года.
+                                            Отличительной чертой данной палатки является...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="burtschers-bratwursthuttn-ru.html" class="orange-btn ">Далее>>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s4.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ KAISERSCHMARRN</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Здесь насчитывают около 400 сидячих мест. Владельцем мини-павильона является
+                                        одна из самых известных кондитерских Мюнхена – Rischart, выполнен он в виде
+                                        сказочного замка.
+
+                                        ...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-kaiserschmarrn-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s5.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>CAFÉ MOHRENKOPF</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта палатка представлена на Октоберфесте с 1950 года, и это еще один
+                                            мини-павильон, в котором не подают пиво.
+    
+    
+    
+                                            Знаменит своими сладостями,...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="cafe-mohrenkopf-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s6.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>FEISINGER’S KAS UND WEINSTUB’N</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта палатка насчитывает всего 180 мест, включая места снаружи. Представлена на
+                                            празднике с 1978 года.
+                                            Особенность этой палатки – блюда на основе сыров. Здесь сыр является культом.
+                                            Подается....
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="feisingers-kas-und-weinstubn-ru.html" class="orange-btn ">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s7.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>GLÖCKLE WIRT</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Этот мини-павильон насчитывает 140 внутренних сидячих мест.
+
+                                            Здесь предлагается огромный выбор первоклассных блюд баварской кухни. Внутри вы
+                                            найдете неповторимую обстановку и окунетесь в приятную атмосферу тепла и
+                                            уюта....
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="glockle-wirt-ru.html" class="orange-btn ">Далее>></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s8.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEIMER HENDL-UND ENTENBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта маленькая палатка насчитывает 400 сидячих мест и является очень популярной
+                                            среди горожан Мюнхена, внутри царит традиционная праздничная атмосфера.
+    
+    
+    
+                                            Здесь...
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heimer-hendl-und-entenbraterei-ru.html" class="orange-btn ">Далее>>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/ss.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HEINZ WURST-UND HÜHNERBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            Эта палатка насчитывает около 366 сидячих мест и представлена на Октоберфесте с
+                                        1906 года.
+
+
+
+                                        Находится на семейном подряде и...
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="heinz-wurst-und-huhnerbraterei-ru.html" class="orange-btn ">Далее>>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel-image-div">
+                                    <img src="../assets/images/s10.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>HOCHREITERS HAXNBRATEREI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            There are 250 seats here. A particular eye on the quality in this tent,
+                                            where it is said that here, the best haxenbraterei of the Oktoberfest is
+                                            prepared.
+
+
+
+                                            Vegetarian dishes are also available, accompanied by Löwenbräu and
+                                            Franziskaner beer in a relaxed environment.
+
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="hochreiters-haxnbraterei-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s11.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>KALBS-KUCHL</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This small tent was introduced to the Wiesn in 2008 and has 300 seats.
+                                            It is similar to a large Bavarian cabin and the interior is decorated in
+                                            great detail and can generate a lively atmosphere much appreciated by
+                                            visitors to the Oktoberfest.
+
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="kalbs-kuchl-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s12.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>MÜNCHNER KNÖDELEI</h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This tent offers its visitors 390 seats of which 300 are indoor.
+                                            The dumpling is a true icon of Bavarian cuisine, it is the motto of this
+                                            tent, and indeed, “preserving and spreading the culture of the dumpling”.
+                                            There are over 50 varieties of delicious dumplings available on the Münchner
+                                            Knödelei menu, among which are the spicy dumpling with mushrooms, the
+                                            dumpling with spinach, the sweet dumpling with banana.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="munchner-knodelei-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s13.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>POSCHNERS HÜHNER-UND ENTENBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This tent only has seating inside for 350.
+                                            The original family recipe makes the roast duck and chicken one of the
+                                            reasons to visit this tent.
+
+
+                                            Particular care is taken with the cuisine, excellent quality with a menu
+                                            offering a wide selection of quality Bavarian produce in a very welcoming
+                                            environment.
+                                            Hacker-Pschorr is the brewery of choice.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="poschners-huhner-und-entenbraterei-ru.html"
+                                                class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s14.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>SCHIEBL’S KAFFEEHAFERL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            It is one of the smaller tents with its 100 seats which subsequently make it
+                                            especially suited to families.
+
+                                            Don’t miss its Irish coffee, but also the apple pancakes, the strudel and
+                                            different varieties of cakes and pastries, as well as various liqueurs and
+                                            fine wines.
+                                            No beer is served in this tent and it is an oasis of peace as there is no
+                                            music.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="schiebls-kaffeehaferl-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s16.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>VINZENZMURR METZGER STUBN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            The Vinzenzmurr in 2012 ,celebrated its 110 years at the Oktoberfest and is
+                                            therefore one of the older tents at the Theresienwiese. It has a total of
+                                            130 seats.
+
+
+                                            Its exclusive atmosphere, traditional Bavarian live music, and its
+                                            exceptional cuisine make it one of the best places in which to enjoy your
+                                            day at the Oktoberfest. Its atmosphere and décor make it special. Don’t miss
+                                            the Schweinsbratwürstel. Paulaner is the beer served. A piece of Oktoberfest
+                                            history. Absolutely recommended.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="vinzenmurr-metzger-stubn-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s17.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIESN GUGLHUPF CAFÉ
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            With its 60 seats it is the smallest tent at the Wiesn.
+                                            It’s hard to miss as this tent is in the shape of a Guglhupf, i.e. a German
+                                            cake.
+
+                                            It is a kind of rotating bar-ride, which, thanks to a rotation of 360°,
+                                            offers a complete view of the Oktoberfest. Of course the Guglhupf is the
+                                            speciality of the house, served in dozens of varieties, both sweet and
+                                            salty, including the classic with poppy seeds or filled with walnuts and
+                                            variations with plum, courgettes, beer, olives and spiced tomato, or filled
+                                            with salmon. There are also breakfast dishes available, chocolate, coffee,
+                                            hot tea, apple strudel, but also wine and liquors, soft drinks and
+                                            savouries.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wiesn-guglhupf-cafe-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s18.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDMOSER HÜHNERBRATEREI
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This tent has 320 seats, all inside, the property of the Wildmoser family
+                                            and at the Oktoberfest since 1981.
+                                            It is very popular with the people of Munich. Particular attention is paid
+                                            to the ambience, with special grills with very efficient combustion for
+                                            cooking the mainly chicken based menu, with a really special taste.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildmoser-huhnerbraterei-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s19.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WILDSTUBEN
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            La Wildstuben has 271 seats.
+                                            Inside a setting evoking nature and hunting is found, with a rich series of
+                                            decorative furnishings in wood.
+
+
+                                            Of course, the speciality is wild game, such as rabbit, wild boar and deer,
+                                            in addition to the usual Bavarian dishes such as pork and beef, and some
+                                            vegetarian dishes … all however watered down by a great Augustiner beer.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wildstuben-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s20.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>WIRTSHAUS IM SCHICHTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This tent has been at the Oktoberfest since 1869 and represents a piece of
+                                            Oktoberfest history and part of the age-old tradition of the Wiesn.
+                                            “Decapitations” are the order of the day in this tent!
+                                            Indeed 25 performances of mock decapitations are carried out every day,
+                                            amounting to about 400 during the 16 days of the festival.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="wirtshaus-im-schichtl-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s21.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUM STIFTL
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            The Zum Stiftl has 360 seats inside and is famous for its duck, cooked in
+                                            the traditional way and for its roast chicken too.
+                                            It has a cosmopolitan turnout with guests from every part of the world that
+                                            meet here with a welcoming atmosphere particularly suited to families, also
+                                            with its children’s menu and a variety of vegetarian dishes.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zum-stiftl-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-image-div">
+                                    <img src="../assets/images/s22.jpeg" alt="" class="img-fluid carousel-image">
+                                    <div class="carousel-image-content">
+                                        <h1>ZUR BRATWURST
+                                        </h1>
+                                        <p class="allipsis-multiple-4 text-justify mb-0 pb-0">
+                                            This tent just made its début at the Wiesn in 2007 with its 160 seats,
+                                            keeping, thanks to the Hochreiter family, the tradition of
+                                            “Bratwurstglöckl”, restoring life to a place that lovers of the Oktoberfest
+                                            appreciate due to its rustic intimacy.
+                                        </p>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <a href="zur-bratwurst-ru.html" class="orange-btn ">Далее</a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-center">
+                                <a href="small-oktoberfest-tents-ru.html" class="orange2-btn mt-2 py-3 px-5">Далее>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 mx-auto">
+
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="mb-0 pb-0 w-100 text-center ">ОТЕЛИ <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Отели Октоберфест</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-IN</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">CHECK-OUT</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label f-14 w-500"
+                                                            for="flexCheckDefault">
+                                                            Без определенных дат
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Подобрать отель</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        ЛУЧШАЯ ГАРАНТИРОВАННАЯ ЦЕНА
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/hotel-munich.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                    <p class="mb-0 pb-0 w-100 text-center ">АВИАБИЛЕТЫ<i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Авиарейсы в Мюнхен</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Из</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">В</label>
+                                                        <input type="text" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Туда</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Обратно</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label for="exampleFormControlInput1"
+                                                        class="form-label mb-0 pb-0">Взрослые</label>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="">4</option>
+                                                        <option value="">5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Поиск авиарейсов</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        ЛУЧШАЯ ГАРАНТИРОВАННАЯ ЦЕНА
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/munich-flights.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                    <p class="mb-0 pb-0 w-100 text-center ">Поиск авиарейсов <i
+                                            class="mb-2 f-18 text-white bi bi-caret-down-fill"></i></p>
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0 m-0">
+                                    <h1 class="pt-2">Октоберфест путешествия
+</h1>
+                                    <form action="">
+                                        <div class="container">
+                                            <div class="row">
+
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Туда</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label mb-0 pb-0">Обратно</label>
+                                                        <input type="date" class="form-control f-14"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="name@example.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label f-14 w-500"
+                                                            for="flexCheckDefault">
+                                                            Без определенных дат
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <a href="" class="hotel-btn"><i class="bi bi-search"></i> Поиск автобусов</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 mt-2">
+                                                    <h2>
+                                                        ЛУЧШАЯ ГАРАНТИРОВАННАЯ ЦЕНА
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <img src="../assets/images/bus3.png" alt="" class="h-100 w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div style="margin: 3px 0px;" class="mt-3"><iframe class="video"
+                            src="//web.archive.org/web/20221203060605if_/https://www.youtube.com/embed/MyHeqpzNZlI"
+                            frameborder="0" allowfullscreen="" title="Oktoberfest Video"></iframe></div>
+
+
+                    <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Опрос
+
+                    </h2>
+                    <p class="text">
+                        Какая ваша любимая большая палатка Октоберфеста? Чтобы проголосовать, просто выберите тот, который вы предпочитаете!
+                    </p>
+                    <ul class="vote-list">
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HOFBRAÜ-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    40%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    AUGUSTINER-BRÄU
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:21%">
+                                    21%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PAULANER / WINZERER FÄHNDL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:16%">
+                                    16%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    LÖWENBRÄU-FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:11%">
+                                    11%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHOTTENHAMEL FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    4%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    PSCHORRBRÄU-FESTHALLE / BRÄUROSL
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    FISCHER-VRONI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    3%
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    SCHÜTZEN FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    ARMBRUSTSCHÜTZENZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HIPPODROM
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    OCHSENBRATEREI
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    HACKER FESTZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    WEINZELT
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                                    2%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label f-16 w-600" for="flexRadioDefault1">
+                                    KÄFER‘S WIESN-SCHÄNKE
+                                </label>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                                    1%
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="f-18 w-600">Всего голосов: 335</p>
+                    </div>
+
+                    <h2 class="heading-secondry heading-primary  mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Информация
+                    </h2>
+                    <div class="info-card">
+                        <div id="columnchart_material" style="width: 100%; height: 370px;"></div>
+
+                        <p class="text text-justify">
+                           Хотите пойти на Октоберфест, но не знаете, в какие дни будет больше посетителей или когда будет легче найти место для сидения в зале? Здесь вы найдете ожидаемую посещаемость в каждый из дней Октоберфеста.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-2 mb-2">
+                        Oktobers News
+                    </h2>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/Visitors-at-the-176th-Okt-001-205x120 (1).jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">Любопытные факты, которые вам возможно неизвестны…</h2>
+                            <i>20/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Осенью, с конца сентября и по 7 октября, место встречи всех любителей пива неизменно –
+                                это...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="algumas-curiosidades-que-talvez-voces-nao-saibam.html" class="red-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/after-oktoberfest-party-ballo-300x199.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1">«Das “Wiesnzelt” am Stiglmaierplatz» – Вечеринка во время
+                                празднования Октоберфест в Мюнхене!</h2>
+                            <i>19/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Для всех, кто не успел заказать место или просто хочет праздновать без ограничения во
+                                времени, прекрасной...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="das-wiesnzelt-am-stiglmaierplatz-a-party-na-oktoberfest-em-munique.html"
+                                    class="red-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <img src="../assets/images/septemberfest.jpg" alt="img-missing" class="">
+                        <div class="news-card-text">
+                            <h2 class="ellipsis-1"> Почему же Октоберфест, а не СЕПТЕМБЕРфест?</h2>
+                            <i>13/08/2014</i>
+                            <p class="mb-0 pb-0 ellipsis-2">
+
+                                Из названия праздника можно подумать, что самый знаменитый пивной праздник-фестиваль
+                                проводится в октябре. Но это не...
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="why-not-septermberfest.html" class="red-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-12">
+                    <h2 class="heading-secondry heading-red  mb-0 pb-0 border-red-top mt-3 mb-2">
+                        Oktobers News
+                    </h2>
+                    <div class="owl-carousel owl-carousel-news">
+                        <div>
+                            <div class="news-card">
+                               <img src="../assets/images/n1.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="fake-cocaine-prohibited-at-the-oktoberfest-ru.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n2.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n3.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n4.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n1.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n2.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n3.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="news-card">
+                               <img src="../assets/images/n4.jpg" alt="img-missing" class="">
+                                <div class="news-card-text">
+                                    <h2>Fake cocaine prohibited at the Oktoberfest Lorem ipsum dolor sit amet.</h2>
+                                    <i>18/07/2013</i>
+                                    <p class="mb-0 pb-0 allipsis-multiple-4">
+                                        It was the businessman Wolfgang StanekGli’s idea to distribute his ‘Wiesn
+                                        Cocaine’ at the Oktoberfest, selling
+                                    </p>
+                                    <div class="mt-3 d-flex justify-content-end">
+                                        <a href="news-details.html" class="red-btn ">Далее</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Пиво Октоберфеста
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/beer.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-beer-ru.html" class="primary-btn">
+                                Далее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Часто задаваемые вопросы
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/faq.png" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="faq-oktoberfest-ru.html" class="primary-btn">
+                                Далее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        История Октоберфеста
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/history.jpg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="history-oktoberfest-ru.html" class="primary-btn">
+                                Далее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h2 class="heading-secondry heading-primary ellipsis-1 mb-0 pb-0 border-primary-top mt-3 mb-2">
+                        Наши советы
+                    </h2>
+                    <div class="details-card">
+                        <img src="../assets/images/ad.jpeg" alt="" class="img-fluid">
+                        <div class="details-card-content">
+                            <a href="oktoberfest-advice-ru.html" class="primary-btn">
+                                Далее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry heading-purple border-purple-top">
+                        Отели на Октоберфест
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/download.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Здесь вы можете ознакомиться с подборкой лучших отелей и хостелов вблизи Theresienwiese,
+                                в которых вы можете разместиться в течение Октоберфеста.
+                                Theresienwiese ( Луг Терезы) находится неподалеку от исторического центра Мюнхена,
+                                поэтому отыскать недорогой отель в непосредственной близости от Октоберфеста довольно
+                                сложно, в особенности, в выходные дни, так как количества посетителей огромно.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="hotel-oktoberfest-ru.html" class="purple-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry heading-purple border-purple-top">
+                        Как добраться до Октоберфеста
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/get.jpeg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Октоберфест празднуется на Лугу Терезы Theresienwiese , который располагается недалеко
+                                от центра Мюнхена, отлично снабженного городским транспортом.
+                                Воспользовавшись метро, вы сможете добраться до станции «Theresienwiese» или близлежащей
+                                станции «Schwanthalerhöhe» , которые находятся на линиях U4 и U5. Подойдут так же
+                                станции Poccistrasse и Goetheplatz на линиях U3 и U6.
+                                Так же очень удобно использовать S-Bahn, пригородные электрички, на линиях S1 и S8,
+                                находится нужная нам станция “Hackerbrücke”. В выходные дни, в период празднования
+                                Октоберфеста, линии U-Bahn работают до 2 часов ночи. Последняя электричка по линии S1
+                                отправляется в 2.10,а по линии S8 в 2.40.
+                                Важно решить, как вы будете добираться до Октоберфеста, ведь от этого зависит, насколько
+                                полно вы сможете насладиться вашим путешествием. Выбор зависит от таких факторов как
+                                комфортабельность, бюджет и время, которым вы располагаете. Ниже вы сможете ознакомиться
+                                с нашими предложениями. Автобус, самолет, поезд, автомобиль или кемпер, выбирайте то,
+                                что удобно и подходит именно для вас.
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="come-arrivare-oktoberfest-ru.html" class="purple-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-7 mx-auto col-12 mt-4">
+                    <h2 class="heading-secondry heading-purple border-purple-top">
+                        Костюмы Октоберфеста
+
+                    </h2>
+                    <div class="content-card">
+                        <img src="../assets/images/costumi-okt.jpg" alt="img-missing" class="">
+                        <div class="content-card-text">
+                            <p class="mb-0 pb-0 allipsis-multiple-6">
+                                Это традиционный баварский костюм, имеющий свой собственный неповторимый стиль, своего
+                                рода линия одежды, которая носит название Landhausmode. Вдохновением, к созданию этого
+                                наряда, послужила одежда деревенских жителей: крестьян и фермеров. В прошлом, качество
+                                ткани, материалов и украшений этой одежды говорило о социальном статусе того, кто эту
+                                одежду носил. Сегодня эти костюмы по-прежнему пользуются популярностью у баварцев.
+                                Некоторые одевают их на свадьбу. Ниже вы найдете описание двух вариантов национальной
+                                одежды. Мужской костюм с неизменной классической рубахой и кожаными штанами Lederhosen и
+                                женский костюм Dirndl (дирндл).
+
+
+                            </p>
+                            <div class="mt-3 d-flex justify-content-end">
+                                <a href="oktoberfest-costumes-ru.html" class="purple-btn ">Далее</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer mt-4">
+        <p class="text text-white mb-0 pb-0">@ Copy Right 2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/lang.js"></script>
+
+</body>
+
+</html>
