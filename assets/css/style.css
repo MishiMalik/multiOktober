@@ -1023,6 +1023,10 @@ a.gflag {
 .border-ornage {
   border: 3px solid #ef5b2f !important; }
 
+.modal-dialog-iframe {
+  max-width: 90%;
+  min-height: 500px; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
