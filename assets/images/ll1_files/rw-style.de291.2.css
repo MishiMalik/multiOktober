@@ -1,0 +1,3222 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, uby, section, summary,time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #444;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+div.cf {clear: both; float: none!important;}
+strong {font-weight: 700}
+input[type=submit],
+input[type=reset],
+input[type=button]
+{
+       filter:chroma(color=#000000);
+}
+
+
+/* TEST CSS ---------------------------------- */
+
+#currencies,
+#languages,
+#mybooking,
+#forgotten-box {
+    display: none;
+}
+
+/* TEST CSS ---------------------------------- */
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.750em;
+    font-weight: 700;
+    color: #7EA107;
+    padding: 20px 0 4px;
+}
+
+h2 {
+    font-size: 1.750em;
+    font-weight: 700;
+    padding: 10px;
+    text-shadow: 1px 1px 0 #fdf7e3;
+}
+
+h3 {
+    font-size:1.625em;
+    color: #7EA107;
+    font-weight: 700;
+    padding: 0 0 14px;
+}
+
+h3 span {
+    font-weight: 300;
+    color: #444;
+}
+
+h4 {
+    font-size: 1.250em;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+
+h5 {
+    font-size:1.125em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 #fff;
+    padding: 5px 0;
+    color: #666;
+}
+
+h6 {
+    font-size: 0.875em;
+    font-weight: 700;
+    padding: 0 0 3px;
+}
+
+a {
+    color: #0064c8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER    */
+
+#header {
+    background: #eee; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f9f9f9 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #f9f9f9 0%, #eeeeee 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #f9f9f9 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #f9f9f9 0%,#eeeeee 100%); /* IE10+ */
+    background:         linear-gradient(top, #f9f9f9 0%,#eeeeee 100%); /* W3C */
+    border-top: 4px solid #1b65a4;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0 0;
+}
+
+#logo {
+    display: block;
+    height:58px; 
+    width:311px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -5px -128px no-repeat transparent;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.logo {
+    display: block;
+    height:58px; 
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#header form {
+    background: none;
+    border-radius: 0;
+    overflow: visible;
+}
+
+/* OPTIONS    */
+
+#options {
+    float: right;
+    padding: 10px 0 0 0;
+
+}
+
+#currency-container,
+#language-container,
+#booking-container {
+    position: relative;
+    height: 30px;
+    float: left;
+}
+
+
+.opt-btn {
+    float: left;
+    display: block;
+    margin: 0 0 0 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #499ce4;
+    font-size: 0.875em;
+    box-shadow: 1px 1px 1px #d1d1d1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opt-icon,
+.opt-label,
+.opt-arrow {
+    display: block;
+    float: left;
+} 
+
+.opt-icon { 
+    padding: 0;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #5a96ca;
+    
+    background: #2567a7; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#509ad9), color-stop(100%,#1c66a5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #509ad9 0%,#1c66a5 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #509ad9 0%, #1c66a5 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #509ad9 0%,#1c66a5 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #509ad9 0%,#1c66a5 100%); /* IE10+ */
+    background:         linear-gradient(top, #509ad9 0%,#1c66a5 100%); /* W3C */
+}
+
+.opt-icon span {
+    display: block;
+    height: 30px;
+    width: 44px;
+    border: none;
+}
+
+em#language span {
+    height: 24px;
+    width: 24px;
+    margin: 3px 10px;
+    background-image: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-flags.png');
+    background-repeat: no-repeat;
+}
+
+em#currency span {
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -374px -78px no-repeat transparent;
+}
+
+em#booking span {
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -428px -78px no-repeat transparent;
+}
+
+.opt-label {
+    background: #4a9ce4; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9acdfb), color-stop(100%,#499ce4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #9acdfb 0%, #499ce4 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* IE10+ */
+    background:         linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* W3C */
+    
+    font-weight: 300;
+    padding: 8px 5px;
+    border-left: 1px solid #9abfdf;
+    border-right: 1px solid #59a7eb;
+}
+
+.opt-arrow {
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #9abfdf;
+    background: #4a9ce4;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9acdfb), color-stop(100%,#499ce4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #9acdfb 0%, #499ce4 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* IE10+ */
+    background:         linear-gradient(top, #9acdfb 0%,#499ce4 100%); /* W3C */
+}
+
+.opt-arrow span {
+    display: block;
+    height: 30px;
+    width: 26px;
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -485px -79px no-repeat transparent;
+}
+
+/* OPTIONS DROP DOWNS     */
+
+.dropdown {
+    top: 35px;
+    width: 214px;
+    position: absolute;
+    background: #fff;
+    border: 2px solid #5A96CA;
+    border-radius: 5px;
+
+}
+
+.dropdown p {
+    font-size: 0.750em;
+    font-weight: 700;
+    color: #666;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown ul {
+    padding: 5px;
+}
+
+.dropdown ul li a {
+    display: block;
+    font-size: 0.750em;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown ul li a span {
+    display: inline-block;
+    width: 34px;
+}
+
+.dropdown ul li a:hover {
+    background-color: #94c2fa;
+    border-radius: 5px;
+}
+
+.dropscroll {
+    height: 200px;
+    overflow-y: scroll;
+    margin: 5px;
+}
+
+#currencies,
+#languages{
+    left: 10px;
+}
+
+#mybooking {
+    left: -53px;
+}
+
+#languages ul li a {
+    display: block;
+    height: 25px;
+    width: 153px;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+#languages ul li a span {
+    background-image: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-flags.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 24px;
+    width: 24px;
+    float: left;
+}
+
+#languages ul li a em {
+    float: left;
+    padding: 7px 0 0 10px;
+}
+
+#mybooking .dropscroll {
+    overflow: hidden;
+    height: auto;
+    padding: 0 0 10px;
+}
+
+#mybooking p {
+    border: none;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#mybooking a {
+    font-size: 0.750em; 
+    width: 109px;
+    float: left;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+#mybooking input {
+    width: 190px;
+    margin: 0 0 8px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+a#mybookinglogin {
+    float: right;
+    background: #95b966;
+    border: 1px solid #688a33;
+    border-radius: 5px;
+    width: 88px;
+    padding: 0;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 2em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #688a33;
+}
+
+#forgotten-box {
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    
+    background: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 25px;
+    z-index: 100;
+}
+
+#forgotten-box * {
+    clear: both;
+}
+
+#forgotten-box > a {
+    float: right;
+    font-size: 0.688em;
+    margin: -10px 0 0;
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') 0 -367px no-repeat;
+    padding: 0 0 0 15px;
+}
+
+#forgotten-box p {
+    line-height: 1.5;
+    padding: 5px 0 10px;
+}
+
+#forgotten-box label {
+    display: block;
+    width: 100%;
+    padding: 0 0 7px;
+    font-weight: 700;
+}
+
+#forgotten-box input{
+    width: 340px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#forgotten-box input#forgotSubmit {
+    display: block;
+    height:38px;
+    width:122px;
+    margin: 10px auto;
+    
+    background: #8db35b; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2c375), color-stop(100%,#749e3a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #a2c375 0%, #749e3a 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* IE10+ */
+    background:         linear-gradient(top, #a2c375 0%,#749e3a 100%); /* W3C */
+    
+    border-radius: 5px;
+    border: 1px solid  #688a34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 0 #688a34;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 2px #9b8128;
+    cursor: pointer;
+}
+
+#not-found h5 {
+    color: red;
+}
+
+/* NAV BAR     */
+
+#nav {
+    background: #f5f5f5;
+    border-top: 1px solid #fff;
+    box-shadow: 0 2px 2px #c6c6c6;
+}
+
+#nav .container {
+    overflow: hidden;
+}
+
+#nav p {
+    font-size: 0.875em;
+    text-shadow: 1px 1px 0 #fff;
+    padding: 12px 0 0 0;
+    float: left;
+    height: 27px;
+}
+
+#nav p span {
+    float: left;
+}
+
+#nav img {
+    margin: 6px 0 0 5px;
+    float: left;
+}
+
+#nav ul {
+    float: right;
+    font-size: 0.750em;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 14px;
+    margin: -1px 0 0 0;
+    text-decoration: none;
+    color: #000;
+}
+
+#nav ul li a:hover {
+    background: #e6e6e6;
+}
+
+
+/* FEATURE     */
+
+.feature {
+    height: 195px;
+    padding: 13px 0 0 0;
+}
+
+.feature #feature-top {
+    clear: both;
+    height: 36px;
+}
+
+.feature #feature-top a {
+    font-size: 0.750em;
+    color: #000;
+    float: left;
+    padding: 0;
+}
+
+.feature #feature-top a#reviewcentre {
+    font-size: 1em;
+    text-decoration: none;
+    float: right;
+}
+
+.feature h1 {
+    float: left;
+    padding: 0 0 10px 0;
+    clear: both;
+    width: 806px;
+}
+
+.feature p {
+    font-weight: 700;
+    width: 550px;
+    color: #444;
+    line-height: 1.25em;
+    clear: left;
+}
+
+#defaultfeature {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/home-feature.jpg') 100% 100% no-repeat;
+}
+
+#airportfeature {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/home-feature-landing-air.png') 100% 100% no-repeat;
+}
+
+#cityfeature {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/home-feature-landing-city.png') 100% 100% no-repeat;
+}
+
+#countryfeature {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/home-feature-landing.png') 100% 50% no-repeat;
+}
+
+/* REVIEW CENTRE     */
+
+#reviewcentre {
+    font-weight: 700;
+    float: right;
+    margin: -8px 0;
+    height: 40px;
+    display: inline;
+}
+
+#reviewcentre em, #reviewcentre span {
+    display: inline-block;
+    margin: 0 0 -13px;
+    /* friendly image replacement */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#reviewcentre em {
+    width:40px;
+    padding: 13px 0;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -379px -118px no-repeat;
+}
+
+#reviewcentre span {
+    width:113px;
+    padding: 4px 0 10px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -423px -122px no-repeat;
+}
+
+
+/* CONTENT     */
+#content-left, #content-right {
+    float: left;
+    padding: 0;
+}
+
+#content-left > div, 
+#content-right > div {
+    margin: 15px 0;
+}
+
+#content-left > div, 
+#content-right > div, 
+#content > div, 
+.container >div {
+    border-radius: 10px;
+}
+
+#content-left {
+    width: 41.4%;
+    margin: -90px 0 0 0;
+}
+
+#form, #modalform {
+    border: 10px solid #f8f8f8;
+    box-shadow: 0 1px 2px #bcbcbc;
+    color: #444;
+    border-radius: 10px;
+}
+
+#modalform {
+    width: 385px;
+    position: relative;
+}
+
+#modalform h3 {
+    color: #444;
+    border-bottom: 1px solid #f3be0c;
+    box-shadow: 0 1px 0 #fbdf83;
+    padding: 10px;
+    text-shadow: 1px 1px 0 #FDF7E3;
+}
+
+#modalform p {
+    padding: 10px;
+    font-size: 0.875em;
+}
+
+#modalform .closebtn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -154px -96px no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+form {
+    background: #f5d361; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5d361), color-stop(100%,#e7bf3b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5d361 0%,#e7bf3b 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #f5d361 0%, #e7bf3b 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #f5d361 0%,#e7bf3b 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #f5d361 0%,#e7bf3b 100%); /* IE10+ */
+    background:         linear-gradient(top, #f5d361 0%,#e7bf3b 100%); /* W3C */
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+form h2 {
+    border-bottom: 1px solid #f3be0c;
+    box-shadow: 0 1px 0 #fbdf83;
+}
+
+form fieldset {
+    clear: both;
+    padding: 10px 10px 0;
+}
+/*fts input */
+fieldset.location input {
+    width: 350px;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border-color: #8E8E8E #E1E1E1 #E1E1E1 #8E8E8E;
+    border-radius: 6px 6px 6px 6px;
+    border-style: solid;
+    border-width: 1px;
+}
+.formrow {
+    display: inline;
+    float: left;
+    padding: 6px 0 0 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+form label {
+    font-size: 0.813em;
+    font-weight: 700;
+    line-height: 1.846em;
+    display: inline;
+    float: left;
+    text-align: left;
+    width: 100px;
+    margin: 0;
+    padding: 2px;
+}
+
+form select {
+    float: left;
+    margin: 0;
+    width: 260px;
+    border-radius: 4px;
+    background: #FEFEFE;
+    border-color: #8E8E8E #E1E1E1 #E1E1E1 #8E8E8E;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 0.813em;
+    padding: 5px;
+}
+
+.checkbox {
+    float: left;
+    margin: 2px 4px 0 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+}
+
+#returnlocationrow {
+    padding: 5px 0 0 13px;
+    clear: left;
+}
+
+#nocityreturnlocationrow {
+    padding: 5px 0 0 13px;
+    clear: left;
+}
+
+#returnlocationrow label {
+    float: left;
+    margin: 0;
+    width: auto;
+    line-height: 13px;
+    font-weight: 300;
+    font-size: 0.688em;
+}
+
+
+#nocityreturnlocationrow label {
+    float: left;
+    margin: 0;
+    width: auto;
+    line-height: 13px;
+    font-weight: 300;
+    font-size: 0.688em;
+}
+
+#dropoff-location {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+#pickup-nocity-location {
+    display: none;
+}
+
+#dropoff-location p {
+    width: 366px;
+    float: left;
+    padding: 5px 0 0;
+    margin: 0;
+    display: inline;
+    font-weight: 700;
+    font-size: 0.938em;
+}
+
+.datetime {
+    padding: 0 10px 10px;
+    position: relative;
+    z-index: 20;
+    background: #f5d361; /* Old browsers */
+    background: -moz-linear-gradient(top, #eec94e 0%, #e9c23f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eec94e), color-stop(100%,#e9c23f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eec94e 0%,#e9c23f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eec94e 0%,#e9c23f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eec94e 0%,#e9c23f 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eec94e 0%,#e9c23f 100%); /* W3C */
+}
+
+.datetime div {
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: inline;
+}
+
+.datetime div label {
+    font-size: 0.813em;
+    line-height: 1.846em;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    float: none;
+    display: block;
+}
+.datetime div select {
+    margin: 0 5px 0 0;
+}
+
+.day {
+    width: 83px;
+}
+
+.month {
+    width: 120px;
+}
+
+.hour {
+    width: 53px;
+}
+
+.twelvehour {
+    width: 100px;
+}
+
+.minute {
+    width: 53px;
+}
+
+.datetime span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 6px 0 0;
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -184px -100px no-repeat transparent;
+    float: left;
+}
+
+.ui-datepicker {
+    font-size: 0.750em;
+    z-index: 50;
+    display: none;
+}
+
+#driveragefieldset {
+    padding: 0 10px;
+}
+
+#driverage,
+#driver-input {
+    float: left;
+}
+
+#driverage label {
+    font-size: 0.688em;
+    line-height: 2.182em;
+    font-weight: 300;
+    float: left;
+    width: auto;
+    display: block;
+}
+
+#driverage input {
+    float: left;
+    height: 13px;
+    width: 13px;
+    margin: 8px 0 0 7px;
+}
+
+#driver-input label {
+    font-size: 0.688em;
+    line-height: 2.182em;
+    font-weight: 300;
+    float: left;
+    width: auto;
+    display: block;
+}
+
+#driver-input input {
+    color: #333;
+    width: 30px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 4px;
+    background: #FEFEFE;
+    border-color: #8E8E8E #E1E1E1 #E1E1E1 #8E8E8E;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 4px;
+}
+
+#submitrow {
+    clear: both;
+    padding: 0;
+}
+
+.tooltip {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') 0 -107px no-repeat;
+    float: left;
+    margin: 9px 10px 0;
+    position: relative;
+    z-index: 40;
+}
+
+.tooltip span {
+    display: none;
+    width: 218px;
+    padding: 15px;
+    position: absolute;
+    top: -110px;
+    left: -105px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #444;
+    background: #fff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.tooltip:hover span {
+    display: block;
+}
+
+
+#formsubmit {
+    background: #8db35b; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2c375), color-stop(100%,#749e3a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #a2c375 0%, #749e3a 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #a2c375 0%,#749e3a 100%); /* IE10+ */
+    background:         linear-gradient(top, #a2c375 0%,#749e3a 100%); /* W3C */
+    
+    border-radius: 5px;
+    border: 1px solid  #688a34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 0 #688a34;
+    text-decoration: none;
+    box-shadow: 0 1px 2px #9b8128;
+    padding: 6px 19px;
+    margin: 0 0 10px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+}
+
+#formsubmit:hover {
+    background: #8db35b; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8dac6d), color-stop(100%,#65883f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #8dac6d 0%,#65883f 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #8dac6d 0%, #65883f 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #8dac6d 0%,#65883f 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #8dac6d 0%,#65883f 100%); /* IE10+ */
+    background:         linear-gradient(top, #8dac6d 0%,#65883f 100%); /* W3C */
+    text-shadow: 1px 1px 0 #557a31;
+}
+
+#content-right {
+    width: 56%;
+    padding: 0 0 0 2%;
+    margin: -10px 0 0 0;
+}
+
+
+/* SOCIAL     */
+div#social {
+    margin: -10px 0 0 0;
+}
+
+#googleplus {
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+#facebook {
+    float: left;
+}
+
+/* PROVIDERS    */
+#providers div {
+    overflow: hidden;
+    position: relative;
+    width: 549px;
+}
+
+#logoscroll {
+    height: 50px;
+}
+
+#providers div #scrollingleft,
+#providers div #scrollingright {
+    display: block;
+    height:50px;
+    width:16px;
+    position: absolute;
+    top:0;
+    background-image:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#providers div #scrollingleft {
+    background-position: 0 -317px;
+    left:0;
+}
+
+#providers div #scrollingright {
+    background-position: -16px -317px;
+    right:0;
+}
+
+#providers div span {
+    display: block;
+    float: left;
+    height:50px;
+    width:100px;
+    margin: 0 7px 0 0;
+    background-image: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-providers.png');
+    background-repeat: no-repeat;
+    background-position: 0 50px;
+}
+
+
+/* TESTIMONIALS     */
+#testimonials {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.testimonial {
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') 0 -449px no-repeat transparent;
+    padding: 0 0 16px 0;
+}
+
+.customer-review {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.250em;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    width: 534px;
+    padding: 25px 0 40px;
+    color: #666;
+    font-style: italic;
+}
+
+.customer {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 0.750em;
+    font-style: italic;
+    color: #666;
+    padding: 0 0 0 30px;
+    float: left;
+    overflow: hidden;
+}
+
+.customer-icon {
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -10px -103px no-repeat transparent;
+}
+
+.customer p {
+    float: left;
+    padding: 3px 0 0 4px;
+}
+
+.customer-rating-5 {
+    display: block;
+    height: 15px;
+    width: 65px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -26px -106px no-repeat transparent;
+    float: left;
+    margin: 3px 0 0 5px;
+}
+
+.customer-rating-4 {
+    display: block;
+    height: 15px;
+    width: 65px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -39px -106px no-repeat transparent;
+    float: left;
+    margin: 3px 0 0 5px;
+}
+
+.customer-rating-3 {
+    display: block;
+    height: 15px;
+    width: 65px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -52px -106px no-repeat transparent;
+    float: left;
+    margin: 3px 0 0 5px;
+}
+
+.customer-rating-2 {
+    display: block;
+    height: 15px;
+    width: 65px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -65px -106px no-repeat transparent;
+    float: left;
+    margin: 3px 0 0 5px;
+}
+
+.customer-rating-1 {
+    display: block;
+    height: 15px;
+    width: 65px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -78px -106px no-repeat transparent;
+    float: left;
+    margin: 3px 0 0 5px;
+}
+
+.trustpilot {
+    float: right;
+    font-size: 0.688em;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+
+/* DESTINATIONS     */
+#destinations {
+    padding: 5px 10px;
+    background: #eee;
+}
+
+.disclaimer {
+    font-size: 0.625em;
+    padding: 10px 0 5px;;
+    color: #666;
+}
+
+#destinations > div {
+    padding: 5px 0;
+    border-bottom: 1px solid #e4e4e4;
+    box-shadow: 0 1px 0 #f6f6f6;
+}
+
+#destinations .left {
+    float: left;
+}
+
+#destinations .right {
+    float: right;
+}
+
+#destinations .left img {
+    float: left;
+    width: auto;
+    height: auto;
+    border: none;
+    box-shadow: none;
+}
+
+#destinations .left span {
+    background-image: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-flags.png');
+    background-repeat: none;
+    display: block;
+    float: left;
+    height: 24px;
+    width: 24px;
+}
+
+#destinations .left p {
+    font-size: 0.750em;
+    float: left;
+    width: 200px;
+    padding: 6px 0 0 7px;
+}
+
+.destination-price {
+    font-family: Georgia, Times, "Times New Roman", serif;  font-size: 0.688em;
+    font-style: italic;
+    padding: 15px 20px 0 0;
+    float: left;
+}
+
+.destination-price span {
+    font-size: 2.182em;
+    font-style: normal;
+    font-weight: 700;
+    color: #d1700e;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#destinations img {
+    width: 76px;
+    height: 48px;
+    float: right;
+    border: 4px solid #fff;
+    box-shadow: 0 0 5px #ddd;
+}
+
+
+/* AIRPORT MAP     */
+#airportmap > div {
+    padding: 12px;
+    margin: 5px 0 0 0;
+    background: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #bcbcbc;
+}
+
+#airportmap .mapitem * {
+    border-radius: 6px;
+}
+
+#cityAirportMap {
+    height: 240px;
+}
+
+.mapitem {
+    position: relative;
+}
+
+#mapitemprice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 0 0 0 5px;
+    z-index: 100;
+}
+
+#citymap #mapitemprice p {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#citymap #mapitemprice p span {
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+#citymap #mapitemprice p span em {
+    font-weight: 700;
+    font-size: 1.25em;
+    color: #729c37;
+}
+
+/* CITY MAP     */
+#citymap {
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+}
+
+#cityLocationsMap {
+    height: 240px;
+}
+
+#citymap h5 {
+    padding: 12px;
+}
+
+#citymap .mapitem {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#citymap > p {
+    font-size: 0.75em;
+    font-weight: 700;
+    padding: 10px 0 0 12px;
+}
+
+.maplocations ul {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 2%;
+    width: 45.6%;
+    float: left;
+}
+
+.maplocations ul li {
+    font-size: 0.75em;
+    padding: 5px 10px;
+    height: 14px;
+}
+
+.maplocations ul li a {
+    float: left;
+}
+
+.maplocations ul li span {
+    float: right;
+    font-weight: 700;
+    color: #758a32;
+}
+
+.pagination {
+    margin: 5px 2% 16px;
+}
+
+.pagination p {
+    float: left;
+    font-size: 0.75em;
+    padding: 0 10px 0 0;
+}
+
+.pagination ul {
+    float: left;
+    font-size: 0.75em;
+}
+
+.pagination ul li {
+    float: left;
+    margin: 0 3px 0 0;
+}
+
+.pagination ul li a {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #444;
+}
+
+.pagination ul li a:hover {
+    background: #e9e9e9;
+}
+
+/* USPS     */
+#usps ul li {
+    background: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -2px 3px no-repeat;
+    padding: 10px 0 10px 34px;
+    font-size: 1.125em;
+    color: #666;
+}
+
+#howitworks {
+    display: inline-block;
+    clear: both;
+}
+
+
+/* TELEPHONE    */
+#telephone {
+    padding: 0 0 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#telephone p {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 5px 0;
+    color: #666;
+}
+
+#telephone p:first-of-type {
+    padding: 0;
+}
+
+#telephone p strong {
+    font-size: 2.250em;
+    font-weight: 700;
+    padding: 0;
+}
+
+
+/* NEWSLETTER & PRICEWATCH     */
+#newsletter, #pricewatch {
+    background-image: url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding-left: 40px;
+}
+
+#newsletter a, #pricewatch a {
+    color: #0064C8;
+    font-size: 1.375em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#newsletter p, #pricewatch p {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 0.875em;
+}
+
+#newsletter {
+    background-position: 0 -571px;
+}
+
+#pricewatch {
+    background-position: 0 -692px;
+}
+
+
+/* HOW IT WORKS     */
+#howitworks {
+    color: #666;
+    background: #f5f5f5; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+    background:         linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+    border: 1px solid #e6e6e6;
+    padding: 19px;
+}
+
+#howitworks div {
+    width: 150px;
+    padding: 0 0 0 70px;
+    margin: 10px 20px 0 0;
+    float: left;
+}
+
+#howitworks div p {
+    font-size: 0.875em;
+    line-height: 1.5em;
+}
+
+#howitworks div#howitworks-find {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite.png') 0 0 no-repeat transparent;
+}
+
+#howitworks div#howitworks-book {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite.png') 0 -199px no-repeat transparent;
+}
+
+#howitworks div#howitworks-pick {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite.png') 0 -398px no-repeat transparent;  
+}
+
+#howitworks div#howitworks-enjoy {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite.png') 0 -597px no-repeat transparent;
+    margin: 10px 0 0;
+}
+
+/* FOOTER     */
+
+#footer {
+    margin: 20px 0 0 0;
+    padding: 20px 0 10px;
+    background: #f5f5f5;
+    border-top: 1px solid #e6e6e6;
+    clear: both;
+}
+
+#footer p, #footer ul li {
+    font-size: 0.750em;
+    line-height: 1.5;
+    padding: 0 0 5px;
+}
+
+#about {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+}
+
+#logo-priceline {
+    display: inline-block;
+    height: 26px;
+    width: 79px;
+    margin: 0 2px -13px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') 0 -381px no-repeat transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom: 1;
+    *display: inline;
+}
+
+#logo-booking {
+    display: inline-block;
+    height: 26px;
+    width: 86px;
+    margin: 0 2px -13px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') 0 -414px no-repeat transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom: 1;
+    *display: inline;
+}
+
+#logo-agoda {
+    display: inline-block;
+    height: 26px;
+    width: 56px;
+    margin: 0 2px -13px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -97px -414px no-repeat transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom: 1;
+    *display: inline;
+}
+
+#footer-links {
+    padding: 30px 0 0 0;
+}
+
+#footer-links div {
+    float: left;
+    width: 25%;
+}
+
+#footer-links div ul li {
+    padding: 0;
+}
+
+#footer-links div a {
+    font-size: 0.917em;
+}
+
+#footer-terms {
+    padding: 10px 0;
+    margin: 20px 0 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+#footer-terms div {
+    float: left;
+}
+
+#footer-terms a {
+    display: block;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -400px -409px no-repeat transparent;
+    height:40px;
+    width:80px;
+    float: right;
+    margin: 10px 0 0;
+}
+
+/* CAR HIRE 3000     */
+#header.carhire3000  {
+    background: #487dcd; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#487dcd), color-stop(100%,#224dbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #487dcd 0%,#224dbb 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #487dcd 0%, #224dbb 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #487dcd 0%,#224dbb 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #487dcd 0%,#224dbb 100%); /* IE10+ */
+    background:         linear-gradient(to bottom, #487dcd 0%,#224dbb 100%); /* W3C */
+    border-top: 0;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0;
+}
+
+#header.carhire3000 .container {
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/header-bg.png') 50% 0 no-repeat transparent;
+}
+
+.carhire3000 #mybooking-ch3000 {
+    display: block;
+    float: right;
+    width: 332px;
+    padding: 6px;
+    background: #444;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+
+.carhire3000 #mybooking-ch3000 p {
+    color: #fff;
+    font-size: 0.688em;
+    padding: 0 0 3px;
+}
+
+.carhire3000 #mybooking-ch3000 input {
+    float: left;
+    width: 133px;
+    padding: 3px 2px;
+    margin: 0 5px 0 0;
+    border: 1px solid #333;
+}
+
+.carhire3000 #mybooking-ch3000 input#submit {
+    float: left;
+    display: block;
+    background: #7ea141;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 42px;
+    margin: 0;
+    padding: 1px 0 4px;
+    font-size: 0.75em;
+    cursor: pointer;
+} 
+
+.ch3000 #nav {
+    border-bottom: 1px solid #bbb;
+    box-shadow: none;
+    background: #ebebeb; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dcdcdc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ebebeb 0%,#dcdcdc 100%); /* Chrome10+,Safari5.1+ */
+    background:    -moz-linear-gradient(top, #ebebeb 0%, #dcdcdc 100%); /* FF3.6+ */
+    background:      -o-linear-gradient(top, #ebebeb 0%,#dcdcdc 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, #ebebeb 0%,#dcdcdc 100%); /* IE10+ */
+    background:         linear-gradient(to bottom, #ebebeb 0%,#dcdcdc 100%); /* W3C */
+}
+
+.ch3000 #nav .container {
+    padding: 5px 0;
+}
+
+.ch3000 #nav label {
+    font-size: 0.750em;
+}
+
+.ch3000 #nav ul li a { 
+    padding: 6px 10px 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+}
+
+.ch3000 #nav ul li a.selected,
+.ch3000 #nav ul li a.selected:hover {
+    background: #fff;
+}
+
+.ch3000 #nav ul li a:hover { 
+    background: #bbb;
+}
+
+#footer.carhire3000 {
+    background: #fff;
+    border: none;
+}
+
+#footer.carhire3000 #about {
+    background: #f8f8f8;
+    border: none;
+}
+
+#footer.carhire3000 #about div {
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#footer.carhire3000 #about div p {
+    font-size: 0.688em;
+    padding: 0 0 15px;
+}
+
+#footer.carhire3000 #logo-priceline {
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    border-right: 1px solid #e9e9e9;
+    height: 18px;
+}
+
+#footer.carhire3000 #logolinks {
+    padding: 10px 0 20px;
+    margin: 20px 0 0;
+    border-top: 1px solid #e9e9e9;
+    overflow: hidden;
+}
+
+#footer.carhire3000 #footer-verisign {
+    display: block;
+    height:40px;
+    width:80px;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -400px -409px no-repeat;
+    float: right;
+}
+
+#footer.carhire3000 #footer-facebook {
+    display: block;
+    height:32px;
+    width:32px;
+    margin: 8px 10px 0 0;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -512px -417px no-repeat;
+    float: right;
+}
+
+#footer.carhire3000 #footer-twitter {
+    display: block;
+    height:32px;
+    width:32px;
+    margin: 8px 10px 0 0;
+    background:url('/web/20230111152801im_/https://www.rentalcars.com/images/site_graphics/newsite/sprite-general.png') -480px -417px no-repeat;
+    float: right;
+}
+
+#footer.carhire3000 #footer-links {
+    border-top: 1px solid #e9e9e9;
+    border-radius: 0;
+    padding: 17px 0 0;
+}
+
+#footer.carhire3000 #footer-links > ul li {
+    float: left;
+    margin: 0 7px 0 0;
+}
+
+#footer.carhire3000 #footer-links > ul li a {
+    padding: 7px;
+    background: #f0f0f0;
+    text-decoration: none;
+    color: #999;
+}
+
+#footer.carhire3000 #footer-links > ul li a:hover,
+#footer.carhire3000 #footer-links > ul li a.selected {
+    color: #555;
+    background: #ddd;
+}
+
+#footer.carhire3000 #footer-links #cheap-car-hire,
+#footer.carhire3000 #footer-links #top-countries,
+#footer.carhire3000 #footer-links #information,
+#footer.carhire3000 #footer-links #more-information {
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+
+#footer.carhire3000 #footer-links div a {
+    font-size: 0.733em;
+    color: #444;
+    padding: 0 5px 0 0;
+    margin: 0 5px 0 0;
+}
+
+#footer.carhire3000 #footer-terms {
+    border-radius: 0;
+}
+
+
+/* IPAD FIXES     */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-devices-width : 1024px) {
+
+    .container {
+        width: 940px;
+    }
+    
+    #content-left div#form {
+        margin: 15px 0 15px -15px;
+    }
+    
+    .formrow {
+        padding: 6px 0 15px;
+    }
+
+    form label {
+        padding: 14px 0 0 0;
+    }
+    
+    form select {
+        height: 50px;
+    }
+    
+    .datetime span {
+        margin: 14px 6px 0 0;
+    }
+    
+    #returnlocationrow {
+        padding: 17px 0;
+        clear: left;
+        height: 16px;
+    }
+
+    #nocityreturnlocationrow {
+        padding: 17px 0;
+        clear: left;
+        height: 16px;
+    }
+    
+    #driverage, #driver-input {
+        padding: 17px 0;
+        height: 16px;
+    }
+    
+    #driver-input input {
+        width: 70px;
+        height: 40px;
+        margin: -11px 0 0 15px;
+    }
+    
+    #nocityreturnlocationrow label,
+    #returnlocationrow label,
+    #driverage label,
+    #driver-input label {
+        padding: 2px 0 0 0;
+    }
+    
+    #formsubmit {
+        margin: 20px 0;
+        padding: 22px 0 19px;
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+/* LARGE FLAG SPRITE POSITION     */
+
+.ad {
+    background-position: 0 0;
+}
+
+.ae {
+    background-position: -24px 0;
+}
+
+.ag {
+    background-position: -48px 0;
+}
+
+.ai {
+    background-position: -72px 0;
+}
+
+.al {
+    background-position: -96px 0;
+}
+
+.ao {
+    background-position: -120px 0;
+}
+
+.ar {
+    background-position: -24px 0;
+}
+
+.at{
+    background-position: -144px 0;
+}
+
+.au {
+    background-position: -168px 0;
+}
+
+.aw {
+    background-position: -192px 0;
+}
+
+.bb {
+    background-position: -216px 0;
+}
+
+.be {
+    background-position: -240px 0;
+}
+
+.bh {
+    background-position: -264px 0;
+}
+
+.bn {
+    background-position: -288px 0;
+}
+
+.bo {
+    background-position: -312px 0;  
+}
+
+.br {
+    background-position: -336px 0;
+}
+
+.bs {
+    background-position: -360px 0;
+}
+.bg {
+    background-position: -383px 0;
+}
+.bu {
+    background-position: -384px 0;
+}
+
+.by {
+    background-position: -408px 0;
+}
+
+.bz {
+    background-position: -432px 0;
+}
+
+.ca {
+    background-position: -456px 0;
+}
+
+.ch {
+    background-position: -480px 0;
+}
+
+.cl {
+    background-position: -504px 0;
+}
+
+.cm {
+    background-position: -528px 0;
+}
+
+.cn {
+    background-position: -552px 0;
+}
+
+.co {
+    background-position: -576px 0;
+}
+
+.cr {
+    background-position: -600px 0;
+}
+
+.cs {
+    background-position: -624px 0;
+}
+
+.cy {
+    background-position: -648px 0;
+}
+
+.cz {
+    background-position: -624px 0;
+}
+
+.da {
+    background-position: -672px 0;
+}
+
+.de {
+    background-position: -696px 0;
+}
+
+.dk {
+    background-position: -672px 0;
+}
+
+.do {
+    background-position: -720px 0;
+}
+
+.ec {
+    background-position: -744px 0;
+}
+
+.ee {
+    background-position: -768px 0;
+}
+
+.eg {
+    background-position: -792px 0;
+}
+
+.en {
+    background-position: 0 -24px;
+}
+
+.es {
+    background-position: -24px -24px;
+}
+
+.fi {
+    background-position: -48px -24px;
+}
+
+.fj {
+    background-position: -72px -24px;
+}
+
+.fr {
+    background-position: -96px -24px;
+}
+
+.gb {
+    background-position: 0 -24px;
+}
+
+.gd {
+    background-position: -120px -24px;
+}
+
+.gf {
+    background-position: -144px -24px;
+}
+
+.gh {
+    background-position: -168px -24px;
+}
+
+.gi {
+    background-position: -192px -24px;
+}
+
+.gp {
+    background-position: -216px -24px;
+}
+
+.gr {
+    background-position: -240px -24px;
+}
+
+.gt {
+    background-position: -264px -24px;
+}
+
+.gu {
+    background-position: -288px -24px;
+}
+
+.gy {
+    background-position: -312px -24px;
+}
+
+.he {
+    background-position: -336px -24px;
+}
+
+.hk {
+    background-position: -360px -24px;
+}
+
+.hn {
+    background-position: -384px -24px;
+}
+
+.hr {
+    background-position: -408px -24px;
+}
+
+.ht {
+    background-position: -432px -24px;
+}
+
+.hu {
+    background-position: -456px -24px;
+}
+
+.id {
+    background-position: -480px -24px;
+}
+
+.ie {
+    background-position: -504px -24px;
+}
+
+.il {
+    background-position: -528px -24px;
+}
+
+.in {
+    background-position: -552px -24px;
+}
+
+.ir {
+    background-position: -576px -24px;
+}
+
+.is {
+    background-position: -600px -24px;
+}
+
+.im {
+    background-position: -624px -24px;
+}
+
+.it {
+    background-position: -648px -24px;
+}
+
+.ja {
+    background-position: -672px -24px;
+}
+
+.je {
+    background-position: -696px -24px;
+}
+
+.jm {
+    background-position: -720px -24px;
+}
+
+.jo {
+    background-position: -744px -24px;
+}
+
+.jp {
+    background-position: -672px -24px;
+}
+
+.ke {
+    background-position: -768px -24px;
+}
+
+.kn {
+    background-position: -792px -24px;
+}
+
+.ko {
+    background-position: 0 -48px;
+}
+
+.kr {
+    background-position: 0 -48px;
+}
+
+.kw {
+    background-position: -24px -48px;
+}
+
+.ky {
+    background-position: -48px -48px;
+}
+
+.la {
+    background-position: -72px -48px;
+}
+
+.lb {
+    background-position: -120px -48px;
+}
+
+.lc {
+    background-position: -96px -48px;
+}
+
+.lk {
+    background-position: -144px -48px;
+}
+
+.ls {
+    background-position: -168px -48px;
+}
+
+.lt {
+    background-position: -192px -48px;
+}
+
+.lu {
+    background-position: -216px -48px;
+}
+
+.lv {
+    background-position: -240px -48px;
+}
+
+.ma {
+    background-position: -264px -48px;
+}
+
+.md {
+    background-position: -288px -48px;
+}
+
+.mk {
+    background-position: -312px -48px;
+}
+
+.mo {
+    background-position: -336px -48px;
+}
+
+.mp {
+    background-position: -360px -48px;
+}
+
+.mq {
+    background-position: -384px -48px;
+}
+
+.mt {
+    background-position: -408px -48px;
+}
+
+.mu {
+    background-position: -432px -48px;
+}
+
+.mx {
+    background-position: -456px -48px;
+}
+
+.my {
+    background-position: -480px -48px;
+}
+
+.mz {
+    background-position: -504px -48px;
+}
+
+.na {
+    background-position: -528px -48px;
+}
+
+.nc {
+    background-position: -552px -48px;
+}
+
+.ni {
+    background-position: -576px -48px;
+}
+
+.nl {
+    background-position: -600px -48px;
+}
+
+.no {
+    background-position: -624px -48px;
+}
+
+.nr {
+    background-position: -648px -48px;
+}
+
+.nz {
+    background-position: -672px -48px;
+}
+
+.om {
+    background-position: -696px -48px;
+}
+
+.pa {
+    background-position: -720px -48px;
+}
+
+.pe {
+    background-position: -744px -48px;
+}
+
+.ph {
+    background-position: -768px -48px;
+}
+
+.pl {
+    background-position: -792px -48px;
+}
+
+.po {
+    background-position: 0 -72px;
+}
+
+.pr {
+    background-position: -24px -72px;
+}
+
+.pt {
+    background-position: 0 -72px;
+}
+
+.pw {
+    background-position: -48px -72px;
+}
+
+.py {
+    background-position: -72px -72px;
+}
+
+.qa {
+    background-position: -96px -72px;
+}
+
+.re {
+    background-position: -120px -72px;  
+}
+
+.ro {
+    background-position: -144px -72px;  
+}
+
+.rs {
+    background-position: -168px -72px;  
+}
+
+.ru {
+    background-position: -192px -72px;  
+}
+
+.sa {
+    background-position: -216px -72px;  
+}
+
+.sb {
+    background-position: -240px -72px;  
+}
+
+.sd {
+    background-position: -264px -72px;  
+}
+
+.se {
+    background-position: -288px -72px;  
+}
+
+.sy {
+    background-position: -312px -72px;  
+}
+
+.sg {
+    background-position: -336px -72px;  
+}
+
+.si {
+    background-position: -360px -72px;      
+}
+
+.sm {
+    background-position: -384px -72px;  
+}
+
+.sk {
+    background-position: -408px -72px;  
+}
+
+.sl {
+    background-position: -432px -72px;  
+}
+
+.sv {
+    background-position: -288px -72px;
+}
+
+.sz {
+    background-position: -456px -72px;  
+}
+
+.ta {
+    background-position: -480px -72px;  
+}
+
+.tc {
+    background-position: -504px -72px;  
+}
+
+.th {
+    background-position: -528px -72px;  
+}
+
+.tr {
+    background-position: -552px -72px;  
+}
+
+.tt {
+    background-position: -576px -72px;  
+}
+
+.tu {
+    background-position: -600px -72px;  
+}
+
+.tw {
+    background-position: -624px -72px;  
+}
+
+.ua {
+    background-position: -648px -72px;
+}
+
+.uk {
+    background-position: -648px -72px;
+}
+
+.us {
+    background-position: -672px -72px;  
+}
+
+.uy {
+    background-position: -696px -72px;  
+}
+
+.ve {
+    background-position: -720px -72px;  
+}
+
+.vi {
+    background-position: -744px -72px;  
+}
+
+.ye {
+    background-position: -768px -72px;  
+}
+
+.za {
+    background-position: -792px -72px;
+}
+
+.zh {
+    background-position: -360px -24px;
+}
+
+.zm {
+    background-position: 0 -96px;
+}
+
+.zs {
+    background-position: -552px 0;
+}
+
+.zw {
+    background-position: -24px -96px;
+}
+
+
+/* SMALL FLAG SPRITE POSITION     */
+
+.sm-ad {
+    background-position: 0 -169px;
+}
+
+.sm-ae {
+    background-position: -24px -169px;
+}
+
+.sm-ag {
+    background-position: -48px -169px;
+}
+
+.sm-ai {
+    background-position: -72px -169px;
+}
+
+.sm-al {
+    background-position: -96px -169px;
+}
+
+.sm-ao {
+    background-position: -120px -169px;
+}
+
+.sm-ar {
+    background-position: -24px -169px;
+}
+
+.sm-at{
+    background-position: -144px -169px;
+}
+
+.sm-au {
+    background-position: -168px -169px;
+}
+
+.sm-aw {
+    background-position: -192px -169px;
+}
+
+.sm-bb {
+    background-position: -216px -169px;
+}
+
+.sm-be {
+    background-position: -240px -169px;
+}
+
+.sm-bh {
+    background-position: -264px -169px;
+}
+
+.sm-bn {
+    background-position: -288px -169px;
+}
+
+.sm-bo {
+    background-position: -312px -169px;
+}
+
+.sm-br {
+    background-position: -336px -169px;
+}
+
+.sm-bs {
+    background-position: -360px -169px; 
+}
+
+.sm-bu {
+    background-position: -384px -169px;
+}
+
+.sm-by {
+    background-position: -408px -169px;
+}
+
+.sm-bz {
+    background-position: -432px -169px;
+}
+
+.sm-ch {
+    background-position: -480px -169px;
+}
+
+.sm-cl {
+    background-position: -504px -169px;
+}
+
+.sm-cm {
+    background-position: -528px -169px;
+}
+
+.sm-cn {
+    background-position: -552px -169px;
+}
+
+.sm-co {
+    background-position: -576px -169px;
+}
+
+.sm-cr {
+    background-position: -600px -169px;
+}
+
+.sm-cs {
+    background-position: -624px -169px;
+}
+
+.sm-cy {
+    background-position: -648px -169px;
+}
+
+.sm-da {
+    background-position: -672px -169px;
+}
+
+.sm-de {
+    background-position: -696px -169px;
+}
+
+.sm-do {
+    background-position: -720px -169px;
+}
+
+.sm-ec {
+    background-position: -744px -169px;
+}
+
+.sm-ee {
+    background-position: -768px -169px;
+}
+
+.sm-eg {
+    background-position: -792px -169px;
+}
+
+.sm-en {
+    background-position: 0 -193px;
+}
+
+.sm-es {
+    background-position: -24px -193px;
+}
+
+.sm-fi {
+    background-position: -48px -193px;
+}
+
+.sm-fj {
+    background-position: -72px -193px;
+}
+
+.sm-fr {
+    background-position: -96px -193px;
+}
+
+.sm-gb {
+    background-position: 0 -193px;
+}
+
+.sm-gd {
+    background-position: -120px -193px;
+}
+
+.sm-gf {
+    background-position: -144px -193px;
+}
+
+.sm-gh {
+    background-position: -168px -193px;
+}
+
+.sm-gi {
+    background-position: -192px -193px;
+}
+
+.sm-gp {
+    background-position: -216px -193px;
+}
+
+.sm-gr {
+    background-position: -240px -193px;
+}
+
+.sm-gt {
+    background-position: -264px -193px;
+}
+
+.sm-gu {
+    background-position: -288px -193px;
+}
+
+.sm-gy {
+    background-position: -312px -193px;
+}
+
+.sm-he {
+    background-position: -336px -193px;
+}
+
+.sm-hk {
+    background-position: -360px -193px;
+}
+
+.sm-hn {
+    background-position: -384px -193px;
+}
+
+.sm-hr {
+    background-position: -408px -193px;
+}
+
+.sm-ht {
+    background-position: -432px -193px;
+}
+
+.sm-hu {
+    background-position: -456px -193px;
+}
+
+.sm-id {
+    background-position: -480px -193px;
+}
+
+.sm-ie {
+    background-position: -504px -193px;
+}
+
+.sm-il {
+    background-position: -528px -193px;
+}
+
+.sm-in {
+    background-position: -552px -193px;
+}
+
+.sm-ir {
+    background-position: -576px -193px;
+}
+
+.sm-is {
+    background-position: -600px -193px;
+}
+
+.sm-im {
+    background-position: -624px -193px;
+}
+
+.sm-it {
+    background-position: -648px -193px;
+}
+
+.sm-ja {
+    background-position: -672px -193px;
+}
+
+.sm-je {
+    background-position: -696px -193px;
+}
+
+.sm-jm {
+    background-position: -720px -193px;
+}
+
+.sm-jo {
+    background-position: -744px -193px;
+}
+
+.sm-jp {
+    background-position: -672px -193px;
+}
+
+.sm-ke {
+    background-position: -768px -193px;
+}
+
+.sm-kn {
+    background-position: -792px -193px;
+}
+
+.sm-ko {
+    background-position: 0 -217px;
+}
+
+.sm-kr {
+    background-position: 0 -217px;
+}
+
+.sm-kw {
+    background-position: -24px -217px;
+}
+
+.sm-ky {
+    background-position: -48px -217px;
+}
+
+.sm-la {
+    background-position: -72px -217px;
+}
+
+.sm-lb {
+    background-position: -120px -217px;
+}
+
+.sm-lc {
+    background-position: -96px -217px;
+}
+
+.sm-lk {
+    background-position: -144px -217px;
+}
+
+.sm-ls {
+    background-position: -168px -217px;
+}
+
+.sm-lt {
+    background-position: -192px -217px;
+}
+
+.sm-lu {
+    background-position: -216px -217px;
+}
+
+.sm-lv {
+    background-position: -240px -217px;
+}
+
+.sm-ma {
+    background-position: -264px -217px;
+}
+
+.sm-md {
+    background-position: -288px -217px;
+}
+
+.sm-mk {
+    background-position: -312px -217px;
+}
+
+.sm-mo {
+    background-position: -336px -217px;
+}
+
+.sm-mp {
+    background-position: -360px -217px;
+}
+
+.sm-mq {
+    background-position: -384px -217px;
+}
+
+.sm-mt {
+    background-position: -408px -217px;
+}
+
+.sm-mu {
+    background-position: -432px -217px;
+}
+
+.sm-mx {
+    background-position: -456px -217px;
+}
+
+.sm-my {
+    background-position: -480px -217px;
+}
+
+.sm-mz {
+    background-position: -504px -217px;
+}
+
+.sm-na {
+    background-position: -528px -217px;
+}
+
+.sm-nc {
+    background-position: -552px -217px;
+}
+
+.sm-ni {
+    background-position: -576px -217px;
+}
+
+.sm-nl {
+    background-position: -600px -217px;
+}
+
+.sm-no {
+    background-position: -624px -217px;
+}
+
+.sm-nr {
+    background-position: -648px -217px;
+}
+
+.sm-nz {
+    background-position: -672px -217px;
+}
+
+.sm-om {
+    background-position: -696px -217px;
+}
+
+.sm-pa {
+    background-position: -720px -217px;
+}
+
+.sm-pe {
+    background-position: -744px -217px;
+}
+
+.sm-ph {
+    background-position: -768px -217px;
+}
+
+.sm-pl {
+    background-position: -792px -217px;
+}
+
+.sm-po {
+    background-position: 0 -241px;
+}
+
+.sm-pr {
+    background-position: -24px -241px;
+}
+
+.sm-pt {
+    background-position: 0 -241px;
+}
+
+.sm-pw {
+    background-position: -48px -241px;
+}
+
+.sm-py {
+    background-position: -72px -241px;
+}
+
+.sm-qa {
+    background-position: -96px -241px;
+}
+
+.sm-re {
+    background-position: -120px -241px; 
+}
+
+.sm-ro {
+    background-position: -144px -241px; 
+}
+
+.sm-rs {
+    background-position: -168px -241px; 
+}
+
+.sm-ru {
+    background-position: -192px -241px; 
+}
+
+.sm-sa {
+    background-position: -216px -241px; 
+}
+
+.sm-sb {
+    background-position: -240px -241px; 
+}
+
+.sm-sd {
+    background-position: -264px -241px; 
+}
+
+.sm-se {
+    background-position: -288px -241px; 
+}
+
+.sm-sy {
+    background-position: -312px -241px; 
+}
+
+.sm-sg {
+    background-position: -336px -241px; 
+}
+
+.sm-si {
+    background-position: -360px -241px;     
+}
+
+.sm-sm {
+    background-position: -384px -241px; 
+}
+
+.sm-sk {
+    background-position: -408px -241px; 
+}
+
+.sm-sl {
+    background-position: -432px -241px; 
+}
+
+.sm-sv {
+    background-position: -288px -241px;
+}
+
+.sm-sz {
+    background-position: -456px -241px; 
+}
+
+.sm-ta {
+    background-position: -480px -241px; 
+}
+
+.sm-tc {
+    background-position: -504px -241px; 
+}
+
+.sm-th {
+    background-position: -528px -241px; 
+}
+
+.sm-tr {
+    background-position: -552px -241px; 
+}
+
+.sm-tt {
+    background-position: -576px -241px; 
+}
+
+.sm-tu {
+    background-position: -600px -241px; 
+}
+
+.sm-tw {
+    background-position: -624px -241px; 
+}
+
+.sm-ua {
+    background-position: -648px -241px; 
+}
+
+.sm-uk {
+    background-position: -648px -241px; 
+}
+
+.sm-us {
+    background-position: -672px -241px; 
+}
+
+.sm-uy {
+    background-position: -696px -241px; 
+}
+
+.sm-ve {
+    background-position: -720px -241px; 
+}
+
+.sm-vi {
+    background-position: -744px -241px; 
+}
+
+.sm-ye {
+    background-position: -768px -241px; 
+}
+
+.sm-za {
+    background-position: -792px -241px;
+}
+
+.sm-zh {
+    background-position: -1296px -193px;
+}
+
+.sm-zm {
+    background-position: 0 -265px;
+}
+
+.sm-zs {
+    background-position: -552px -169px;
+}
+
+.sm-zw {
+    background-position: -24px -265px;
+}
+
+
+/* PROVIDER LOGOS LARGE     */
+
+#providers div span.p-353{background-position:0 0;}
+#providers div span.p-alpha{background-position: -200px -400px;}
+#providers div span.p-aurigacrown{background-position:-100px 0;}
+#providers div span.p-ace{background-position:-200px 0;}
+#providers div span.p-ace_rent_a_car {background-position: -200px 0px;}
+#providers div span.p-acropolis{background-position:-300px 0;}
+#providers div span.p-addcar{background-position:-400px 0;}
+#providers div span.p-advantage1{background-position:-500px 0;}
+#providers div span.p-advantage2{background-position:-600px 0;}
+#providers div span.p-advantage{background-position:-500px 0;}
+#providers div span.p-aircar{background-position:-700px 0;}
+#providers div span.p-almuftah{background-position:-800px 0;}
+#providers div span.p-alamo{background-position:-900px 0;}
+#providers div span.p-amc{background-position:0 -50px;}
+#providers div span.p-arnoldclark{background-position:-100px -50px;}
+#providers div span.p-assist{background-position:-200px -50px;}
+#providers div span.p-athol{background-position:-300px -50px;}
+#providers div span.p-autonom{background-position:-400px -50px;}
+#providers div span.p-avantcar{background-position:-500px -50px;}
+#providers div span.p-avis{background-position:-600px -50px;}
+#providers div span.p-britz{background-position:-700px -50px;}
+#providers div span.p-buchbinder{background-position:-800px -50px;}
+#providers div span.p-budget{background-position:-900px -50px;}
+#providers div span.p-caldera{background-position:0 -100px;}
+#providers div span.p-caro{background-position:-100px -100px;}
+#providers div span.p-centauro{background-position:-200px -100px;}
+#providers div span.p-chilean{background-position:-300px -100px;}
+#providers div span.p-croauto{background-position:-400px -100px;}
+#providers div span.p-target{background-position:-500px -100px;}
+#providers div span.p-direct{background-position:-600px -100px;}
+#providers div span.p-dollar{background-position:-700px -100px;}
+#providers div span.p-driveamatic{background-position:-800px -100px;}
+#providers div span.p-ez{background-position:-900px -100px;}
+#providers div span.p-eastcoast{background-position:0 -150px;}
+#providers div span.p-east_coast_car_rentals{background-position: 0px -150px;}
+#providers div span.p-easycar{background-position:-100px -150px;}
+#providers div span.p-eco{background-position:-200px -150px;}
+#providers div span.p-economy{background-position:-300px -150px;}
+#providers div span.p-enterprise{background-position:-400px -150px;}
+#providers div span.p-euromotorhome{background-position:-500px -150px;}
+#providers div span.p-europcar{background-position:-600px -150px;}
+#providers div span.p-ezirent{background-position:-700px -150px;}
+#providers div span.p-first{background-position:-800px -150px;}
+#providers div span.p-foxrentacar{background-position:-900px -150px;}
+#providers div span.p-foxautorent{background-position:0 -200px;}
+#providers div span.p-goldcar{background-position:-100px -200px;}
+#providers div span.p-greenmotion{background-position:-200px -200px;}
+#providers div span.p-guerin{background-position:-300px -200px;}
+#providers div span.p-guysalmon{background-position:-400px -200px;}
+#providers div span.p-hertz{background-position:-500px -200px;}
+#providers div span.p-hiper{background-position:-600px -200px;}
+#providers div span.p-kompas{background-position:-700px -200px;}
+#providers div span.p-locauto{background-position:-800px -200px;}
+#providers div span.p-maggiore{background-position:-900px -200px;}
+#providers div span.p-northgate{background-position:0 -250px;}
+#providers div span.p-maui{background-position:-100px -250px;}
+#providers div span.p-nationwide{background-position:-200px -250px;}
+#providers div span.p-nu{background-position:-300px -250px;}
+#providers div span.p-national{background-position:-400px -250px;}
+#providers div span.p-orlando{background-position:-500px -250px;}
+#providers div span.p-os{background-position:-600px -250px;}
+#providers div span.p-owners{background-position:-700px -250px;}
+#providers div span.p-payless{background-position:-800px -250px;}
+#providers div span.p-pnr{background-position:-900px -250px;}
+#providers div span.p-recordgo{background-position:0 -300px;}
+#providers div span.p-redspot{background-position:-100px -300px;}
+#providers div span.p-scandiarent{background-position:-200px -300px;}
+#providers div span.p-sicilybycar{background-position:-300px -300px;}
+#providers div span.p-sixt{background-position:-400px -300px;}
+#providers div span.p-solmar{background-position:-500px -300px;}
+#providers div span.p-sternrent{background-position:-600px -300px;}
+#providers div span.p-targarent{background-position:-700px -300px;}
+#providers div span.p-thai{background-position:-800px -300px;}
+#providers div span.p-thrifty{background-position:-900px -300px;}
+#providers div span.p-touring{background-position:0 -350px;}
+#providers div span.p-usave{background-position:-100px -350px;}
+#providers div span.p-unidas{background-position:-200px -350px;}
+#providers div span.p-foco{background-position:-400px -350px;}
+#providers div span.p-movida{background-position:-300px -350px;}
+#providers div span.p-nissan{background-position:-500px -350px;}
+#providers div span.p-atesa{background-position:-600px -350px;}
+#providers div span.p-citer{background-position:-700px -350px;}
+#providers div span.p-foxrentacar {background-position: -900px -150px;}
+#providers div span.p-locarx {background-position: -800px -350px;}
+#providers div span.p-america_car_rental {background-position: -900px -350px;}
+#providers div span.p-avis {background-position: 0 -400px}
+#providers div span.p-budget {background-position: -100px -400px}
+
+#providers div span.p-foxautorent {
+    background-position: 0 -200px;
+}
+
+#providers div span.p-goldcar {
+    background-position: -100px -200px;
+}
+
+#providers div span.p-greenmotion {
+    background-position: -200px -200px;
+}
+
+#providers div span.p-guerin {
+    background-position: -300px -200px;
+}
+
+#providers div span.p-guysalmon {
+    background-position: -400px -200px;
+}
+
+#providers div span.p-hertz {
+    background-position: -500px -200px;
+}
+
+#providers div span.p-hiper {
+    background-position: -600px -200px;
+}
+
+#providers div span.p-kompas {
+    background-position: -700px -200px;
+}
+
+#providers div span.p-locauto {
+    background-position: -800px -200px;
+}
+
+#providers div span.p-maggiore {
+    background-position: -900px -200px;
+}
+
+#providers div span.p-northgate {
+    background-position: 0 -250px;
+}
+
+#providers div span.p-maui {
+    background-position: -100px -250px;
+}
+
+#providers div span.p-nationwide {
+    background-position: -200px -250px;
+}
+
+#providers div span.p-nu {
+    background-position: -300px -250px;
+}
+
+#providers div span.p-national {
+    background-position: -400px -250px;
+}
+
+#providers div span.p-orlando {
+    background-position: -500px -250px;
+}
+
+#providers div span.p-os {
+    background-position: -600px -250px;
+}
+
+#providers div span.p-owners {
+    background-position: -700px -250px;
+}
+
+#providers div span.p-payless {
+    background-position: -800px -250px;
+}
+
+#providers div span.p-pnr {
+    background-position: -900px -250px;
+}
+
+#providers div span.p-recordgo {
+    background-position: 0 -300px;
+}
+
+#providers div span.p-redspot {
+    background-position: -100px -300px;
+}
+
+#providers div span.p-scandiarent {
+    background-position: -200px -300px;
+}
+
+#providers div span.p-sicilybycar {
+    background-position: -300px -300px;
+}
+
+#providers div span.p-sixt {
+    background-position: -400px -300px;
+}
+
+#providers div span.p-solmar {
+    background-position: -500px -300px;
+}
+
+#providers div span.p-sternrent {
+    background-position: -600px -300px;
+}
+
+#providers div span.p-targarent {
+    background-position: -700px -300px;
+}
+
+#providers div span.p-thai {
+    background-position: -800px -300px;
+}
+
+#providers div span.p-thrifty {
+    background-position: -900px -300px;
+}
+
+#providers div span.p-touring {
+    background-position: 0 -350px;
+}
+
+#providers div span.p-usave {
+    background-position: -100px -350px;
+}
+
+#ui-datepicker-div {
+    z-index: 2000px;
+}
+/*
+     FILE ARCHIVED ON 15:28:01 Jan 11, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:27:03 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 523.719
+  exclusion.robots: 0.062
+  exclusion.robots.policy: 0.055
+  cdx.remote: 0.044
+  esindex: 0.006
+  LoadShardBlock: 110.579 (3)
+  PetaboxLoader3.datanode: 94.866 (4)
+  load_resource: 76.588
+  PetaboxLoader3.resolve: 40.839
+*/

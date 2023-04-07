@@ -1,0 +1,75 @@
+.toolspanvoti{
+    display:inline-block;
+    margin-left: 4px;
+    color:#3b5998;
+    font-weight: bold;
+}
+#ulsondaggio li{
+	list-style: none;
+	padding: 3px 4px;
+	font-size: 14px;
+	background: #dae9ee;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px rgba(255, 255, 255, 0.9);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	position:relative;
+}
+#apriSondaggio{
+	background: #a5b6bc;
+	padding: 8px;
+    display:block;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.1);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 94%;
+    cursor:pointer;
+}
+#apriSondaggio:hover{
+    background:#b8c6cb;
+}
+#apriSondaggio:active{
+    background: #96a8af;
+    box-shadow:none;
+}
+.totVoti{
+    font-family:'Open Sans';
+    font-size:15px;
+    font-style:italic;
+    text-align:right;
+    margin:0 !important;
+}
+.barravoti{
+    height:10px;
+    background:#3b5998;
+    display: inline-block;
+}
+.nometenda{
+    padding-left: 5px;
+    font-weight: bold;
+}
+#apriSondaggio span.hidden{
+    display:none;
+} 
+/*
+     FILE ARCHIVED ON 23:18:57 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:36 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 198.298
+  exclusion.robots: 0.103
+  exclusion.robots.policy: 0.093
+  cdx.remote: 0.056
+  esindex: 0.009
+  LoadShardBlock: 123.208 (3)
+  PetaboxLoader3.datanode: 145.495 (4)
+  load_resource: 158.91
+  PetaboxLoader3.resolve: 108.386
+*/

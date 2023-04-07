@@ -1,0 +1,106 @@
+#graph_afflu{
+    background:#dae9ee;
+    width:100%;
+    padding:10px 0;
+    position:relative;
+}
+#graph_afflu:before{
+    border-top:1px solid;
+    position:absolute;
+    top:100px;
+}
+#graph_afflu h4{
+    background-color:rgba(0,0,0,0.1);
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    text-align:center;
+    margin-bottom:10px;
+    text-shadow:1px 1px rgba(255,255,255,0.4);
+}
+#graph_afflu .item_container{
+    display:table;margin:0 auto;
+}
+#graph_afflu .graph_item{
+    display:table-cell;vertical-align:bottom;padding:0 2px;
+}
+#graph_afflu .item_bar{
+    display:block;border:1px solid rgba(0,0,0,0.1);border-top:1px solid rgba(255,255,255,0.4);box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+    background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background-image: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    position:relative;
+}
+#graph_afflu .item_bar:hover{
+    background-image:none;
+}
+#graph_afflu .item_tool {
+    border: 1px solid rgba(0,0,0,0.1);
+    left: -20px;
+    position: absolute;
+    text-align: center;
+    top: -45px;
+    width: 50px;
+    z-index: 3;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+    display:none;
+    background-color:#aee9f8;
+    background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background-image: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+#graph_afflu .item_tool:after, #graph_afflu .item_tool:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#graph_afflu .item_tool:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #aee9f8;
+	border-width: 10px;
+	left: 50%;
+	margin-left: -10px;
+}
+#graph_afflu .item_tool:before {
+	border-color: rgba(0,0,0,0);
+	border-top-color: #aee9f8;
+	border-width: 11px;
+	left: 50%;
+	margin-left: -11px;
+}
+#graph_afflu .item_bar:hover > span{
+    display:block;
+}
+.graph_content{padding:10px;text-align:justify;} 
+/*
+     FILE ARCHIVED ON 23:18:47 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:37 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 70.634
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.074
+  RedisCDXSource: 0.516
+  esindex: 0.006
+  LoadShardBlock: 52.336 (3)
+  PetaboxLoader3.datanode: 593.974 (5)
+  load_resource: 682.152 (2)
+  PetaboxLoader3.resolve: 86.061 (2)
+*/

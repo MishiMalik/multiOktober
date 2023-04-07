@@ -1,0 +1,69 @@
+ .socialbox{
+    width:31%;
+    height:100px;
+    float:left;
+    display:inline-block;
+    color:#fff !important;
+    margin: 0 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align:center;
+    
+}
+.socialbox span{
+    position: relative;
+    top: 81px;
+    font-size: 15px!important;
+    font-weight: bold!important;
+}
+#gplus_strip{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat #d34230;
+}
+#gplus_strip:hover{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat #cb7267;
+}
+#fb_strip{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat 0px -100px #3b5998;
+}
+#fb_strip:hover{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat 0px -100px #5c709a;
+}
+#twitter_strip{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat 0px -200px #00aced;
+}
+#twitter_strip:hover{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat 0px -200px #58c2ea;
+}
+#rss_strip{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat -28px -305px #F29400;
+    width: 97% !important;
+    height: auto !important;
+    margin-top: 4px;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding:5px 0 !important;
+    float:none;
+}
+#rss_strip:hover{
+    background:url(/web/20221106231926im_/https://www.oktoberfest.net/images/sociallogo.png) no-repeat -28px -305px #e4b160;
+} 
+/*
+     FILE ARCHIVED ON 23:19:26 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:36 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 125.181
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.063
+  RedisCDXSource: 0.514
+  esindex: 0.007
+  LoadShardBlock: 98.32 (3)
+  PetaboxLoader3.datanode: 115.455 (4)
+  load_resource: 185.41
+  PetaboxLoader3.resolve: 141.732
+*/

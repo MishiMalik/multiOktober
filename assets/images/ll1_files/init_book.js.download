@@ -1,0 +1,69 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+jQuery(document).ready(function(){
+	jQuery( "#inout .datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
+
+	jQuery("#b_mainContent").carouFredSel({
+			width: "100%",
+			items: {
+				height: "100%",
+				visible: 1,
+				start: "random",
+				width: "100%",
+				minimum: 1
+			},
+			scroll: {
+				items: 1,
+				pauseOnHover: true
+			},
+			auto: 3500
+		});
+		jQuery('.bh_hotel_summary').each(function(){
+			var att = jQuery(this).attr('onclick').split("( '");
+			var new_att = att[0]+"('https://web.archive.org/web/20221106231839/http://www.booking.com"+att[1];
+			jQuery(this).attr('onclick', new_att);
+		});
+	jQuery("#searchboxInc form").submit(function(){
+		var checkin = jQuery(this).find('.data_in').val();
+		var checkout = jQuery(this).find('.data_out').val();
+		checkin = checkin.split('-');
+		checkout = checkout.split('-');
+		jQuery(this).find('.checkin_monthday').val(checkin[2]);
+		jQuery(this).find('.checkin_year_month').val(checkin[0]+'-'+checkin[1]);
+		jQuery(this).find('.checkout_monthday').val(checkout[2]);
+		jQuery(this).find('.checkout_year_month').val(checkout[0]+'-'+checkin[1]);
+		return true;
+	});
+});
+
+}
+/*
+     FILE ARCHIVED ON 23:18:39 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:28:25 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 126.032
+  exclusion.robots: 0.074
+  exclusion.robots.policy: 0.061
+  RedisCDXSource: 0.927
+  esindex: 0.007
+  LoadShardBlock: 108.137 (3)
+  PetaboxLoader3.datanode: 153.45 (5)
+  load_resource: 192.04 (2)
+  PetaboxLoader3.resolve: 131.872 (2)
+*/

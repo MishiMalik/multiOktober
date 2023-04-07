@@ -1,0 +1,73 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function copyright(nomeSito, lang){
+	var alltext = {
+					it_it: '<h2>Il contenuto di questa pagina è protetto da Copyright&reg;</h2><h3>Non è possibile copiare il testo selezionato per motivi di sicurezza</h3><h3>Perchè non lo Condividi invece di copiarlo?</h3>',
+					de_de: '<h2>Der Inhalt dieser Seite ist urheberrechtlich geschützt&reg;</h2><h3>Aus Sicherheitsgründen ist es nicht möglich den markierten Text zu kopieren</h3><h3>Wieso teilen Sie ihn nicht auf sozialen Netzwerken, anstatt ihn zu kopieren?</h3>',
+					en_us: '<h2>This Website is protected by Copyright&reg;</h2><h3>You can\'t copy or cut this selected text for security reasons</h3><h3>Why don\'t share it instead?</h3>',
+					pt_pt: '<h2>This Website is protected by Copyright&reg;</h2><h3>You can\'t copy or cut this selected text for security reasons</h3><h3>Why don\'t share it instead?</h3>',
+					ru_ru: '<h2>This Website is protected by Copyright&reg;</h2><h3>You can\'t copy or cut this selected text for security reasons</h3><h3>Why don\'t share it instead?</h3>',
+					fr_fr: '<h2>This Website is protected by Copyright&reg;</h2><h3>You can\'t copy or cut this selected text for security reasons</h3><h3>Why don\'t share it instead?</h3>',
+					es_es: '<h2>This Website is protected by Copyright&reg;</h2><h3>You can\'t copy or cut this selected text for security reasons</h3><h3>Why don\'t share it instead?</h3>'		
+	};
+	text = alltext[lang];
+    jQuery(document).bind('copy cut', function(e){
+        var currentPageUrl = "";
+        if (typeof this.href === "undefined") {
+            currentPageUrl = document.location.toString().toLowerCase();
+        }
+        else {
+            currentPageUrl = this.href.toString().toLowerCase();
+        }
+        if (jQuery('.custom_popup').length == 0)
+        	jQuery('body').append('<div class="custom_popup"></div>');
+        if (jQuery('#overlaymenu').length == 0)
+        	jQuery('body').append('<div id="overlaymenu"></div>');
+        response = '<span class="close_popup">x</span>'+text+'<a target="_blank" class="social-but fb-icon" href="https://web.archive.org/web/20221106231852/http://www.facebook.com/sharer.php?u='+currentPageUrl+'">Facebook</a><a target="_blank" class="social-but tw-icon" href="https://web.archive.org/web/20221106231852/https://twitter.com/intent/tweet?url='+currentPageUrl+'&amp;text=Guardate cosa ho trovato su '+nomeSito+'&amp;via=ClubMagellano">Twitter</a><a target="_blank" class="social-but gp-icon" href="https://web.archive.org/web/20221106231852/https://plus.google.com/share?url='+currentPageUrl+'">Google Plus</a><div style="clear:both;"></div><input value="'+currentPageUrl+'" class="the_share_url lk-icon">';
+        if (jQuery('#wpadminbar').length == 0) {
+        	jQuery('.custom_popup').empty().append(response);
+            jQuery('#overlaymenu').fadeIn('fast');
+            jQuery('.custom_popup').fadeIn('fast');
+            jQuery('#overlaymenu').on('click', function(){jQuery(this).fadeOut('fast'); jQuery('.custom_popup').fadeOut('fast');});
+            
+       
+            e.preventDefault();
+        }   
+    });
+	jQuery('.close_popup').on('click', function(){
+	    jQuery('.custom_popup').fadeOut('fast');
+	    jQuery('#overlaymenu').fadeOut('fast');
+	});
+}
+
+}
+/*
+     FILE ARCHIVED ON 23:18:52 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:40 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 75.365
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.058
+  RedisCDXSource: 11.364
+  esindex: 0.007
+  LoadShardBlock: 43.44 (3)
+  PetaboxLoader3.datanode: 73.372 (5)
+  load_resource: 136.362 (2)
+  PetaboxLoader3.resolve: 79.445 (2)
+*/

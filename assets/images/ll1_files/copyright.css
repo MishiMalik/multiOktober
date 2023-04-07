@@ -1,0 +1,97 @@
+#overlaymenu{
+	display:none;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,0.7);
+	z-index:11;
+	display: none;
+}
+.custom_popup{
+    position:fixed;
+    background:#FFF;
+    top:10%;
+    left:20%;
+    right:20%;
+    bottom:10%;
+    z-index:12;
+    text-align: center;
+    padding:20px;
+    display: none;
+}
+.social-but{
+    display:inline-block;
+    margin-right:10px;
+    border-radius:100px;
+    width:100px;
+    height:100px;
+    padding:20px;
+    border-bottom:5px solid rgba(0,0,0,0.4);
+    text-indent: -9999px;
+    margin-top: 20px;
+}
+.social-but:hover{
+    opacity:0.80;
+    filter:alpha(opacity=80);
+}
+.social-but:active{
+    border-bottom:none;
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.fb-icon{
+    background: url(/web/20221106231839im_/https://www.oktoberfest.net/js/copyright/images/icons/icon-fb100.png) no-repeat center center #3B5998;
+}
+.tw-icon{
+    background: url(/web/20221106231839im_/https://www.oktoberfest.net/js/copyright/images/icons/icon-tw100.png) no-repeat center center #159CEB;
+}
+.gp-icon{
+    background: url(/web/20221106231839im_/https://www.oktoberfest.net/js/copyright/images/icons/icon-gp100.png) no-repeat center center #E74B37;
+}
+.lk-icon{
+    background: url(/web/20221106231839im_/https://www.oktoberfest.net/js/copyright/images/icons/icon-lk50.png) no-repeat 5px center;
+    height:60px;
+    display:inline-block;
+    padding-left:70px;
+    font-size:30px;
+    border:1px solid rgba(0,0,0,0.2);
+    margin:15px 0;
+    width: calc(70% - 70px);
+}
+.close_popup {
+    background: none repeat scroll 0 0 #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    line-height: 37px;
+    position: absolute;
+    right: -20px;
+    text-align: center;
+    top: -20px;
+    width: 40px;
+}
+/*
+     FILE ARCHIVED ON 23:18:39 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:36 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 196.024
+  exclusion.robots: 0.073
+  exclusion.robots.policy: 0.063
+  cdx.remote: 0.057
+  esindex: 0.008
+  LoadShardBlock: 133.865 (3)
+  PetaboxLoader3.datanode: 145.621 (4)
+  load_resource: 104.158
+  PetaboxLoader3.resolve: 64.3
+*/

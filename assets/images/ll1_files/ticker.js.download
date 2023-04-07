@@ -1,0 +1,114 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/* 
+// List Ticker by Alex Fish 
+// www.alexefish.com
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+// 
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+//
+*/
+
+(function($){
+  $.fn.list_ticker = function(options){
+    
+    var defaults = {
+      speed:4000,
+	  effect:'slide',
+	  run_once:false,
+	  random:false
+    };
+    
+    var options = $.extend(defaults, options);
+    
+    return this.each(function(){
+      
+      var obj = $(this);
+      var list = obj.children();
+      var count = list.length - 1;
+
+      list.not(':first').hide();
+      
+      var interval = setInterval(function(){
+        
+        list = obj.children();
+        list.not(':first').hide();
+        
+        var first_li = list.eq(0)
+		var second_li = options.random ? list.eq(Math.floor(Math.random()*list.length)) : list.eq(1)
+		
+		if(first_li.get(0) === second_li.get(0) && options.random){
+			second_li = list.eq(Math.floor(Math.random()*list.length));
+		}
+	
+		if(options.effect == 'slide'){
+			first_li.slideUp();
+			second_li.slideDown(function(){
+				first_li.remove().appendTo(obj);
+				
+			});
+		} else if(options.effect == 'fade'){
+			first_li.fadeOut(function(){
+				obj.css('height',second_li.height());
+				second_li.fadeIn();
+				first_li.remove().appendTo(obj);
+			});
+		}
+		
+		count--;
+		
+		if(count == 0 && options.run_once){
+			clearInterval(interval);
+		}
+		
+      }, options.speed)
+    });
+  };
+})(jQuery);
+
+}
+/*
+     FILE ARCHIVED ON 23:18:39 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:41 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 150.768
+  exclusion.robots: 0.071
+  exclusion.robots.policy: 0.059
+  RedisCDXSource: 0.608
+  esindex: 0.013
+  LoadShardBlock: 131.295 (3)
+  PetaboxLoader3.datanode: 84.52 (5)
+  load_resource: 211.913 (2)
+  PetaboxLoader3.resolve: 68.767 (2)
+*/

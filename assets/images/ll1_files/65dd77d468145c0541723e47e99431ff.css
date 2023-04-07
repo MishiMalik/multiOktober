@@ -1,0 +1,116 @@
+.titinside{
+    font-size:14px !important;
+    border-top:2px solid #1f81a6 !important;
+    Background:none !important;
+    font-family: "Segoe UI", "Helvetica", "Arial", sans-serif !important;
+    text-align: center;
+    margin: 5px 0px 0px !important;
+    width:99%;
+    color: #1f81a6 !important;
+}
+.insidewrap {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
+.insidewrap:hover .insidedata, .insidewrap.hover .insidedata {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.insidewrap:hover .insideflip, .insidewrap.hover .insideflip {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.insidewrap, .insidedata, .insideflip{
+    width: 325px;
+    height: 138px;
+    float: left;
+    margin-bottom: 4px;
+}
+.flipper {
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    position: relative;
+}
+.insideflip, .insidedata {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.insidedata {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}insideflip {
+    z-index: 2;
+}
+.themytitle {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    color: #FFFFFF !important;
+    font-size: 12px;
+    height: 108px;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 15px !important;
+    text-align: justify;
+    text-shadow: 1px 1px 1px #000000 !important;
+    width: 293px;
+}
+.themytitle a{
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), 0 1px 6px rgba(255, 255, 255, 0.6) inset;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px auto 0;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5) !important;
+    width: 60%;
+} 
+/*
+     FILE ARCHIVED ON 23:20:38 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:36 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 94.64
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 1.774
+  esindex: 0.008
+  LoadShardBlock: 70.281 (3)
+  PetaboxLoader3.datanode: 78.41 (4)
+  load_resource: 75.312
+  PetaboxLoader3.resolve: 35.143
+*/

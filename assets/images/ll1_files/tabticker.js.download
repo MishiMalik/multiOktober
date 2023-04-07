@@ -1,0 +1,101 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*-----------------------------------------------------------------------------------*/
+/* featured slider #2 - SET! */
+/*-----------------------------------------------------------------------------------*/
+jQuery(document).ready(function($){
+	$('#slides').slides({ preload: true, play: 5000, pause: 2500, hoverPause: true, animationStart: function(current){ $('.caption').animate({ 	bottom:-35 },100); if (window.console && console.log) { console.log('animationStart on slide: ', current); }; }, animationComplete: function(current){ 
+ $('.caption').animate({ bottom:0 },200); if (window.console && console.log) { console.log('animationComplete on slide: ', current); }; }, slidesLoaded: function() { $('.caption').animate({ bottom:0 },200); } }); 
+ 
+     
+
+
+ 
+
+/*-----------------------------------------------------------------------------------*/
+/* NewsTicker - SET! */
+/*-----------------------------------------------------------------------------------*/
+ 
+
+/*-----------------------------------------------------------------------------------*/
+/* Missle Is Ready! */
+/*-----------------------------------------------------------------------------------*/
+
+	$('<select />').appendTo('#mobile-menu');
+
+$('<option />', {
+    'selected': 'selected',
+    'value'   : '',
+    'text'    : 'Navigate...'
+}).appendTo('#mobile-menu select');
+
+$('.menu a').each(function() {
+    var el = $(this);
+    if(el.parents('.sub-menu').length) {
+        $('<option />', {
+            'value': el.attr('href'),
+            'text':  '— ' + el.text()
+        }).appendTo('nav select');
+    } else {
+        $('<option />', {
+            'value': el.attr('href'),
+            'text': el.text()
+        }).appendTo('nav select');
+    }
+});
+ 
+$('#mobile-menu select').change(function() { 
+    window.location = $(this).find('option:selected').val();
+});
+
+			$('#once').list_ticker({
+			speed:3500,
+			effect:'slide'
+		});	
+
+
+	/* TABS */
+	 $(".tab_content").hide(); $("ul.tabs li:first").addClass("active").show(); $(".tab_content:first").show(); 
+	 $("ul.tabs li").click(function() {
+		  $("ul.tabs li").removeClass("active"); $(this).addClass("active"); $(".tab_content").hide(); var activeTab = $(this).find("a").attr("href"); $(activeTab).fadeIn(); return false;	
+	 }); 
+	
+	
+});	
+
+ 
+  
+
+
+
+}
+/*
+     FILE ARCHIVED ON 23:18:43 Nov 06, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:40 Apr 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 122.2
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.084
+  cdx.remote: 0.074
+  esindex: 0.01
+  LoadShardBlock: 73.657 (3)
+  PetaboxLoader3.datanode: 129.328 (5)
+  load_resource: 152.598 (2)
+  PetaboxLoader3.resolve: 63.226 (2)
+*/
