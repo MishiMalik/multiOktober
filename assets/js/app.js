@@ -1,6 +1,8 @@
 
 
-
+$(".close-pop").on("click",function(){
+$(".fixed-partiper").css("bottom","-700px");
+})
 // ===================================carsd
 $('.owl-carousel-tent').owlCarousel({
     loop:true,
