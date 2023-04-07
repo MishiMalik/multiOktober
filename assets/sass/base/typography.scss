@@ -345,3 +345,32 @@ display: -webkit-box !important;
 white-space: normal;
 max-width: 97% !important;
 }
+
+
+.share-icons{
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    .share-icons-icon{
+        height: 50px;
+        width: 50px;
+        font-size: 24px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+}
+.btn-close-modal{
+    background-color: white;
+}
+.bg-twitter{
+    background-color: #2FBAF7;
+}
+.bg-fb{
+    background-color: #4162A7;
+}
+.bg-email{
+    background-color: #A2A4A7;
+}
