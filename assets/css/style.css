@@ -991,6 +991,12 @@ a.gflag {
   .news-card {
     margin-bottom: 20px; } }
 
+.border-orange {
+  border: 3px solid #ef5b2f !important; }
+
+.border-ornage {
+  border: 3px solid #ef5b2f !important; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
