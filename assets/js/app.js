@@ -3,6 +3,9 @@
 $(".close-pop").on("click",function(){
 $(".fixed-partiper").css("bottom","-700px");
 })
+$(document).ready(function() {
+    $(".fixed-partiper").delay(2000).fadeIn(500);
+});
 // ===================================carsd
 $('.owl-carousel-tent').owlCarousel({
     loop:true,
@@ -11,6 +14,7 @@ $('.owl-carousel-tent').owlCarousel({
     autoplay:true,
     autoplayTimeout:1500,
     autoplayHoverPause:true,
+   
     responsive:{
         0:{
             items:1,
