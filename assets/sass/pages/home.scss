@@ -612,3 +612,28 @@ justify-content:center !important;
 align-items: center !important;
 margin-bottom: 20px !important;
 }
+
+.chart-col{
+box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+width:15px; 
+}
+.bg-red{
+background-color: rgba(255, 0, 0, 0.562);
+&:hover{
+background-color: rgba(255, 0, 0, 1);
+}
+}
+
+.bg-yellow{
+background-color: rgba(255, 255, 0, 0.562);
+&:hover{
+background-color: rgba(255, 255, 0, 1);
+}
+}
+
+.bg-green{
+background-color: rgba(0, 128, 0, 0.562);
+&:hover{
+background-color: rgba(0, 128, 0, 1);
+}
+}

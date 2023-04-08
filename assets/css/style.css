@@ -1089,6 +1089,25 @@ a.gflag {
   align-items: center !important;
   margin-bottom: 20px !important; }
 
+.chart-col {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  width: 15px; }
+
+.bg-red {
+  background-color: rgba(255, 0, 0, 0.562); }
+  .bg-red:hover {
+    background-color: red; }
+
+.bg-yellow {
+  background-color: rgba(255, 255, 0, 0.562); }
+  .bg-yellow:hover {
+    background-color: yellow; }
+
+.bg-green {
+  background-color: rgba(0, 128, 0, 0.562); }
+  .bg-green:hover {
+    background-color: green; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
