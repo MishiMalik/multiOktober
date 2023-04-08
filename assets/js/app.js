@@ -119,7 +119,7 @@ function drawChart() {
   var options = {
     
     chart: {
-      title: 'Oktobers Turnout Forecast',
+    //   title: 'Oktoberfest Turnout Forecast',
       subtitle: '',
     },
     vAxis: {
