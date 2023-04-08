@@ -1073,6 +1073,22 @@ a.gflag {
     line-height: 15px;
     font-size: 20px; }
 
+.jqvmap-zoomin {
+  height: 30px !important;
+  width: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 20px !important; }
+
+.jqvmap-zoomout {
+  height: 30px !important;
+  width: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 20px !important; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
